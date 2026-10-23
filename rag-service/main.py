@@ -14,6 +14,7 @@ Docs: http://127.0.0.1:8001/docs
 """
 
 from contextlib import asynccontextmanager
+from fastapi.middleware.cors import CORSMiddleware
 
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from groq import Groq
@@ -40,6 +41,12 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(title="Handbook RAG service", lifespan=lifespan)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/health")

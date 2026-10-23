@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { useNavigate } from "react-router-dom";
 
 function GoogleIcon() {
   return (
@@ -19,11 +20,13 @@ function GoogleIcon() {
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     // Connected to the Django login endpoint in a later step.
     console.log("Sign in clicked", { email });
+    navigate("/chat");
   }
 
   return (
