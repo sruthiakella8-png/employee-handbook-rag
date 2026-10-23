@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node (for the React app later)
+node_modules/
+
+# macOS
+.DS_Store
+
+# local data
+chroma_data/
+db.sqlite3
