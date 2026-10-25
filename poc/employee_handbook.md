@@ -6,7 +6,7 @@
 Full-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.
 
 ### 1.2 Sick Leave
-Employees receive 15 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.
+Employees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.
 
 ### 1.3 Maternity and Paternity Leave
 Female employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.

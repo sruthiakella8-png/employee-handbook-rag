@@ -3,7 +3,8 @@ import type { FormEvent } from "react";
 import ReactMarkdown from "react-markdown";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { getSession, logout } from "@/lib/auth";
 
 const API_URL = "http://127.0.0.1:8001";
 
@@ -33,6 +34,9 @@ export default function Chat() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const session = getSession();
+  const navigate = useNavigate();
+
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -99,15 +103,28 @@ export default function Chat() {
           ))}
         </div>
 
-        <Link to="/admin" className="px-2 text-sm text-muted-foreground hover:text-foreground">
-  Manage documents
-</Link>
+        {session?.is_admin && (
+  <Link to="/admin" className="px-2 text-sm text-muted-foreground hover:text-foreground">
+    Manage documents
+  </Link>
+)}
 
-        <div className="mt-auto flex items-center gap-2 border-t pt-4">
-          <div className="flex size-7 items-center justify-center rounded-full bg-muted text-xs font-semibold">
-            SA
+                <div className="mt-auto flex items-center gap-2 border-t pt-4">
+          <div className="flex size-7 shrink-0 items-center justify-center rounded-full bg-muted text-xs font-semibold">
+            {session?.email?.slice(0, 2).toUpperCase()}
           </div>
-          <span className="text-sm text-muted-foreground">Sruthi Akella</span>
+          <div className="flex min-w-0 flex-col">
+            <span className="truncate text-sm">{session?.email}</span>
+            <button
+              onClick={() => {
+                logout();
+                navigate("/");
+              }}
+              className="w-fit text-xs text-muted-foreground hover:text-foreground"
+            >
+              Sign out
+            </button>
+          </div>
         </div>
       </aside>
 

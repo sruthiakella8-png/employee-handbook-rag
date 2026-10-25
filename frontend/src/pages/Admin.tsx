@@ -3,6 +3,7 @@ import type { ChangeEvent, DragEvent } from "react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
+import { authFetch } from "@/lib/auth";
 import {
   Table,
   TableBody,
@@ -12,7 +13,6 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-const DJANGO_URL = "http://127.0.0.1:8000";
 
 type Doc = {
   id: number;
@@ -51,8 +51,7 @@ export default function Admin() {
 
   const loadDocuments = useCallback(async () => {
     try {
-      const res = await fetch(`${DJANGO_URL}/api/documents/`);
-      if (!res.ok) throw new Error("Request failed");
+        const res = await authFetch("/api/documents/");      if (!res.ok) throw new Error("Request failed");
       setDocs(await res.json());
       setListError(false);
     } catch {
@@ -72,8 +71,7 @@ export default function Admin() {
     try {
       const body = new FormData();
       body.append("file", file);
-      const res = await fetch(`${DJANGO_URL}/api/documents/upload/`, { method: "POST", body });
-      const data = await res.json();
+      const res = await authFetch("/api/documents/upload/", { method: "POST", body });      const data = await res.json();
       if (!res.ok) throw new Error(data.detail ?? data.error ?? "Upload failed.");
       setNotice({
         kind: "success",

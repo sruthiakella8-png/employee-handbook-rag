@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useNavigate } from "react-router-dom";
+import { login } from "@/lib/auth";
 
 function GoogleIcon() {
   return (
@@ -21,13 +22,28 @@ export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    // Connected to the Django login endpoint in a later step.
-    console.log("Sign in clicked", { email });
+  async function handleSubmit(e: FormEvent) {
+  e.preventDefault();
+  setError("");
+  setLoading(true);
+  try {
+    await login(email, password);
     navigate("/chat");
+  } catch (err) {
+    setError(
+      err instanceof TypeError
+        ? "Couldn't reach the server. Is Django running?"
+        : err instanceof Error
+          ? err.message
+          : "Login failed.",
+    );
+  } finally {
+    setLoading(false);
   }
+}
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-muted/40 p-6">
@@ -73,9 +89,9 @@ export default function Login() {
                 Forgot password?
               </a>
             </div>
-
-            <Button type="submit" className="w-full">
-              Sign in
+            {error && <p className="text-sm text-destructive">{error}</p>}
+            <Button type="submit" className="w-full" disabled={loading}>
+              {loading ? "Signing in…" : "Sign in"}
             </Button>
           </form>
 

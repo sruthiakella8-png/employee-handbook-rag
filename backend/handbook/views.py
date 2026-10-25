@@ -3,11 +3,14 @@ from django.conf import settings
 from rest_framework.decorators import api_view, parser_classes
 from rest_framework.parsers import MultiPartParser
 from rest_framework.response import Response
+from rest_framework.permissions import IsAdminUser
+from rest_framework.decorators import permission_classes
 
 from .models import Document
 
 
 @api_view(["GET"])
+@permission_classes([IsAdminUser])
 def list_documents(request):
     docs = Document.objects.order_by("-uploaded_at")
     return Response(
@@ -25,6 +28,7 @@ def list_documents(request):
 
 
 @api_view(["POST"])
+@permission_classes([IsAdminUser])
 @parser_classes([MultiPartParser])
 def upload_handbook(request):
     file = request.FILES.get("file")
