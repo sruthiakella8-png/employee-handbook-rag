@@ -3,6 +3,7 @@ import type { FormEvent } from "react";
 import ReactMarkdown from "react-markdown";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Link } from "react-router-dom";
 
 const API_URL = "http://127.0.0.1:8001";
 
@@ -97,6 +98,10 @@ export default function Chat() {
             </div>
           ))}
         </div>
+
+        <Link to="/admin" className="px-2 text-sm text-muted-foreground hover:text-foreground">
+  Manage documents
+</Link>
 
         <div className="mt-auto flex items-center gap-2 border-t pt-4">
           <div className="flex size-7 items-center justify-center rounded-full bg-muted text-xs font-semibold">
