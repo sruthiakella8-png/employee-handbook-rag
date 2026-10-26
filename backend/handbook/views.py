@@ -40,6 +40,7 @@ def upload_handbook(request):
             f"{settings.RAG_SERVICE_URL}/ingest",
             files={"file": (file.name, file.read(), file.content_type)},
             timeout=120,
+            headers={"Authorization": request.headers.get("Authorization", "")},
         )
     except requests.RequestException:
         return Response({"error": "The RAG service is unreachable."}, status=502)

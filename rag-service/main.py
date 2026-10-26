@@ -16,10 +16,11 @@ Docs: http://127.0.0.1:8001/docs
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
 
-from fastapi import FastAPI, File, HTTPException, UploadFile
+from fastapi import FastAPI, File, HTTPException, UploadFile, Depends
 from groq import Groq
 from pydantic import BaseModel
 from sentence_transformers import SentenceTransformer
+from auth import admin_only, current_user
 
 import config
 from chunking import chunk_markdown
@@ -58,7 +59,7 @@ def health():
 # Ingestion
 # ---------------------------------------------------------------------------
 @app.post("/ingest")
-def ingest(file: UploadFile = File(...)):
+def ingest(file: UploadFile = File(...), user: dict = Depends(admin_only)):
     raw = file.file.read()
     try:
         text = raw.decode("utf-8")
@@ -125,7 +126,7 @@ SEARCH_SQL = """
 
 
 @app.post("/query")
-def query(req: QueryRequest):
+def query(req: QueryRequest, user: dict = Depends(current_user)):
     question = req.question.strip()
     if not question:
         raise HTTPException(400, "Question cannot be empty.")

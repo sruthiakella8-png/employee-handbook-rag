@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Link, useNavigate } from "react-router-dom";
-import { getSession, logout } from "@/lib/auth";
+import { authFetch, getSession, logout } from "@/lib/auth";
 
 const API_URL = "http://127.0.0.1:8001";
 
@@ -52,11 +52,16 @@ export default function Chat() {
     setLoading(true);
 
     try {
-      const res = await fetch(`${API_URL}/query`, {
+        const res = await authFetch(`${API_URL}/query`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question }),
       });
+      if (res.status === 401) {
+        logout();
+        navigate("/");
+        return;
+      }
       if (!res.ok) throw new Error(`Request failed: ${res.status}`);
       const data: { answer: string; sources: Source[] } = await res.json();
       setMessages((prev) => [

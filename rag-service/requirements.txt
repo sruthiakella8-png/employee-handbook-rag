@@ -6,3 +6,4 @@ pgvector
 sentence-transformers
 groq
 python-dotenv
+pyjwt

@@ -50,8 +50,9 @@ async function refreshAccess(): Promise<boolean> {
 }
 
 export async function authFetch(path: string, init: RequestInit = {}): Promise<Response> {
+  const url = path.startsWith("http") ? path : `${DJANGO_URL}${path}`;
   const send = () =>
-    fetch(`${DJANGO_URL}${path}`, {
+    fetch(url, {
       ...init,
       headers: { ...init.headers, Authorization: `Bearer ${getSession()?.access ?? ""}` },
     });
