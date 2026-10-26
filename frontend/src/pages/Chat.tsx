@@ -1,12 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import ReactMarkdown from "react-markdown";
+import { Link, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Link, useNavigate } from "react-router-dom";
 import { authFetch, getSession, logout } from "@/lib/auth";
-
-const API_URL = "http://127.0.0.1:8001";
 
 type Source = { section_title: string; similarity: number };
 type Message = {
@@ -15,6 +13,7 @@ type Message = {
   text: string;
   sources?: Source[];
 };
+type ConversationSummary = { id: number; title: string; updated_at: string };
 
 const greeting: Message = {
   id: 0,
@@ -22,25 +21,67 @@ const greeting: Message = {
   text: "Hi! Ask me anything about the Nimbus employee handbook, like leave, remote work, expenses or benefits.",
 };
 
-// Placeholder history. Real saved conversations come in a later step.
-const recentChats = [
-  "Remote work eligibility",
-  "Sick leave balance",
-  "Maternity leave duration",
-];
-
 export default function Chat() {
   const [messages, setMessages] = useState<Message[]>([greeting]);
+  const [conversations, setConversations] = useState<ConversationSummary[]>([]);
+  const [activeId, setActiveId] = useState<number | null>(null);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
   const session = getSession();
   const navigate = useNavigate();
 
+  const loadConversations = useCallback(async () => {
+    try {
+      const res = await authFetch("/api/conversations/");
+      if (res.status === 401) {
+        logout();
+        navigate("/");
+        return;
+      }
+      if (res.ok) setConversations(await res.json());
+    } catch {
+      // Sidebar simply stays empty if the server is unreachable.
+    }
+  }, [navigate]);
+
+  useEffect(() => {
+    loadConversations();
+  }, [loadConversations]);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
+
+  function newConversation() {
+    setMessages([greeting]);
+    setActiveId(null);
+  }
+
+  async function openConversation(id: number) {
+    if (loading || id === activeId) return;
+    try {
+      const res = await authFetch(`/api/conversations/${id}/`);
+      if (!res.ok) throw new Error("Request failed");
+      const data: { messages: Message[] } = await res.json();
+      setMessages([greeting, ...data.messages]);
+      setActiveId(id);
+    } catch {
+      // Keep showing the current chat if loading fails.
+    }
+  }
+
+  async function deleteConversation(id: number) {
+    if (!window.confirm("Delete this chat?")) return;
+    try {
+      const res = await authFetch(`/api/conversations/${id}/`, { method: "DELETE" });
+      if (!res.ok) throw new Error("Request failed");
+      setConversations((prev) => prev.filter((c) => c.id !== id));
+      if (id === activeId) newConversation();
+    } catch {
+      // Leave the list as it is if the delete failed.
+    }
+  }
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -52,10 +93,10 @@ export default function Chat() {
     setLoading(true);
 
     try {
-        const res = await authFetch(`${API_URL}/query`, {
+      const res = await authFetch("/api/conversations/ask/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question }),
+        body: JSON.stringify({ question, conversation_id: activeId }),
       });
       if (res.status === 401) {
         logout();
@@ -63,18 +104,20 @@ export default function Chat() {
         return;
       }
       if (!res.ok) throw new Error(`Request failed: ${res.status}`);
-      const data: { answer: string; sources: Source[] } = await res.json();
+      const data: { conversation_id: number; answer: string; sources: Source[] } = await res.json();
+      setActiveId(data.conversation_id);
       setMessages((prev) => [
         ...prev,
         { id: Date.now() + 1, role: "assistant", text: data.answer, sources: data.sources },
       ]);
+      loadConversations();
     } catch {
       setMessages((prev) => [
         ...prev,
         {
           id: Date.now() + 1,
           role: "assistant",
-          text: "Sorry, I couldn't reach the assistant. Please make sure the RAG service is running and try again.",
+          text: "Sorry, I couldn't reach the assistant. Please make sure the Django and RAG services are running and try again.",
         },
       ]);
     } finally {
@@ -93,28 +136,48 @@ export default function Chat() {
           <span className="text-sm font-semibold">Nimbus HR Assistant</span>
         </div>
 
-        <Button variant="outline" className="w-full" onClick={() => setMessages([greeting])}>
+        <Button variant="outline" className="w-full" onClick={newConversation}>
           + New conversation
         </Button>
 
-        <div className="flex flex-col gap-1">
+        <div className="flex min-h-0 flex-1 flex-col gap-1 overflow-y-auto">
           <p className="px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
             Recent
           </p>
-          {recentChats.map((title) => (
-            <div key={title} className="rounded-md px-2 py-2 text-sm text-muted-foreground">
-              {title}
+          {conversations.length === 0 && (
+            <p className="px-2 py-2 text-sm text-muted-foreground">No chats yet</p>
+          )}
+          {conversations.map((c) => (
+            <div
+              key={c.id}
+              className={`group flex items-center rounded-md ${
+                c.id === activeId ? "bg-muted" : "hover:bg-muted/60"
+              }`}
+            >
+              <button
+                onClick={() => openConversation(c.id)}
+                className="min-w-0 flex-1 truncate px-2 py-2 text-left text-sm"
+              >
+                {c.title}
+              </button>
+              <button
+                onClick={() => deleteConversation(c.id)}
+                aria-label={`Delete chat: ${c.title}`}
+                className="px-2 text-muted-foreground opacity-0 hover:text-foreground focus:opacity-100 group-hover:opacity-100"
+              >
+                ×
+              </button>
             </div>
           ))}
         </div>
 
         {session?.is_admin && (
-  <Link to="/admin" className="px-2 text-sm text-muted-foreground hover:text-foreground">
-    Manage documents
-  </Link>
-)}
+          <Link to="/admin" className="px-2 text-sm text-muted-foreground hover:text-foreground">
+            Manage documents
+          </Link>
+        )}
 
-                <div className="mt-auto flex items-center gap-2 border-t pt-4">
+        <div className="mt-auto flex items-center gap-2 border-t pt-4">
           <div className="flex size-7 shrink-0 items-center justify-center rounded-full bg-muted text-xs font-semibold">
             {session?.email?.slice(0, 2).toUpperCase()}
           </div>
