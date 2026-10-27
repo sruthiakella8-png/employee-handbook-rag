@@ -1,19 +1,28 @@
+import re
 def chunk_markdown(text: str) -> list[dict]:
     """Split a handbook into chunks, one per '### ' subsection.
 
-    Returns a list of {"title": ..., "text": ...}. Same strategy as the Day 1
-    script, so retrieval behaves the same way. If the file has no '### '
-    headers, we fall back to splitting on blank lines so uploads of other
-    layouts still produce something usable.
+    A '#' or '##' heading ends the current chunk, so the next section's
+    heading never leaks into the previous chunk. If the file has no '### '
+    headers, we fall back to splitting on blank lines.
     """
-    chunks = []
+    chunks, title, lines = [], None, []
 
-    sections = text.split("### ")
-    for section in sections[1:]:  # skip anything before the first '###'
-        title, _, body = section.strip().partition("\n")
-        title, body = title.strip(), body.strip()
-        if body:
+    def flush():
+        body = "\n".join(lines).strip()
+        if title is not None and body:
             chunks.append({"title": title, "text": f"{title}\n{body}"})
+
+    for line in text.splitlines():
+        if line.startswith("### "):
+            flush()
+            title, lines = line[4:].strip(), []
+        elif re.match(r"#{1,2} ", line):  # a higher-level heading ends the chunk
+            flush()
+            title, lines = None, []
+        elif title is not None:
+            lines.append(line)
+    flush()
 
     if chunks:
         return chunks

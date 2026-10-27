@@ -1,0 +1,1064 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "How many days of annual leave do I get per year?",
+    "expected_sections": [
+      "1.1"
+    ],
+    "reference_answer": "Full-time employees get 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service.",
+    "answer": "Full‑time employees are entitled to 18 days of paid annual leave per calendar year.",
+    "sources": [
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.756
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.585
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.518
+      }
+    ],
+    "contexts": [
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.\n\n## 2. Remote Work Policy"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Provides correct days but omits accrual detail",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8211,
+    "outcome": "partial"
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "How many unused annual leave days can I carry forward to next year?",
+    "expected_sections": [
+      "1.1"
+    ],
+    "reference_answer": "Up to a maximum of 10 days can be carried forward. Leave beyond the cap is forfeited unless HR grants special approval.",
+    "answer": "According to the handbook, you can carry forward up to **10 days** of unused annual leave to the next calendar year.",
+    "sources": [
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.769
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.553
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.528
+      }
+    ],
+    "contexts": [
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.\n\n## 2. Remote Work Policy"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Number is correct but omission of forfeiture condition.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9494,
+    "outcome": "partial"
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "How many sick leave days do I get?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "Employees receive 12 days of paid sick leave per year.",
+    "answer": "You’re entitled to **12 days of paid sick leave per year**.",
+    "sources": [
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.783
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.577
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.502
+      }
+    ],
+    "contexts": [
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "The answer correctly states 12 days of paid sick leave per year.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.877,
+    "outcome": "correct"
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "Do I need a medical certificate for sick leave?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "A medical certificate is required only for sick leave exceeding 2 consecutive days.",
+    "answer": "Yes. According to the handbook, a medical certificate is required for sick leave that exceeds **2 consecutive days**.",
+    "sources": [
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.659
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.497
+      },
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.296
+      }
+    ],
+    "contexts": [
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the handbook statement exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8438,
+    "outcome": "correct"
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "How long is maternity leave?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
+    "answer": "**Maternity leave entitlement**:  \nFemale employees are entitled to **26 weeks** of paid maternity leave as per statutory requirements.",
+    "sources": [
+      {
+        "section_title": "1.3 Maternity and Paternity Leave",
+        "similarity": 0.754
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.526
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.483
+      }
+    ],
+    "contexts": [
+      "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.\n\n## 2. Remote Work Policy"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "The answer correctly states 26 weeks of paid maternity leave",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7986,
+    "outcome": "correct"
+  },
+  {
+    "id": 6,
+    "category": "direct",
+    "question": "How many days of paternity leave do male employees get and when must they use it?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Male employees get 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+    "answer": "Male employees are entitled to **10 days of paid paternity leave**.  \nThey must take this leave **within 3 months of the child's birth**.",
+    "sources": [
+      {
+        "section_title": "1.3 Maternity and Paternity Leave",
+        "similarity": 0.729
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.469
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.434
+      }
+    ],
+    "contexts": [
+      "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.\n\n## 2. Remote Work Policy"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9206,
+    "outcome": "correct"
+  },
+  {
+    "id": 7,
+    "category": "direct",
+    "question": "Can I take unpaid leave if I have used up all my paid leave?",
+    "expected_sections": [
+      "1.5"
+    ],
+    "reference_answer": "Yes, with manager and HR approval, for a maximum of 15 days per year.",
+    "answer": "Yes. According to the handbook, “Employees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.”",
+    "sources": [
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.584
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.56
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.51
+      }
+    ],
+    "contexts": [
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.\n\n## 2. Remote Work Policy",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Matches reference exactly",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6343,
+    "outcome": "correct"
+  },
+  {
+    "id": 8,
+    "category": "direct",
+    "question": "Who is eligible to work remotely?",
+    "expected_sections": [
+      "2.1"
+    ],
+    "reference_answer": "Employees who have completed the 3-month probation period can work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+    "answer": "Employees who have completed their 3‑month probation period are eligible to work remotely (up to 2 days per week, subject to manager approval and role requirements). If an employee is approved for remote work exceeding 3 days per week, they also receive a laptop and a one‑time ₹15,000 home‑office setup allowance.",
+    "sources": [
+      {
+        "section_title": "2.1 Eligibility",
+        "similarity": 0.594
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.479
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.464
+      }
+    ],
+    "contexts": [
+      "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the reference; extra details do not conflict",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4566,
+    "outcome": "correct"
+  },
+  {
+    "id": 9,
+    "category": "direct",
+    "question": "What are the core working hours?",
+    "expected_sections": [
+      "2.4"
+    ],
+    "reference_answer": "All employees, remote or in-office, must be available from 11:00 AM to 4:00 PM IST.",
+    "answer": "Core working hours are **11:00 AM to 4:00 PM IST**.",
+    "sources": [
+      {
+        "section_title": "2.4 Core Hours",
+        "similarity": 0.71
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.365
+      },
+      {
+        "section_title": "6.2 Resolution Timeline",
+        "similarity": 0.325
+      }
+    ],
+    "contexts": [
+      "2.4 Core Hours\nAll employees, whether remote or in-office, must be available during core hours of 11:00 AM to 4:00 PM IST for meetings and collaboration.\n\n## 3. Expense Reimbursement Policy",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the handbook exactly.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0,
+    "outcome": "correct"
+  },
+  {
+    "id": 10,
+    "category": "direct",
+    "question": "How much is the home office setup allowance?",
+    "expected_sections": [
+      "2.3"
+    ],
+    "reference_answer": "A one-time home office setup allowance of Rs. 15,000 for employees approved for remote work exceeding 3 days per week.",
+    "answer": "According to the handbook (Section 2.3 Equipment), the company offers a **one‑time home office setup allowance of ₹15,000** for employees approved for remote work exceeding three days per week.",
+    "sources": [
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.637
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.426
+      },
+      {
+        "section_title": "5.4 Learning and Development",
+        "similarity": 0.369
+      }
+    ],
+    "contexts": [
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.\n\n## 6. Grievance Redressal"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9147,
+    "outcome": "correct"
+  },
+  {
+    "id": 11,
+    "category": "direct",
+    "question": "What is the maximum hotel cost per night I can claim on a business trip?",
+    "expected_sections": [
+      "3.1"
+    ],
+    "reference_answer": "Standard hotel accommodation up to Rs. 6,000 per night can be claimed.",
+    "answer": "The maximum hotel cost you can claim per night on a business trip is ₹6,000.",
+    "sources": [
+      {
+        "section_title": "3.1 Travel Expenses",
+        "similarity": 0.61
+      },
+      {
+        "section_title": "3.3 Client Entertainment",
+        "similarity": 0.459
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.396
+      }
+    ],
+    "contexts": [
+      "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
+      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts.",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Provides the same Rs. 6,000 per night limit as the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9938,
+    "outcome": "correct"
+  },
+  {
+    "id": 12,
+    "category": "direct",
+    "question": "Can I claim traffic fines as an expense?",
+    "expected_sections": [
+      "3.4"
+    ],
+    "reference_answer": "No. Traffic fines are not reimbursable under any circumstance.",
+    "answer": "No – traffic fines are not reimbursable under any circumstance.",
+    "sources": [
+      {
+        "section_title": "3.4 Non-Reimbursable Expenses",
+        "similarity": 0.492
+      },
+      {
+        "section_title": "3.1 Travel Expenses",
+        "similarity": 0.366
+      },
+      {
+        "section_title": "3.3 Client Entertainment",
+        "similarity": 0.294
+      }
+    ],
+    "contexts": [
+      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance.\n\n## 4. Code of Conduct",
+      "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
+      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "The answer matches the reference exactly.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7746,
+    "outcome": "correct"
+  },
+  {
+    "id": 13,
+    "category": "direct",
+    "question": "How much is the health insurance cover and who is covered?",
+    "expected_sections": [
+      "5.1"
+    ],
+    "reference_answer": "Group health insurance of Rs. 5,00,000 per year covering the employee, spouse and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+    "answer": "**Health insurance cover:** ₹5,00,000 per year.  \n**Who is covered:** The employee, the employee’s spouse, and up to two dependent children.",
+    "sources": [
+      {
+        "section_title": "5.1 Health Insurance",
+        "similarity": 0.59
+      },
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.277
+      },
+      {
+        "section_title": "5.4 Learning and Development",
+        "similarity": 0.222
+      }
+    ],
+    "contexts": [
+      "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.\n\n## 6. Grievance Redressal"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer provides the correct amount and covered persons.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8621,
+    "outcome": "correct"
+  },
+  {
+    "id": 14,
+    "category": "direct",
+    "question": "What is the annual wellness allowance and what can it be used for?",
+    "expected_sections": [
+      "5.3"
+    ],
+    "reference_answer": "An annual wellness allowance of Rs. 8,000, reimbursable against gym memberships, fitness classes or mental health counseling sessions.",
+    "answer": "The annual wellness allowance is **₹8,000**. It can be used for **gym memberships, fitness classes, or mental health counseling sessions**.",
+    "sources": [
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.683
+      },
+      {
+        "section_title": "5.1 Health Insurance",
+        "similarity": 0.376
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.358
+      }
+    ],
+    "contexts": [
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
+      "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8973,
+    "outcome": "correct"
+  },
+  {
+    "id": 15,
+    "category": "direct",
+    "question": "How much can I claim each year for courses and certifications?",
+    "expected_sections": [
+      "5.4"
+    ],
+    "reference_answer": "Up to Rs. 20,000 per year toward professional certifications, courses or conferences, subject to manager approval and relevance to the role.",
+    "answer": "You can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance.",
+    "sources": [
+      {
+        "section_title": "5.4 Learning and Development",
+        "similarity": 0.677
+      },
+      {
+        "section_title": "3.1 Travel Expenses",
+        "similarity": 0.432
+      },
+      {
+        "section_title": "3.3 Client Entertainment",
+        "similarity": 0.348
+      }
+    ],
+    "contexts": [
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.\n\n## 6. Grievance Redressal",
+      "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
+      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Answer omits manager approval and relevance condition",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9129,
+    "outcome": "partial"
+  },
+  {
+    "id": 16,
+    "category": "direct",
+    "question": "What is the notice period when I resign?",
+    "expected_sections": [
+      "7.1"
+    ],
+    "reference_answer": "The standard notice period is 60 days for full-time employees. The company may at its discretion approve a reduced notice period or a buyout of the remaining notice.",
+    "answer": "The standard notice period for full‑time employees is 60 days. The company may, at its discretion, approve a reduced notice period or a buyout of the remaining notice period.",
+    "sources": [
+      {
+        "section_title": "7.1 Notice Period",
+        "similarity": 0.654
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.475
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.451
+      }
+    ],
+    "contexts": [
+      "7.1 Notice Period\nThe standard notice period is 60 days for all full-time employees. The company may, at its discretion, approve a reduced notice period or buyout of the remaining notice period.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Matches reference exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6445,
+    "outcome": "correct"
+  },
+  {
+    "id": 17,
+    "category": "paraphrase",
+    "question": "Can I work from home on Fridays?",
+    "expected_sections": [
+      "2.1"
+    ],
+    "reference_answer": "After completing the 3-month probation, employees can work remotely up to 2 days per week with manager approval. The handbook does not name specific days.",
+    "answer": "According to the handbook:\n\n> **2.1 Eligibility** – *Employees who have completed their 3‑month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.*\n\nThe handbook does not specify any particular day of the week. Therefore, if Friday falls within the two remote‑work days you are permitted and you have your manager’s approval, you may work from home on Fridays. If you have not yet received approval or are outside the two‑day limit, you would need to consult your manager.",
+    "sources": [
+      {
+        "section_title": "2.1 Eligibility",
+        "similarity": 0.422
+      },
+      {
+        "section_title": "2.4 Core Hours",
+        "similarity": 0.387
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.333
+      }
+    ],
+    "contexts": [
+      "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+      "2.4 Core Hours\nAll employees, whether remote or in-office, must be available during core hours of 11:00 AM to 4:00 PM IST for meetings and collaboration.\n\n## 3. Expense Reimbursement Policy",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the handbook policy",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8373,
+    "outcome": "correct"
+  },
+  {
+    "id": 18,
+    "category": "paraphrase",
+    "question": "What happens to my leftover leave if I quit?",
+    "expected_sections": [
+      "1.4"
+    ],
+    "reference_answer": "Unused annual leave (up to the carried-forward cap) is encashed at resignation based on the last drawn basic salary. Sick leave is never encashed.",
+    "answer": "Unused annual leave up to the carried‑forward cap (maximum 10 days) is encashed at the time of resignation, based on your last drawn basic salary. Any annual leave beyond that cap is forfeited unless you get special approval from HR.\n\nSick leave does not carry forward to the next year and is **not** eligible for encashment, so it is forfeited when you leave.",
+    "sources": [
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.499
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.47
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.433
+      }
+    ],
+    "contexts": [
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the handbook; extra details are not contradictory",
+    "faithfulness": 0.7143,
+    "answer_relevancy": 0.6067,
+    "outcome": "correct"
+  },
+  {
+    "id": 19,
+    "category": "paraphrase",
+    "question": "I want to report a problem with my manager without giving my name. How can I do that?",
+    "expected_sections": [
+      "6.1"
+    ],
+    "reference_answer": "Use the anonymous ethics hotline available on the company intranet. Grievances can also go to the HR business partner.",
+    "answer": "You can report the issue anonymously through the company’s ethics hotline, which is available on the intranet. This allows you to raise a grievance about your manager without providing your name.",
+    "sources": [
+      {
+        "section_title": "6.1 Reporting a Grievance",
+        "similarity": 0.371
+      },
+      {
+        "section_title": "6.3 Escalation",
+        "similarity": 0.171
+      },
+      {
+        "section_title": "6.2 Resolution Timeline",
+        "similarity": 0.165
+      }
+    ],
+    "contexts": [
+      "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet.",
+      "6.3 Escalation\nIf an employee is unsatisfied with the resolution, they may escalate the matter to the Head of HR, whose decision in consultation with leadership will be considered final.\n\n## 7. Exit Policy",
+      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Provides the anonymous hotline but omits the HR business partner option",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.752,
+    "outcome": "partial"
+  },
+  {
+    "id": 20,
+    "category": "paraphrase",
+    "question": "Can I do freelance work on the side?",
+    "expected_sections": [
+      "4.3"
+    ],
+    "reference_answer": "Outside employment or business interests that may conflict with the role must be disclosed to HR before accepting or continuing them.",
+    "answer": "I don't have that information in the handbook.",
+    "sources": [],
+    "contexts": [],
+    "cutoff_refused": true,
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called.",
+    "outcome": "wrongly_refused"
+  },
+  {
+    "id": 21,
+    "category": "paraphrase",
+    "question": "What company items do I have to give back when I leave?",
+    "expected_sections": [
+      "4.4"
+    ],
+    "reference_answer": "Company laptops, software licenses and access credentials must be returned in good condition upon separation.",
+    "answer": "Company laptops, software licenses, and access credentials.",
+    "sources": [
+      {
+        "section_title": "4.4 Use of Company Property",
+        "similarity": 0.424
+      },
+      {
+        "section_title": "3.1 Travel Expenses",
+        "similarity": 0.35
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.335
+      }
+    ],
+    "contexts": [
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.\n\n## 5. Benefits",
+      "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Lists the correct items but omits condition and timing",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6457,
+    "outcome": "partial"
+  },
+  {
+    "id": 22,
+    "category": "paraphrase",
+    "question": "Can I get reimbursed for a first-class flight ticket?",
+    "expected_sections": [
+      "3.1",
+      "3.4"
+    ],
+    "reference_answer": "No. Only economy-class airfare is claimable, and first-class travel upgrades are not reimbursable under any circumstance.",
+    "answer": "According to the handbook, first‑class travel upgrades are listed under **Non‑Reimbursable Expenses**:\n\n> *“Personal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and **first‑class travel upgrades** are not reimbursable under any circumstance.”*\n\nTherefore, a first‑class flight ticket cannot be reimbursed.",
+    "sources": [
+      {
+        "section_title": "3.4 Non-Reimbursable Expenses",
+        "similarity": 0.475
+      },
+      {
+        "section_title": "3.1 Travel Expenses",
+        "similarity": 0.357
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.325
+      }
+    ],
+    "contexts": [
+      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance.\n\n## 4. Code of Conduct",
+      "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Correctly states first‑class tickets are non‑reimbursable, matching the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6678,
+    "outcome": "correct"
+  },
+  {
+    "id": 23,
+    "category": "paraphrase",
+    "question": "I am not satisfied with how HR resolved my complaint. What can I do next?",
+    "expected_sections": [
+      "6.3"
+    ],
+    "reference_answer": "Escalate the matter to the Head of HR, whose decision in consultation with leadership is final.",
+    "answer": "According to the handbook, if you are unsatisfied with the resolution you may **escalate the matter to the Head of HR**. The Head of HR will consult with leadership, and their decision will be considered final.",
+    "sources": [
+      {
+        "section_title": "6.2 Resolution Timeline",
+        "similarity": 0.452
+      },
+      {
+        "section_title": "6.3 Escalation",
+        "similarity": 0.374
+      },
+      {
+        "section_title": "6.1 Reporting a Grievance",
+        "similarity": 0.334
+      }
+    ],
+    "contexts": [
+      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage.",
+      "6.3 Escalation\nIf an employee is unsatisfied with the resolution, they may escalate the matter to the Head of HR, whose decision in consultation with leadership will be considered final.\n\n## 7. Exit Policy",
+      "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer aligns with reference policy",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3222,
+    "outcome": "correct"
+  },
+  {
+    "id": 24,
+    "category": "out_of_scope",
+    "question": "Is there any policy on pet-friendly benefits in this company?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I’m sorry, but I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "4.4 Use of Company Property",
+        "similarity": 0.315
+      },
+      {
+        "section_title": "4.3 Conflict of Interest",
+        "similarity": 0.294
+      },
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.265
+      }
+    ],
+    "contexts": [
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.\n\n## 5. Benefits",
+      "4.3 Conflict of Interest\nEmployees must disclose any outside employment, business ownership, or financial interest that may conflict with their role at the company to HR before accepting or continuing such engagements.",
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's omission",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 25,
+    "category": "out_of_scope",
+    "question": "What is the company dress code?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don't have that information in the handbook.",
+    "sources": [],
+    "contexts": [],
+    "cutoff_refused": true,
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called.",
+    "outcome": "declined_cutoff"
+  },
+  {
+    "id": 26,
+    "category": "out_of_scope",
+    "question": "Do employees get stock options or ESOPs?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "6.1 Reporting a Grievance",
+        "similarity": 0.301
+      },
+      {
+        "section_title": "4.4 Use of Company Property",
+        "similarity": 0.295
+      },
+      {
+        "section_title": "4.2 Confidentiality",
+        "similarity": 0.266
+      }
+    ],
+    "contexts": [
+      "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet.",
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.\n\n## 5. Benefits",
+      "4.2 Confidentiality\nEmployees must not disclose confidential company information, client data, or trade secrets to any external party, both during and after employment, as outlined in the signed NDA."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's omission.",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 27,
+    "category": "out_of_scope",
+    "question": "How is the annual performance bonus calculated?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I’m sorry, but the handbook excerpts you provided don’t contain any information on how the annual performance bonus is calculated.",
+    "sources": [
+      {
+        "section_title": "5.4 Learning and Development",
+        "similarity": 0.363
+      },
+      {
+        "section_title": "5.2 Provident Fund",
+        "similarity": 0.309
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.237
+      }
+    ],
+    "contexts": [
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.\n\n## 6. Grievance Redressal",
+      "5.2 Provident Fund\nBoth employee and employer contribute 12% of basic salary to the Provident Fund as per statutory requirements.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant correctly states no information is available",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 28,
+    "category": "out_of_scope",
+    "question": "Can I work remotely from another country?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I’m sorry, but I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "2.1 Eligibility",
+        "similarity": 0.44
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.398
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.355
+      }
+    ],
+    "contexts": [
+      "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant admits no information, aligning with reference that the topic is not covered",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 29,
+    "category": "out_of_scope",
+    "question": "What is the policy on adoption leave?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don't have that information.",
+    "sources": [
+      {
+        "section_title": "1.3 Maternity and Paternity Leave",
+        "similarity": 0.396
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.274
+      },
+      {
+        "section_title": "6.3 Escalation",
+        "similarity": 0.239
+      }
+    ],
+    "contexts": [
+      "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.\n\n## 2. Remote Work Policy",
+      "6.3 Escalation\nIf an employee is unsatisfied with the resolution, they may escalate the matter to the Head of HR, whose decision in consultation with leadership will be considered final.\n\n## 7. Exit Policy"
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's omission.",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 30,
+    "category": "out_of_scope",
+    "question": "Does the company offer relocation assistance?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don't have that information in the handbook.",
+    "sources": [],
+    "contexts": [],
+    "cutoff_refused": true,
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called.",
+    "outcome": "declined_cutoff"
+  },
+  {
+    "id": 31,
+    "category": "out_of_scope",
+    "question": "What is 7 + 7?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don't have that information in the handbook.",
+    "sources": [],
+    "contexts": [],
+    "cutoff_refused": true,
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called.",
+    "outcome": "declined_cutoff"
+  },
+  {
+    "id": 32,
+    "category": "out_of_scope",
+    "question": "What is the capital of France?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don't have that information in the handbook.",
+    "sources": [],
+    "contexts": [],
+    "cutoff_refused": true,
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called.",
+    "outcome": "declined_cutoff"
+  }
+]

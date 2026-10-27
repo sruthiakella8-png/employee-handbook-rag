@@ -1,0 +1,689 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "How many days of annual leave do I get per year?",
+    "expected_sections": [
+      "1.1"
+    ],
+    "reference_answer": "Full-time employees get 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service.",
+    "top_titles": [
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "1.5 Unpaid Leave"
+    ],
+    "top_sims": [
+      0.7555,
+      0.5855,
+      0.5176
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "How many unused annual leave days can I carry forward to next year?",
+    "expected_sections": [
+      "1.1"
+    ],
+    "reference_answer": "Up to a maximum of 10 days can be carried forward. Leave beyond the cap is forfeited unless HR grants special approval.",
+    "top_titles": [
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "1.5 Unpaid Leave"
+    ],
+    "top_sims": [
+      0.769,
+      0.5531,
+      0.528
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "How many sick leave days do I get?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "Employees receive 12 days of paid sick leave per year.",
+    "top_titles": [
+      "1.2 Sick Leave",
+      "1.1 Annual Leave",
+      "1.4 Leave Encashment on Resignation"
+    ],
+    "top_sims": [
+      0.7833,
+      0.5771,
+      0.5024
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "Do I need a medical certificate for sick leave?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "A medical certificate is required only for sick leave exceeding 2 consecutive days.",
+    "top_titles": [
+      "1.2 Sick Leave",
+      "1.4 Leave Encashment on Resignation",
+      "5.3 Wellness Allowance"
+    ],
+    "top_sims": [
+      0.6588,
+      0.497,
+      0.296
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "How long is maternity leave?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
+    "top_titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave"
+    ],
+    "top_sims": [
+      0.7537,
+      0.5259,
+      0.4834
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 6,
+    "category": "direct",
+    "question": "How many days of paternity leave do male employees get and when must they use it?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Male employees get 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+    "top_titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave"
+    ],
+    "top_sims": [
+      0.7287,
+      0.4695,
+      0.4337
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 7,
+    "category": "direct",
+    "question": "Can I take unpaid leave if I have used up all my paid leave?",
+    "expected_sections": [
+      "1.5"
+    ],
+    "reference_answer": "Yes, with manager and HR approval, for a maximum of 15 days per year.",
+    "top_titles": [
+      "1.5 Unpaid Leave",
+      "1.1 Annual Leave",
+      "1.4 Leave Encashment on Resignation"
+    ],
+    "top_sims": [
+      0.5836,
+      0.5601,
+      0.5098
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 8,
+    "category": "direct",
+    "question": "Who is eligible to work remotely?",
+    "expected_sections": [
+      "2.1"
+    ],
+    "reference_answer": "Employees who have completed the 3-month probation period can work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+    "top_titles": [
+      "2.1 Eligibility",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment"
+    ],
+    "top_sims": [
+      0.5939,
+      0.4789,
+      0.4635
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 9,
+    "category": "direct",
+    "question": "What are the core working hours?",
+    "expected_sections": [
+      "2.4"
+    ],
+    "reference_answer": "All employees, remote or in-office, must be available from 11:00 AM to 4:00 PM IST.",
+    "top_titles": [
+      "2.4 Core Hours",
+      "2.3 Equipment",
+      "6.2 Resolution Timeline"
+    ],
+    "top_sims": [
+      0.7102,
+      0.3647,
+      0.3251
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 10,
+    "category": "direct",
+    "question": "How much is the home office setup allowance?",
+    "expected_sections": [
+      "2.3"
+    ],
+    "reference_answer": "A one-time home office setup allowance of Rs. 15,000 for employees approved for remote work exceeding 3 days per week.",
+    "top_titles": [
+      "2.3 Equipment",
+      "3.2 Internet and Phone Reimbursement",
+      "5.4 Learning and Development"
+    ],
+    "top_sims": [
+      0.6374,
+      0.4256,
+      0.3693
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 11,
+    "category": "direct",
+    "question": "What is the maximum hotel cost per night I can claim on a business trip?",
+    "expected_sections": [
+      "3.1"
+    ],
+    "reference_answer": "Standard hotel accommodation up to Rs. 6,000 per night can be claimed.",
+    "top_titles": [
+      "3.1 Travel Expenses",
+      "3.3 Client Entertainment",
+      "2.3 Equipment"
+    ],
+    "top_sims": [
+      0.6097,
+      0.4592,
+      0.3961
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 12,
+    "category": "direct",
+    "question": "Can I claim traffic fines as an expense?",
+    "expected_sections": [
+      "3.4"
+    ],
+    "reference_answer": "No. Traffic fines are not reimbursable under any circumstance.",
+    "top_titles": [
+      "3.4 Non-Reimbursable Expenses",
+      "3.1 Travel Expenses",
+      "3.3 Client Entertainment"
+    ],
+    "top_sims": [
+      0.4917,
+      0.3663,
+      0.2937
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 13,
+    "category": "direct",
+    "question": "How much is the health insurance cover and who is covered?",
+    "expected_sections": [
+      "5.1"
+    ],
+    "reference_answer": "Group health insurance of Rs. 5,00,000 per year covering the employee, spouse and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+    "top_titles": [
+      "5.1 Health Insurance",
+      "5.3 Wellness Allowance",
+      "5.4 Learning and Development"
+    ],
+    "top_sims": [
+      0.5904,
+      0.2767,
+      0.2215
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 14,
+    "category": "direct",
+    "question": "What is the annual wellness allowance and what can it be used for?",
+    "expected_sections": [
+      "5.3"
+    ],
+    "reference_answer": "An annual wellness allowance of Rs. 8,000, reimbursable against gym memberships, fitness classes or mental health counseling sessions.",
+    "top_titles": [
+      "5.3 Wellness Allowance",
+      "5.1 Health Insurance",
+      "2.3 Equipment"
+    ],
+    "top_sims": [
+      0.6829,
+      0.3757,
+      0.3582
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 15,
+    "category": "direct",
+    "question": "How much can I claim each year for courses and certifications?",
+    "expected_sections": [
+      "5.4"
+    ],
+    "reference_answer": "Up to Rs. 20,000 per year toward professional certifications, courses or conferences, subject to manager approval and relevance to the role.",
+    "top_titles": [
+      "5.4 Learning and Development",
+      "3.1 Travel Expenses",
+      "3.3 Client Entertainment"
+    ],
+    "top_sims": [
+      0.6766,
+      0.4317,
+      0.3476
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 16,
+    "category": "direct",
+    "question": "What is the notice period when I resign?",
+    "expected_sections": [
+      "7.1"
+    ],
+    "reference_answer": "The standard notice period is 60 days for full-time employees. The company may at its discretion approve a reduced notice period or a buyout of the remaining notice.",
+    "top_titles": [
+      "7.1 Notice Period",
+      "1.1 Annual Leave",
+      "1.2 Sick Leave"
+    ],
+    "top_sims": [
+      0.6537,
+      0.4748,
+      0.4511
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 17,
+    "category": "paraphrase",
+    "question": "Can I work from home on Fridays?",
+    "expected_sections": [
+      "2.1"
+    ],
+    "reference_answer": "After completing the 3-month probation, employees can work remotely up to 2 days per week with manager approval. The handbook does not name specific days.",
+    "top_titles": [
+      "2.1 Eligibility",
+      "2.4 Core Hours",
+      "2.3 Equipment"
+    ],
+    "top_sims": [
+      0.422,
+      0.3868,
+      0.3333
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 18,
+    "category": "paraphrase",
+    "question": "What happens to my leftover leave if I quit?",
+    "expected_sections": [
+      "1.4"
+    ],
+    "reference_answer": "Unused annual leave (up to the carried-forward cap) is encashed at resignation based on the last drawn basic salary. Sick leave is never encashed.",
+    "top_titles": [
+      "1.4 Leave Encashment on Resignation",
+      "1.1 Annual Leave",
+      "1.2 Sick Leave"
+    ],
+    "top_sims": [
+      0.4992,
+      0.4698,
+      0.4329
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 19,
+    "category": "paraphrase",
+    "question": "I want to report a problem with my manager without giving my name. How can I do that?",
+    "expected_sections": [
+      "6.1"
+    ],
+    "reference_answer": "Use the anonymous ethics hotline available on the company intranet. Grievances can also go to the HR business partner.",
+    "top_titles": [
+      "6.1 Reporting a Grievance",
+      "6.3 Escalation",
+      "6.2 Resolution Timeline"
+    ],
+    "top_sims": [
+      0.3711,
+      0.1712,
+      0.1655
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 20,
+    "category": "paraphrase",
+    "question": "Can I do freelance work on the side?",
+    "expected_sections": [
+      "4.3"
+    ],
+    "reference_answer": "Outside employment or business interests that may conflict with the role must be disclosed to HR before accepting or continuing them.",
+    "top_titles": [
+      "2.2 Full-Time Remote Arrangements",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment"
+    ],
+    "top_sims": [
+      0.2425,
+      0.221,
+      0.2041
+    ],
+    "hit1": false,
+    "hit3": false,
+    "recall3": 0.0
+  },
+  {
+    "id": 21,
+    "category": "paraphrase",
+    "question": "What company items do I have to give back when I leave?",
+    "expected_sections": [
+      "4.4"
+    ],
+    "reference_answer": "Company laptops, software licenses and access credentials must be returned in good condition upon separation.",
+    "top_titles": [
+      "4.4 Use of Company Property",
+      "3.1 Travel Expenses",
+      "1.1 Annual Leave"
+    ],
+    "top_sims": [
+      0.4243,
+      0.3498,
+      0.3348
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 22,
+    "category": "paraphrase",
+    "question": "Can I get reimbursed for a first-class flight ticket?",
+    "expected_sections": [
+      "3.1",
+      "3.4"
+    ],
+    "reference_answer": "No. Only economy-class airfare is claimable, and first-class travel upgrades are not reimbursable under any circumstance.",
+    "top_titles": [
+      "3.4 Non-Reimbursable Expenses",
+      "3.1 Travel Expenses",
+      "3.2 Internet and Phone Reimbursement"
+    ],
+    "top_sims": [
+      0.4748,
+      0.3573,
+      0.325
+    ],
+    "hit1": true,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 23,
+    "category": "paraphrase",
+    "question": "I am not satisfied with how HR resolved my complaint. What can I do next?",
+    "expected_sections": [
+      "6.3"
+    ],
+    "reference_answer": "Escalate the matter to the Head of HR, whose decision in consultation with leadership is final.",
+    "top_titles": [
+      "6.2 Resolution Timeline",
+      "6.3 Escalation",
+      "6.1 Reporting a Grievance"
+    ],
+    "top_sims": [
+      0.4516,
+      0.374,
+      0.3338
+    ],
+    "hit1": false,
+    "hit3": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 24,
+    "category": "out_of_scope",
+    "question": "Is there any policy on pet-friendly benefits in this company?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "4.4 Use of Company Property",
+      "4.3 Conflict of Interest",
+      "5.3 Wellness Allowance"
+    ],
+    "top_sims": [
+      0.315,
+      0.2945,
+      0.265
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 25,
+    "category": "out_of_scope",
+    "question": "What is the company dress code?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "2.3 Equipment",
+      "4.2 Confidentiality",
+      "4.1 Workplace Behavior"
+    ],
+    "top_sims": [
+      0.2563,
+      0.2456,
+      0.2337
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 26,
+    "category": "out_of_scope",
+    "question": "Do employees get stock options or ESOPs?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "6.1 Reporting a Grievance",
+      "4.4 Use of Company Property",
+      "4.2 Confidentiality"
+    ],
+    "top_sims": [
+      0.3006,
+      0.295,
+      0.2659
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 27,
+    "category": "out_of_scope",
+    "question": "How is the annual performance bonus calculated?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "5.4 Learning and Development",
+      "5.2 Provident Fund",
+      "1.1 Annual Leave"
+    ],
+    "top_sims": [
+      0.3629,
+      0.3092,
+      0.2372
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 28,
+    "category": "out_of_scope",
+    "question": "Can I work remotely from another country?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "2.1 Eligibility",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment"
+    ],
+    "top_sims": [
+      0.44,
+      0.3984,
+      0.3548
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 29,
+    "category": "out_of_scope",
+    "question": "What is the policy on adoption leave?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.5 Unpaid Leave",
+      "6.3 Escalation"
+    ],
+    "top_sims": [
+      0.3957,
+      0.2741,
+      0.2389
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 30,
+    "category": "out_of_scope",
+    "question": "Does the company offer relocation assistance?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "3.1 Travel Expenses",
+      "2.2 Full-Time Remote Arrangements",
+      "4.4 Use of Company Property"
+    ],
+    "top_sims": [
+      0.2756,
+      0.2535,
+      0.212
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 31,
+    "category": "out_of_scope",
+    "question": "What is 7 + 7?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "7.3 Exit Interview",
+      "5.1 Health Insurance",
+      "7.1 Notice Period"
+    ],
+    "top_sims": [
+      0.1235,
+      0.1175,
+      0.0979
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  },
+  {
+    "id": 32,
+    "category": "out_of_scope",
+    "question": "What is the capital of France?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "1.4 Leave Encashment on Resignation",
+      "5.2 Provident Fund",
+      "1.2 Sick Leave"
+    ],
+    "top_sims": [
+      0.0468,
+      0.0354,
+      0.0068
+    ],
+    "hit1": null,
+    "hit3": null,
+    "recall3": null
+  }
+]

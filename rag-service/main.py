@@ -152,7 +152,8 @@ def query(req: QueryRequest, user: dict = Depends(current_user)):
 
     prompt = f"""You are an HR assistant. Answer the employee's question using
 ONLY the handbook excerpts below. If the excerpts don't contain the answer,
-say you don't have that information rather than guessing.
+say you don't have that information rather than guessing. Include any conditions, limits or exceptions the excerpts state for the answer, such as approval requirements or time limits.
+Use only what the excerpts say. Do not add conclusions, advice or details they do not state.
 
 Handbook excerpts:
 {context}
@@ -164,6 +165,7 @@ Answer:"""
     response = state["groq"].chat.completions.create(
         model=config.GROQ_MODEL,
         messages=[{"role": "user", "content": prompt}],
+        temperature=0,
     )
 
     return {

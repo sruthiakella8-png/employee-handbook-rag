@@ -12,6 +12,6 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
 
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"  # 384 dimensions, must match the Django model
-TOP_K = int(os.getenv("TOP_K", "3"))
-MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.30"))
+TOP_K = int(os.getenv("TOP_K", "5"))
+MIN_SIMILARITY = float(os.getenv("MIN_SIMILARITY", "0.20"))
 DJANGO_SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")

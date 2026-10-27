@@ -1,0 +1,238 @@
+{
+  "1": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Provides correct days but omits accrual detail",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8211
+  },
+  "2": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Number is correct but omission of forfeiture condition.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9494
+  },
+  "3": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "The answer correctly states 12 days of paid sick leave per year.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.877
+  },
+  "4": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the handbook statement exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8438
+  },
+  "5": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "The answer correctly states 26 weeks of paid maternity leave",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7986
+  },
+  "6": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9206
+  },
+  "7": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Matches reference exactly",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6343
+  },
+  "8": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the reference; extra details do not conflict",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4566
+  },
+  "9": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the handbook exactly.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 1.0
+  },
+  "10": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9147
+  },
+  "11": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Provides the same Rs. 6,000 per night limit as the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9938
+  },
+  "12": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "The answer matches the reference exactly.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7746
+  },
+  "13": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer provides the correct amount and covered persons.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8621
+  },
+  "14": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8973
+  },
+  "15": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Answer omits manager approval and relevance condition",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9129
+  },
+  "16": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Matches reference exactly",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6445
+  },
+  "17": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the handbook policy",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8373
+  },
+  "18": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the handbook; extra details are not contradictory",
+    "faithfulness": 0.7143,
+    "answer_relevancy": 0.6067
+  },
+  "19": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Provides the anonymous hotline but omits the HR business partner option",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.752
+  },
+  "20": {
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called."
+  },
+  "21": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Lists the correct items but omits condition and timing",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6457
+  },
+  "22": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Correctly states first‑class tickets are non‑reimbursable, matching the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6678
+  },
+  "23": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer aligns with reference policy",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3222
+  },
+  "24": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's omission"
+  },
+  "25": {
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called."
+  },
+  "26": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's omission."
+  },
+  "27": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant correctly states no information is available"
+  },
+  "28": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant admits no information, aligning with reference that the topic is not covered"
+  },
+  "29": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's omission."
+  },
+  "30": {
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called."
+  },
+  "31": {
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called."
+  },
+  "32": {
+    "declined": true,
+    "declined_by": "cutoff",
+    "matches_reference": "no",
+    "reason": "Refused by the similarity cutoff, so the model was never called."
+  }
+}

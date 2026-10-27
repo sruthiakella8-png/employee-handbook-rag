@@ -1,0 +1,2715 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "How many days of annual leave do I get per year?",
+    "expected_sections": [
+      "1.1"
+    ],
+    "reference_answer": "Full-time employees get 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service.",
+    "titles": [
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "1.5 Unpaid Leave",
+      "1.4 Leave Encashment on Resignation",
+      "1.3 Maternity and Paternity Leave",
+      "7.1 Notice Period",
+      "5.4 Learning and Development",
+      "5.3 Wellness Allowance",
+      "3.1 Travel Expenses",
+      "2.1 Eligibility"
+    ],
+    "vector_scores": [
+      0.755513279972899,
+      0.5854536643894721,
+      0.552852439200332,
+      0.45019424555371546,
+      0.4226128916644267,
+      0.3779908716678646,
+      0.3354760212273623,
+      0.32104788077448376,
+      0.31400619065725177,
+      0.30083262339221717
+    ],
+    "rerank_scores": [
+      8.595867156982422,
+      4.382970809936523,
+      3.952319622039795,
+      -3.46075177192688,
+      -1.4145467281341553,
+      -5.958171367645264,
+      -8.124879837036133,
+      -8.67850399017334,
+      -9.077608108520508,
+      -2.902268409729004
+    ],
+    "vec_top": [
+      "1.1",
+      "1.2",
+      "1.5"
+    ],
+    "rer_top": [
+      "1.1",
+      "1.2",
+      "1.5"
+    ],
+    "top_vec_score": 0.755513279972899,
+    "top_rer_score": 8.595867156982422,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "How many unused annual leave days can I carry forward to next year?",
+    "expected_sections": [
+      "1.1"
+    ],
+    "reference_answer": "Up to a maximum of 10 days can be carried forward. Leave beyond the cap is forfeited unless HR grants special approval.",
+    "titles": [
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "1.2 Sick Leave",
+      "1.4 Leave Encashment on Resignation",
+      "7.1 Notice Period",
+      "7.3 Exit Interview",
+      "1.3 Maternity and Paternity Leave",
+      "3.1 Travel Expenses",
+      "5.3 Wellness Allowance",
+      "2.1 Eligibility"
+    ],
+    "vector_scores": [
+      0.7689502652376539,
+      0.5578338033456444,
+      0.5531150698661804,
+      0.5008876620135991,
+      0.39995426535879053,
+      0.36834754913791723,
+      0.35854257447035265,
+      0.3504475235405562,
+      0.33508475631980694,
+      0.3088686834417227
+    ],
+    "rerank_scores": [
+      9.206052780151367,
+      0.7550616264343262,
+      4.148044109344482,
+      3.752692937850952,
+      -7.9713544845581055,
+      -10.796146392822266,
+      -5.532347679138184,
+      -10.252789497375488,
+      -9.944135665893555,
+      -6.14971923828125
+    ],
+    "vec_top": [
+      "1.1",
+      "1.5",
+      "1.2"
+    ],
+    "rer_top": [
+      "1.1",
+      "1.2",
+      "1.4"
+    ],
+    "top_vec_score": 0.7689502652376539,
+    "top_rer_score": 9.206052780151367,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "How many sick leave days do I get?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "Employees receive 12 days of paid sick leave per year.",
+    "titles": [
+      "1.2 Sick Leave",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "1.4 Leave Encashment on Resignation",
+      "7.1 Notice Period",
+      "5.3 Wellness Allowance",
+      "1.3 Maternity and Paternity Leave",
+      "2.1 Eligibility",
+      "5.1 Health Insurance",
+      "7.3 Exit Interview"
+    ],
+    "vector_scores": [
+      0.7833307514589591,
+      0.5771112258169153,
+      0.5328779103000636,
+      0.5023794764567705,
+      0.39910213361953095,
+      0.38553833961487083,
+      0.359371713362444,
+      0.3195399534428143,
+      0.28706365381912535,
+      0.27071004612206506
+    ],
+    "rerank_scores": [
+      7.2707109451293945,
+      -1.1662081480026245,
+      -1.7572637796401978,
+      -1.8255794048309326,
+      -6.219744682312012,
+      -10.091085433959961,
+      -3.1238818168640137,
+      -5.683382987976074,
+      -10.299314498901367,
+      -10.662829399108887
+    ],
+    "vec_top": [
+      "1.2",
+      "1.1",
+      "1.5"
+    ],
+    "rer_top": [
+      "1.2",
+      "1.1",
+      "1.5"
+    ],
+    "top_vec_score": 0.7833307514589591,
+    "top_rer_score": 7.2707109451293945,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "Do I need a medical certificate for sick leave?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "A medical certificate is required only for sick leave exceeding 2 consecutive days.",
+    "titles": [
+      "1.2 Sick Leave",
+      "1.4 Leave Encashment on Resignation",
+      "5.3 Wellness Allowance",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "7.3 Exit Interview",
+      "1.3 Maternity and Paternity Leave",
+      "5.1 Health Insurance",
+      "3.1 Travel Expenses",
+      "4.4 Use of Company Property"
+    ],
+    "vector_scores": [
+      0.6587881235462685,
+      0.4970124513801468,
+      0.295960011235479,
+      0.2949773581332914,
+      0.2771443907701664,
+      0.2662880341324939,
+      0.23772323547330865,
+      0.2071267402583472,
+      0.18185431307120714,
+      0.18072828901916083
+    ],
+    "rerank_scores": [
+      6.880770206451416,
+      -5.614979267120361,
+      -10.889028549194336,
+      -10.679373741149902,
+      -10.588010787963867,
+      -10.937078475952148,
+      -9.72604751586914,
+      -11.065418243408203,
+      -11.227697372436523,
+      -11.010974884033203
+    ],
+    "vec_top": [
+      "1.2",
+      "1.4",
+      "5.3"
+    ],
+    "rer_top": [
+      "1.2",
+      "1.4",
+      "1.3"
+    ],
+    "top_vec_score": 0.6587881235462685,
+    "top_rer_score": 6.880770206451416,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "How long is maternity leave?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
+    "titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "1.2 Sick Leave",
+      "2.1 Eligibility",
+      "7.1 Notice Period",
+      "7.2 Full and Final Settlement",
+      "1.4 Leave Encashment on Resignation",
+      "2.2 Full-Time Remote Arrangements",
+      "6.2 Resolution Timeline"
+    ],
+    "vector_scores": [
+      0.7536702596539451,
+      0.5258525486695572,
+      0.5137728966636081,
+      0.42455505592972265,
+      0.3358783717373237,
+      0.3302750598400711,
+      0.32864029320711974,
+      0.3224416029731759,
+      0.28601304959628804,
+      0.2716826744836327
+    ],
+    "rerank_scores": [
+      7.254904747009277,
+      -2.348451614379883,
+      -3.918778657913208,
+      -3.6842708587646484,
+      -5.481387138366699,
+      -6.251185894012451,
+      -4.610773086547852,
+      -9.805660247802734,
+      -8.746760368347168,
+      -5.545388221740723
+    ],
+    "vec_top": [
+      "1.3",
+      "1.1",
+      "1.5"
+    ],
+    "rer_top": [
+      "1.3",
+      "1.1",
+      "1.2"
+    ],
+    "top_vec_score": 0.7536702596539451,
+    "top_rer_score": 7.254904747009277,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 6,
+    "category": "direct",
+    "question": "How many days of paternity leave do male employees get and when must they use it?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Male employees get 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+    "titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "1.2 Sick Leave",
+      "7.3 Exit Interview",
+      "2.1 Eligibility",
+      "2.2 Full-Time Remote Arrangements",
+      "7.1 Notice Period",
+      "6.2 Resolution Timeline",
+      "7.2 Full and Final Settlement"
+    ],
+    "vector_scores": [
+      0.728723276961341,
+      0.46948938526372364,
+      0.4165976122207118,
+      0.3853271420397504,
+      0.3687363909577821,
+      0.36444365448410276,
+      0.34611953107722393,
+      0.3318840166364916,
+      0.2951769198635448,
+      0.2894694765927921
+    ],
+    "rerank_scores": [
+      7.978157043457031,
+      -0.5488405227661133,
+      -1.6098222732543945,
+      -1.4005016088485718,
+      -9.103265762329102,
+      -2.2584798336029053,
+      -9.499804496765137,
+      -4.328474998474121,
+      -4.501468181610107,
+      -2.197005033493042
+    ],
+    "vec_top": [
+      "1.3",
+      "1.1",
+      "1.5"
+    ],
+    "rer_top": [
+      "1.3",
+      "1.1",
+      "1.2"
+    ],
+    "top_vec_score": 0.728723276961341,
+    "top_rer_score": 7.978157043457031,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 7,
+    "category": "direct",
+    "question": "Can I take unpaid leave if I have used up all my paid leave?",
+    "expected_sections": [
+      "1.5"
+    ],
+    "reference_answer": "Yes, with manager and HR approval, for a maximum of 15 days per year.",
+    "titles": [
+      "1.5 Unpaid Leave",
+      "1.1 Annual Leave",
+      "1.4 Leave Encashment on Resignation",
+      "1.2 Sick Leave",
+      "1.3 Maternity and Paternity Leave",
+      "7.2 Full and Final Settlement",
+      "5.3 Wellness Allowance",
+      "3.1 Travel Expenses",
+      "2.1 Eligibility",
+      "4.4 Use of Company Property"
+    ],
+    "vector_scores": [
+      0.6481705760447742,
+      0.5600932431054366,
+      0.5098105949502201,
+      0.41476210951805115,
+      0.34543965404506616,
+      0.30644385853075184,
+      0.3040626230277199,
+      0.2927212664221228,
+      0.2884769485565384,
+      0.263128437493099
+    ],
+    "rerank_scores": [
+      4.757200717926025,
+      -1.0877361297607422,
+      -4.261998176574707,
+      -5.228734493255615,
+      -4.819367408752441,
+      -8.474321365356445,
+      -10.907045364379883,
+      -11.091059684753418,
+      -8.439565658569336,
+      -10.651129722595215
+    ],
+    "vec_top": [
+      "1.5",
+      "1.1",
+      "1.4"
+    ],
+    "rer_top": [
+      "1.5",
+      "1.1",
+      "1.4"
+    ],
+    "top_vec_score": 0.6481705760447742,
+    "top_rer_score": 4.757200717926025,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 8,
+    "category": "direct",
+    "question": "Who is eligible to work remotely?",
+    "expected_sections": [
+      "2.1"
+    ],
+    "reference_answer": "Employees who have completed the 3-month probation period can work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+    "titles": [
+      "2.1 Eligibility",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment",
+      "2.2 Full-Time Remote Arrangements",
+      "4.4 Use of Company Property",
+      "2.4 Core Hours",
+      "4.2 Confidentiality",
+      "6.1 Reporting a Grievance",
+      "5.3 Wellness Allowance",
+      "5.4 Learning and Development"
+    ],
+    "vector_scores": [
+      0.5938689932510837,
+      0.47888767215911676,
+      0.4635143331178726,
+      0.4063675161381237,
+      0.2910812930883915,
+      0.28993985532997524,
+      0.2767500643134271,
+      0.25785166025162476,
+      0.225991572616978,
+      0.22359662775933087
+    ],
+    "rerank_scores": [
+      7.859378814697266,
+      6.429594039916992,
+      -0.9137515425682068,
+      1.3049237728118896,
+      -11.079791069030762,
+      -5.962390899658203,
+      -10.465496063232422,
+      -10.825485229492188,
+      -8.768470764160156,
+      -10.502552032470703
+    ],
+    "vec_top": [
+      "2.1",
+      "3.2",
+      "2.3"
+    ],
+    "rer_top": [
+      "2.1",
+      "3.2",
+      "2.2"
+    ],
+    "top_vec_score": 0.5938689932510837,
+    "top_rer_score": 7.859378814697266,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 9,
+    "category": "direct",
+    "question": "What are the core working hours?",
+    "expected_sections": [
+      "2.4"
+    ],
+    "reference_answer": "All employees, remote or in-office, must be available from 11:00 AM to 4:00 PM IST.",
+    "titles": [
+      "2.4 Core Hours",
+      "2.3 Equipment",
+      "6.2 Resolution Timeline",
+      "1.1 Annual Leave",
+      "2.2 Full-Time Remote Arrangements",
+      "2.1 Eligibility",
+      "5.4 Learning and Development",
+      "5.3 Wellness Allowance",
+      "7.2 Full and Final Settlement",
+      "1.3 Maternity and Paternity Leave"
+    ],
+    "vector_scores": [
+      0.7448279273920444,
+      0.3646756978623219,
+      0.3251179769424386,
+      0.32117213319510673,
+      0.3001332818905733,
+      0.29231708737409945,
+      0.2705587260916247,
+      0.26785848715452776,
+      0.26489700110609493,
+      0.24102114248025264
+    ],
+    "rerank_scores": [
+      7.576574802398682,
+      -9.801948547363281,
+      -10.122892379760742,
+      -10.722959518432617,
+      -10.944684982299805,
+      -9.451120376586914,
+      -11.165182113647461,
+      -11.145301818847656,
+      -10.52351188659668,
+      -10.963977813720703
+    ],
+    "vec_top": [
+      "2.4",
+      "2.3",
+      "6.2"
+    ],
+    "rer_top": [
+      "2.4",
+      "2.1",
+      "2.3"
+    ],
+    "top_vec_score": 0.7448279273920444,
+    "top_rer_score": 7.576574802398682,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 10,
+    "category": "direct",
+    "question": "How much is the home office setup allowance?",
+    "expected_sections": [
+      "2.3"
+    ],
+    "reference_answer": "A one-time home office setup allowance of Rs. 15,000 for employees approved for remote work exceeding 3 days per week.",
+    "titles": [
+      "2.3 Equipment",
+      "3.2 Internet and Phone Reimbursement",
+      "5.4 Learning and Development",
+      "3.1 Travel Expenses",
+      "5.1 Health Insurance",
+      "5.3 Wellness Allowance",
+      "5.2 Provident Fund",
+      "3.3 Client Entertainment",
+      "1.1 Annual Leave",
+      "2.2 Full-Time Remote Arrangements"
+    ],
+    "vector_scores": [
+      0.6374371595568391,
+      0.4256319441842966,
+      0.37365278962130466,
+      0.35858911050059805,
+      0.34412719773867273,
+      0.3323324023782377,
+      0.3311874763946958,
+      0.3288789383552584,
+      0.2744793482900696,
+      0.2738547513105405
+    ],
+    "rerank_scores": [
+      8.552328109741211,
+      -7.618938446044922,
+      -7.316041469573975,
+      -9.476568222045898,
+      -9.07791519165039,
+      -4.47230339050293,
+      -10.33753490447998,
+      -7.6894121170043945,
+      -9.724750518798828,
+      -10.93907642364502
+    ],
+    "vec_top": [
+      "2.3",
+      "3.2",
+      "5.4"
+    ],
+    "rer_top": [
+      "2.3",
+      "5.3",
+      "5.4"
+    ],
+    "top_vec_score": 0.6374371595568391,
+    "top_rer_score": 8.552328109741211,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 11,
+    "category": "direct",
+    "question": "What is the maximum hotel cost per night I can claim on a business trip?",
+    "expected_sections": [
+      "3.1"
+    ],
+    "reference_answer": "Standard hotel accommodation up to Rs. 6,000 per night can be claimed.",
+    "titles": [
+      "3.1 Travel Expenses",
+      "3.3 Client Entertainment",
+      "2.3 Equipment",
+      "5.4 Learning and Development",
+      "3.4 Non-Reimbursable Expenses",
+      "3.2 Internet and Phone Reimbursement",
+      "1.1 Annual Leave",
+      "5.1 Health Insurance",
+      "5.3 Wellness Allowance",
+      "1.5 Unpaid Leave"
+    ],
+    "vector_scores": [
+      0.6097379196002622,
+      0.4591559557849154,
+      0.3960611218305158,
+      0.3508295029896208,
+      0.31994749188736193,
+      0.2946369403167912,
+      0.2776532868766912,
+      0.27484778911782615,
+      0.2484275101678084,
+      0.1995168776759959
+    ],
+    "rerank_scores": [
+      4.991501808166504,
+      -5.520779609680176,
+      -10.434597969055176,
+      -7.499034881591797,
+      -10.095733642578125,
+      -10.925819396972656,
+      -11.093045234680176,
+      -10.916448593139648,
+      -11.122239112854004,
+      -11.182483673095703
+    ],
+    "vec_top": [
+      "3.1",
+      "3.3",
+      "2.3"
+    ],
+    "rer_top": [
+      "3.1",
+      "3.3",
+      "5.4"
+    ],
+    "top_vec_score": 0.6097379196002622,
+    "top_rer_score": 4.991501808166504,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 12,
+    "category": "direct",
+    "question": "Can I claim traffic fines as an expense?",
+    "expected_sections": [
+      "3.4"
+    ],
+    "reference_answer": "No. Traffic fines are not reimbursable under any circumstance.",
+    "titles": [
+      "3.4 Non-Reimbursable Expenses",
+      "3.1 Travel Expenses",
+      "3.3 Client Entertainment",
+      "3.2 Internet and Phone Reimbursement",
+      "4.4 Use of Company Property",
+      "5.3 Wellness Allowance",
+      "7.2 Full and Final Settlement",
+      "1.4 Leave Encashment on Resignation",
+      "4.3 Conflict of Interest",
+      "2.3 Equipment"
+    ],
+    "vector_scores": [
+      0.5111476156359671,
+      0.36629093697937287,
+      0.2936859043334312,
+      0.27454198750604486,
+      0.19627878125328535,
+      0.17380920960793877,
+      0.15331667324106257,
+      0.13127444460113835,
+      0.12834449032676543,
+      0.12478431687402447
+    ],
+    "rerank_scores": [
+      1.4517185688018799,
+      -6.27935791015625,
+      -10.248498916625977,
+      -10.806543350219727,
+      -11.432002067565918,
+      -11.315766334533691,
+      -11.168742179870605,
+      -11.419397354125977,
+      -11.407111167907715,
+      -11.386310577392578
+    ],
+    "vec_top": [
+      "3.4",
+      "3.1",
+      "3.3"
+    ],
+    "rer_top": [
+      "3.4",
+      "3.1",
+      "3.3"
+    ],
+    "top_vec_score": 0.5111476156359671,
+    "top_rer_score": 1.4517185688018799,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 13,
+    "category": "direct",
+    "question": "How much is the health insurance cover and who is covered?",
+    "expected_sections": [
+      "5.1"
+    ],
+    "reference_answer": "Group health insurance of Rs. 5,00,000 per year covering the employee, spouse and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+    "titles": [
+      "5.1 Health Insurance",
+      "5.3 Wellness Allowance",
+      "5.4 Learning and Development",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment",
+      "3.1 Travel Expenses",
+      "1.2 Sick Leave",
+      "3.3 Client Entertainment",
+      "5.2 Provident Fund",
+      "1.1 Annual Leave"
+    ],
+    "vector_scores": [
+      0.5904424082705488,
+      0.2766936421394368,
+      0.2348288148641603,
+      0.21325820465435164,
+      0.19780709127847607,
+      0.19515962389237484,
+      0.18988409996723565,
+      0.1809149546249209,
+      0.14394720756693158,
+      0.09386959669122841
+    ],
+    "rerank_scores": [
+      2.8841793537139893,
+      -8.298763275146484,
+      -10.110820770263672,
+      -10.098103523254395,
+      -10.696352005004883,
+      -10.755730628967285,
+      -11.006813049316406,
+      -10.172606468200684,
+      -11.078401565551758,
+      -11.169236183166504
+    ],
+    "vec_top": [
+      "5.1",
+      "5.3",
+      "5.4"
+    ],
+    "rer_top": [
+      "5.1",
+      "5.3",
+      "3.2"
+    ],
+    "top_vec_score": 0.5904424082705488,
+    "top_rer_score": 2.8841793537139893,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 14,
+    "category": "direct",
+    "question": "What is the annual wellness allowance and what can it be used for?",
+    "expected_sections": [
+      "5.3"
+    ],
+    "reference_answer": "An annual wellness allowance of Rs. 8,000, reimbursable against gym memberships, fitness classes or mental health counseling sessions.",
+    "titles": [
+      "5.3 Wellness Allowance",
+      "5.1 Health Insurance",
+      "2.3 Equipment",
+      "5.4 Learning and Development",
+      "5.2 Provident Fund",
+      "1.1 Annual Leave",
+      "1.4 Leave Encashment on Resignation",
+      "3.1 Travel Expenses",
+      "1.2 Sick Leave",
+      "3.3 Client Entertainment"
+    ],
+    "vector_scores": [
+      0.6828584481989425,
+      0.3756928518001532,
+      0.358177834477702,
+      0.31550504657656286,
+      0.30793768858167014,
+      0.3068023967500264,
+      0.2788361706430651,
+      0.26222574565103884,
+      0.2546825706958771,
+      0.24667104284034091
+    ],
+    "rerank_scores": [
+      5.686068058013916,
+      -10.109701156616211,
+      -10.411895751953125,
+      -10.670404434204102,
+      -11.274900436401367,
+      -8.42727279663086,
+      -9.952498435974121,
+      -11.276463508605957,
+      -10.14023208618164,
+      -11.25583267211914
+    ],
+    "vec_top": [
+      "5.3",
+      "5.1",
+      "2.3"
+    ],
+    "rer_top": [
+      "5.3",
+      "1.1",
+      "1.4"
+    ],
+    "top_vec_score": 0.6828584481989425,
+    "top_rer_score": 5.686068058013916,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 15,
+    "category": "direct",
+    "question": "How much can I claim each year for courses and certifications?",
+    "expected_sections": [
+      "5.4"
+    ],
+    "reference_answer": "Up to Rs. 20,000 per year toward professional certifications, courses or conferences, subject to manager approval and relevance to the role.",
+    "titles": [
+      "5.4 Learning and Development",
+      "3.1 Travel Expenses",
+      "3.3 Client Entertainment",
+      "5.3 Wellness Allowance",
+      "1.1 Annual Leave",
+      "5.1 Health Insurance",
+      "2.3 Equipment",
+      "5.2 Provident Fund",
+      "3.2 Internet and Phone Reimbursement",
+      "3.4 Non-Reimbursable Expenses"
+    ],
+    "vector_scores": [
+      0.6947217840866023,
+      0.43170352076602114,
+      0.3476269387087043,
+      0.339258652174789,
+      0.33635609339608297,
+      0.309096185186171,
+      0.29439860415417085,
+      0.2691064304696882,
+      0.26392228529753003,
+      0.23425791271847218
+    ],
+    "rerank_scores": [
+      7.710139274597168,
+      -6.381073951721191,
+      -7.5213847160339355,
+      -7.191795825958252,
+      -9.975875854492188,
+      -8.343082427978516,
+      -9.834836959838867,
+      -10.91513729095459,
+      -9.511993408203125,
+      -11.104910850524902
+    ],
+    "vec_top": [
+      "5.4",
+      "3.1",
+      "3.3"
+    ],
+    "rer_top": [
+      "5.4",
+      "3.1",
+      "5.3"
+    ],
+    "top_vec_score": 0.6947217840866023,
+    "top_rer_score": 7.710139274597168,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 16,
+    "category": "direct",
+    "question": "What is the notice period when I resign?",
+    "expected_sections": [
+      "7.1"
+    ],
+    "reference_answer": "The standard notice period is 60 days for full-time employees. The company may at its discretion approve a reduced notice period or a buyout of the remaining notice.",
+    "titles": [
+      "7.1 Notice Period",
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "1.5 Unpaid Leave",
+      "1.4 Leave Encashment on Resignation",
+      "1.3 Maternity and Paternity Leave",
+      "7.3 Exit Interview",
+      "6.2 Resolution Timeline",
+      "2.1 Eligibility",
+      "7.2 Full and Final Settlement"
+    ],
+    "vector_scores": [
+      0.6537422308307662,
+      0.4747933417312854,
+      0.4510588202055954,
+      0.4474641680718263,
+      0.43231707004517106,
+      0.34328132289465385,
+      0.33585257361565757,
+      0.30994569418873263,
+      0.280839441172848,
+      0.26521021671661305
+    ],
+    "rerank_scores": [
+      2.8773326873779297,
+      -10.042718887329102,
+      -6.69572114944458,
+      -9.39418888092041,
+      -2.6524171829223633,
+      -10.244168281555176,
+      -10.163233757019043,
+      -8.503923416137695,
+      -7.710909843444824,
+      -7.697542190551758
+    ],
+    "vec_top": [
+      "7.1",
+      "1.1",
+      "1.2"
+    ],
+    "rer_top": [
+      "7.1",
+      "1.4",
+      "1.2"
+    ],
+    "top_vec_score": 0.6537422308307662,
+    "top_rer_score": 2.8773326873779297,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 17,
+    "category": "paraphrase",
+    "question": "Can I work from home on Fridays?",
+    "expected_sections": [
+      "2.1"
+    ],
+    "reference_answer": "After completing the 3-month probation, employees can work remotely up to 2 days per week with manager approval. The handbook does not name specific days.",
+    "titles": [
+      "2.1 Eligibility",
+      "2.4 Core Hours",
+      "2.3 Equipment",
+      "3.2 Internet and Phone Reimbursement",
+      "1.1 Annual Leave",
+      "2.2 Full-Time Remote Arrangements",
+      "4.4 Use of Company Property",
+      "6.1 Reporting a Grievance",
+      "5.3 Wellness Allowance",
+      "1.2 Sick Leave"
+    ],
+    "vector_scores": [
+      0.4219967927928946,
+      0.35649389028549194,
+      0.33331968386764954,
+      0.29458615715338876,
+      0.23822874041282194,
+      0.22606821786137865,
+      0.2227943307994108,
+      0.19806695603526303,
+      0.18648299196261153,
+      0.18587450683116913
+    ],
+    "rerank_scores": [
+      -9.339624404907227,
+      -11.046378135681152,
+      -9.534350395202637,
+      -11.294682502746582,
+      -11.01194953918457,
+      -11.19699478149414,
+      -11.385862350463867,
+      -11.327777862548828,
+      -11.211448669433594,
+      -11.136724472045898
+    ],
+    "vec_top": [
+      "2.1",
+      "2.4",
+      "2.3"
+    ],
+    "rer_top": [
+      "2.1",
+      "2.3",
+      "1.1"
+    ],
+    "top_vec_score": 0.4219967927928946,
+    "top_rer_score": -9.339624404907227,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 18,
+    "category": "paraphrase",
+    "question": "What happens to my leftover leave if I quit?",
+    "expected_sections": [
+      "1.4"
+    ],
+    "reference_answer": "Unused annual leave (up to the carried-forward cap) is encashed at resignation based on the last drawn basic salary. Sick leave is never encashed.",
+    "titles": [
+      "1.4 Leave Encashment on Resignation",
+      "1.5 Unpaid Leave",
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "7.3 Exit Interview",
+      "7.2 Full and Final Settlement",
+      "1.3 Maternity and Paternity Leave",
+      "7.1 Notice Period",
+      "5.3 Wellness Allowance",
+      "3.1 Travel Expenses"
+    ],
+    "vector_scores": [
+      0.4991697966558055,
+      0.4916194980372005,
+      0.4697905462855836,
+      0.43287189194487175,
+      0.3840423455263917,
+      0.28056069629213554,
+      0.244234768474617,
+      0.2340746493473126,
+      0.2262292731491582,
+      0.17679460964139748
+    ],
+    "rerank_scores": [
+      -4.343623161315918,
+      -6.674283027648926,
+      -7.428963661193848,
+      -7.56010627746582,
+      -10.049498558044434,
+      -9.458718299865723,
+      -9.777923583984375,
+      -10.98175048828125,
+      -11.136144638061523,
+      -11.201417922973633
+    ],
+    "vec_top": [
+      "1.4",
+      "1.5",
+      "1.1"
+    ],
+    "rer_top": [
+      "1.4",
+      "1.5",
+      "1.1"
+    ],
+    "top_vec_score": 0.4991697966558055,
+    "top_rer_score": -4.343623161315918,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 19,
+    "category": "paraphrase",
+    "question": "I want to report a problem with my manager without giving my name. How can I do that?",
+    "expected_sections": [
+      "6.1"
+    ],
+    "reference_answer": "Use the anonymous ethics hotline available on the company intranet. Grievances can also go to the HR business partner.",
+    "titles": [
+      "6.1 Reporting a Grievance",
+      "6.3 Escalation",
+      "6.2 Resolution Timeline",
+      "4.3 Conflict of Interest",
+      "4.2 Confidentiality",
+      "4.1 Workplace Behavior",
+      "3.3 Client Entertainment",
+      "2.2 Full-Time Remote Arrangements",
+      "3.1 Travel Expenses",
+      "7.1 Notice Period"
+    ],
+    "vector_scores": [
+      0.37105220650381887,
+      0.2066891692055277,
+      0.1654926588837734,
+      0.1559628118343097,
+      0.15051689743996088,
+      0.14005055664764487,
+      0.1351458470566872,
+      0.12290702077537174,
+      0.09502015232559391,
+      0.09474225138266379
+    ],
+    "rerank_scores": [
+      -6.700374126434326,
+      -10.212959289550781,
+      -10.531493186950684,
+      -9.53927230834961,
+      -10.504141807556152,
+      -10.891912460327148,
+      -10.866180419921875,
+      -11.214191436767578,
+      -11.154281616210938,
+      -11.065057754516602
+    ],
+    "vec_top": [
+      "6.1",
+      "6.3",
+      "6.2"
+    ],
+    "rer_top": [
+      "6.1",
+      "4.3",
+      "6.3"
+    ],
+    "top_vec_score": 0.37105220650381887,
+    "top_rer_score": -6.700374126434326,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 20,
+    "category": "paraphrase",
+    "question": "Can I do freelance work on the side?",
+    "expected_sections": [
+      "4.3"
+    ],
+    "reference_answer": "Outside employment or business interests that may conflict with the role must be disclosed to HR before accepting or continuing them.",
+    "titles": [
+      "2.2 Full-Time Remote Arrangements",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment",
+      "4.3 Conflict of Interest",
+      "2.1 Eligibility",
+      "6.1 Reporting a Grievance",
+      "5.2 Provident Fund",
+      "4.4 Use of Company Property",
+      "4.2 Confidentiality",
+      "2.4 Core Hours"
+    ],
+    "vector_scores": [
+      0.24253604538847973,
+      0.22099543902128516,
+      0.2040986999626282,
+      0.18985058216014927,
+      0.18398310315055133,
+      0.1529006647676906,
+      0.14744809633282063,
+      0.14655681468411075,
+      0.14122419218618076,
+      0.13796287672937624
+    ],
+    "rerank_scores": [
+      -11.137092590332031,
+      -11.325517654418945,
+      -11.373964309692383,
+      -11.145358085632324,
+      -10.795309066772461,
+      -11.24152660369873,
+      -11.322259902954102,
+      -11.441167831420898,
+      -11.256107330322266,
+      -11.362119674682617
+    ],
+    "vec_top": [
+      "2.2",
+      "3.2",
+      "2.3"
+    ],
+    "rer_top": [
+      "2.1",
+      "2.2",
+      "4.3"
+    ],
+    "top_vec_score": 0.24253604538847973,
+    "top_rer_score": -10.795309066772461,
+    "vec_hit1": false,
+    "rer_hit1": false,
+    "vec_hit3": false,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 21,
+    "category": "paraphrase",
+    "question": "What company items do I have to give back when I leave?",
+    "expected_sections": [
+      "4.4"
+    ],
+    "reference_answer": "Company laptops, software licenses and access credentials must be returned in good condition upon separation.",
+    "titles": [
+      "4.4 Use of Company Property",
+      "3.1 Travel Expenses",
+      "1.1 Annual Leave",
+      "1.4 Leave Encashment on Resignation",
+      "3.4 Non-Reimbursable Expenses",
+      "7.3 Exit Interview",
+      "5.3 Wellness Allowance",
+      "4.2 Confidentiality",
+      "2.3 Equipment",
+      "1.5 Unpaid Leave"
+    ],
+    "vector_scores": [
+      0.43042954841277004,
+      0.34984537064109034,
+      0.33479371666910407,
+      0.32991251349451267,
+      0.2736783353899003,
+      0.27244341373445347,
+      0.25802532029755776,
+      0.24699775785140976,
+      0.24697367002696913,
+      0.24532097633829797
+    ],
+    "rerank_scores": [
+      -0.7523428201675415,
+      -8.410026550292969,
+      -7.769035339355469,
+      -7.977389335632324,
+      -9.922000885009766,
+      -8.540754318237305,
+      -10.342933654785156,
+      -8.867166519165039,
+      -8.519264221191406,
+      -7.249966621398926
+    ],
+    "vec_top": [
+      "4.4",
+      "3.1",
+      "1.1"
+    ],
+    "rer_top": [
+      "4.4",
+      "1.5",
+      "1.1"
+    ],
+    "top_vec_score": 0.43042954841277004,
+    "top_rer_score": -0.7523428201675415,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 22,
+    "category": "paraphrase",
+    "question": "Can I get reimbursed for a first-class flight ticket?",
+    "expected_sections": [
+      "3.1",
+      "3.4"
+    ],
+    "reference_answer": "No. Only economy-class airfare is claimable, and first-class travel upgrades are not reimbursable under any circumstance.",
+    "titles": [
+      "3.4 Non-Reimbursable Expenses",
+      "3.1 Travel Expenses",
+      "3.2 Internet and Phone Reimbursement",
+      "3.3 Client Entertainment",
+      "5.1 Health Insurance",
+      "5.4 Learning and Development",
+      "5.3 Wellness Allowance",
+      "7.2 Full and Final Settlement",
+      "5.2 Provident Fund",
+      "4.4 Use of Company Property"
+    ],
+    "vector_scores": [
+      0.5182201818894943,
+      0.35730694016607467,
+      0.32496426552748536,
+      0.23775940424922182,
+      0.19598485327128234,
+      0.1893325669369076,
+      0.17442300326550464,
+      0.15097407687019815,
+      0.1463130774311442,
+      0.11938871154357578
+    ],
+    "rerank_scores": [
+      3.252397060394287,
+      -8.405938148498535,
+      -7.436326026916504,
+      -11.230375289916992,
+      -11.198477745056152,
+      -11.102415084838867,
+      -10.628589630126953,
+      -10.388124465942383,
+      -11.264291763305664,
+      -11.257356643676758
+    ],
+    "vec_top": [
+      "3.4",
+      "3.1",
+      "3.2"
+    ],
+    "rer_top": [
+      "3.4",
+      "3.2",
+      "3.1"
+    ],
+    "top_vec_score": 0.5182201818894943,
+    "top_rer_score": 3.252397060394287,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 23,
+    "category": "paraphrase",
+    "question": "I am not satisfied with how HR resolved my complaint. What can I do next?",
+    "expected_sections": [
+      "6.3"
+    ],
+    "reference_answer": "Escalate the matter to the Head of HR, whose decision in consultation with leadership is final.",
+    "titles": [
+      "6.2 Resolution Timeline",
+      "6.3 Escalation",
+      "6.1 Reporting a Grievance",
+      "4.1 Workplace Behavior",
+      "7.2 Full and Final Settlement",
+      "4.3 Conflict of Interest",
+      "1.5 Unpaid Leave",
+      "7.1 Notice Period",
+      "2.2 Full-Time Remote Arrangements",
+      "3.1 Travel Expenses"
+    ],
+    "vector_scores": [
+      0.45161589691733783,
+      0.44025716185569763,
+      0.3337908287297715,
+      0.3161124806270048,
+      0.26547275575833096,
+      0.22885701186317176,
+      0.2244227455786728,
+      0.223182605315292,
+      0.21325460733391255,
+      0.16960592036176791
+    ],
+    "rerank_scores": [
+      -1.4262359142303467,
+      -3.1658542156219482,
+      -5.499640464782715,
+      -8.911222457885742,
+      -7.9122419357299805,
+      -7.058754920959473,
+      -8.745588302612305,
+      -10.691089630126953,
+      -11.04737663269043,
+      -11.007740020751953
+    ],
+    "vec_top": [
+      "6.2",
+      "6.3",
+      "6.1"
+    ],
+    "rer_top": [
+      "6.2",
+      "6.3",
+      "6.1"
+    ],
+    "top_vec_score": 0.45161589691733783,
+    "top_rer_score": -1.4262359142303467,
+    "vec_hit1": false,
+    "rer_hit1": false,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 24,
+    "category": "out_of_scope",
+    "question": "Is there any policy on pet-friendly benefits in this company?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "4.3 Conflict of Interest",
+      "5.3 Wellness Allowance",
+      "4.4 Use of Company Property",
+      "2.2 Full-Time Remote Arrangements",
+      "3.4 Non-Reimbursable Expenses",
+      "4.2 Confidentiality",
+      "5.1 Health Insurance",
+      "6.1 Reporting a Grievance",
+      "4.1 Workplace Behavior",
+      "2.3 Equipment"
+    ],
+    "vector_scores": [
+      0.2944603439843907,
+      0.2649845656724992,
+      0.2523920018064989,
+      0.24610966467204798,
+      0.22907967740772595,
+      0.22117497829794364,
+      0.1993232339217238,
+      0.19525003433228094,
+      0.1949965357780512,
+      0.18505497769995938
+    ],
+    "rerank_scores": [
+      -11.183444023132324,
+      -10.89582633972168,
+      -10.821460723876953,
+      -11.387203216552734,
+      -11.098735809326172,
+      -11.323699951171875,
+      -9.737250328063965,
+      -11.295217514038086,
+      -11.248093605041504,
+      -11.069713592529297
+    ],
+    "vec_top": [
+      "4.3",
+      "5.3",
+      "4.4"
+    ],
+    "rer_top": [
+      "5.1",
+      "4.4",
+      "5.3"
+    ],
+    "top_vec_score": 0.2944603439843907,
+    "top_rer_score": -9.737250328063965,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 25,
+    "category": "out_of_scope",
+    "question": "What is the company dress code?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "2.3 Equipment",
+      "4.4 Use of Company Property",
+      "4.2 Confidentiality",
+      "4.1 Workplace Behavior",
+      "5.3 Wellness Allowance",
+      "5.1 Health Insurance",
+      "6.1 Reporting a Grievance",
+      "2.4 Core Hours",
+      "3.1 Travel Expenses",
+      "2.2 Full-Time Remote Arrangements"
+    ],
+    "vector_scores": [
+      0.25628381203760653,
+      0.24699660435370085,
+      0.24561010327280042,
+      0.2337416309888275,
+      0.22949324792704662,
+      0.21243374945312898,
+      0.19331550797357955,
+      0.1907687889154961,
+      0.18730345746771804,
+      0.18289791957214374
+    ],
+    "rerank_scores": [
+      -11.183695793151855,
+      -10.329549789428711,
+      -10.988716125488281,
+      -11.077289581298828,
+      -11.249672889709473,
+      -11.095256805419922,
+      -11.12761402130127,
+      -11.370956420898438,
+      -11.147600173950195,
+      -11.395814895629883
+    ],
+    "vec_top": [
+      "2.3",
+      "4.4",
+      "4.2"
+    ],
+    "rer_top": [
+      "4.4",
+      "4.2",
+      "4.1"
+    ],
+    "top_vec_score": 0.25628381203760653,
+    "top_rer_score": -10.329549789428711,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 26,
+    "category": "out_of_scope",
+    "question": "Do employees get stock options or ESOPs?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "6.1 Reporting a Grievance",
+      "4.4 Use of Company Property",
+      "4.2 Confidentiality",
+      "4.1 Workplace Behavior",
+      "4.3 Conflict of Interest",
+      "2.3 Equipment",
+      "1.4 Leave Encashment on Resignation",
+      "2.2 Full-Time Remote Arrangements",
+      "7.3 Exit Interview",
+      "3.1 Travel Expenses"
+    ],
+    "vector_scores": [
+      0.3005841672420587,
+      0.27953676574480135,
+      0.2659256198228883,
+      0.22439239919186282,
+      0.22317042786899133,
+      0.22181260574798145,
+      0.21981254399941086,
+      0.2197041082558665,
+      0.21460584017004491,
+      0.20878459513188008
+    ],
+    "rerank_scores": [
+      -10.205556869506836,
+      -11.072644233703613,
+      -9.510839462280273,
+      -10.493465423583984,
+      -9.011064529418945,
+      -10.566770553588867,
+      -10.790719032287598,
+      -10.788007736206055,
+      -10.769445419311523,
+      -10.134227752685547
+    ],
+    "vec_top": [
+      "6.1",
+      "4.4",
+      "4.2"
+    ],
+    "rer_top": [
+      "4.3",
+      "4.2",
+      "3.1"
+    ],
+    "top_vec_score": 0.3005841672420587,
+    "top_rer_score": -9.011064529418945,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 27,
+    "category": "out_of_scope",
+    "question": "How is the annual performance bonus calculated?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "5.4 Learning and Development",
+      "5.2 Provident Fund",
+      "1.1 Annual Leave",
+      "5.3 Wellness Allowance",
+      "2.3 Equipment",
+      "3.3 Client Entertainment",
+      "1.4 Leave Encashment on Resignation",
+      "3.1 Travel Expenses",
+      "6.2 Resolution Timeline",
+      "7.2 Full and Final Settlement"
+    ],
+    "vector_scores": [
+      0.3447604066419214,
+      0.3091684693593837,
+      0.23717526060035443,
+      0.23195392108513524,
+      0.2223545395626385,
+      0.20264861873840534,
+      0.2008761641229997,
+      0.19907838133621802,
+      0.1883794440770865,
+      0.1726877483501783
+    ],
+    "rerank_scores": [
+      -9.869174003601074,
+      -10.775544166564941,
+      -7.660933494567871,
+      -9.011249542236328,
+      -11.006709098815918,
+      -10.914588928222656,
+      -5.200509071350098,
+      -10.90847396850586,
+      -11.13941764831543,
+      -11.01589584350586
+    ],
+    "vec_top": [
+      "5.4",
+      "5.2",
+      "1.1"
+    ],
+    "rer_top": [
+      "1.4",
+      "1.1",
+      "5.3"
+    ],
+    "top_vec_score": 0.3447604066419214,
+    "top_rer_score": -5.200509071350098,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 28,
+    "category": "out_of_scope",
+    "question": "Can I work remotely from another country?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "2.1 Eligibility",
+      "3.2 Internet and Phone Reimbursement",
+      "2.3 Equipment",
+      "2.2 Full-Time Remote Arrangements",
+      "4.4 Use of Company Property",
+      "6.1 Reporting a Grievance",
+      "4.2 Confidentiality",
+      "2.4 Core Hours",
+      "1.3 Maternity and Paternity Leave",
+      "4.3 Conflict of Interest"
+    ],
+    "vector_scores": [
+      0.43999067664260383,
+      0.3984028818127312,
+      0.3548104445806015,
+      0.30670150238808946,
+      0.2633892940364855,
+      0.19124304369340894,
+      0.17597393083884283,
+      0.1682769105966352,
+      0.12789772416381173,
+      0.12161370467731414
+    ],
+    "rerank_scores": [
+      -3.8027820587158203,
+      -4.844916343688965,
+      -7.52878999710083,
+      -6.683149814605713,
+      -11.254121780395508,
+      -11.26651668548584,
+      -11.114810943603516,
+      -9.531083106994629,
+      -11.086551666259766,
+      -11.112715721130371
+    ],
+    "vec_top": [
+      "2.1",
+      "3.2",
+      "2.3"
+    ],
+    "rer_top": [
+      "2.1",
+      "3.2",
+      "2.2"
+    ],
+    "top_vec_score": 0.43999067664260383,
+    "top_rer_score": -3.8027820587158203,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 29,
+    "category": "out_of_scope",
+    "question": "What is the policy on adoption leave?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.1 Annual Leave",
+      "5.1 Health Insurance",
+      "1.4 Leave Encashment on Resignation",
+      "1.5 Unpaid Leave",
+      "7.3 Exit Interview",
+      "2.2 Full-Time Remote Arrangements",
+      "4.3 Conflict of Interest",
+      "1.2 Sick Leave",
+      "4.4 Use of Company Property"
+    ],
+    "vector_scores": [
+      0.3957346429192168,
+      0.23510265439137945,
+      0.2276933775957488,
+      0.22315541069774358,
+      0.21506006150365642,
+      0.21136006943226382,
+      0.2065447743806469,
+      0.20012916327293018,
+      0.19894733416406463,
+      0.1911269562135579
+    ],
+    "rerank_scores": [
+      -7.262663841247559,
+      -10.25432014465332,
+      -10.893798828125,
+      -9.493192672729492,
+      -10.689054489135742,
+      -11.311127662658691,
+      -11.24389362335205,
+      -11.200723648071289,
+      -10.810230255126953,
+      -11.270211219787598
+    ],
+    "vec_top": [
+      "1.3",
+      "1.1",
+      "5.1"
+    ],
+    "rer_top": [
+      "1.3",
+      "1.4",
+      "1.1"
+    ],
+    "top_vec_score": 0.3957346429192168,
+    "top_rer_score": -7.262663841247559,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 30,
+    "category": "out_of_scope",
+    "question": "Does the company offer relocation assistance?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "3.1 Travel Expenses",
+      "2.2 Full-Time Remote Arrangements",
+      "3.4 Non-Reimbursable Expenses",
+      "3.2 Internet and Phone Reimbursement",
+      "2.1 Eligibility",
+      "4.4 Use of Company Property",
+      "7.2 Full and Final Settlement",
+      "6.3 Escalation",
+      "5.2 Provident Fund",
+      "4.3 Conflict of Interest"
+    ],
+    "vector_scores": [
+      0.2755824357965688,
+      0.2534547897252536,
+      0.21179608317544507,
+      0.21021567352378767,
+      0.1941459426209735,
+      0.18337092251594178,
+      0.18078773641221113,
+      0.17916367749302364,
+      0.17796315656774997,
+      0.17079317643521175
+    ],
+    "rerank_scores": [
+      -10.637373924255371,
+      -11.178404808044434,
+      -11.137269973754883,
+      -11.170059204101562,
+      -11.184406280517578,
+      -8.668519973754883,
+      -11.167400360107422,
+      -11.212008476257324,
+      -11.218362808227539,
+      -11.031448364257812
+    ],
+    "vec_top": [
+      "3.1",
+      "2.2",
+      "3.4"
+    ],
+    "rer_top": [
+      "4.4",
+      "3.1",
+      "4.3"
+    ],
+    "top_vec_score": 0.2755824357965688,
+    "top_rer_score": -8.668519973754883,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 31,
+    "category": "out_of_scope",
+    "question": "What is 7 + 7?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "7.3 Exit Interview",
+      "5.1 Health Insurance",
+      "7.1 Notice Period",
+      "2.3 Equipment",
+      "5.3 Wellness Allowance",
+      "5.2 Provident Fund",
+      "5.4 Learning and Development",
+      "4.1 Workplace Behavior",
+      "6.3 Escalation",
+      "6.2 Resolution Timeline"
+    ],
+    "vector_scores": [
+      0.1234994493872158,
+      0.1174898550650374,
+      0.09787446390460319,
+      0.0829571732751051,
+      0.07755854108660809,
+      0.07117712171656176,
+      0.06998102336726109,
+      0.0662301575014066,
+      0.05533303027347247,
+      0.03860713601857291
+    ],
+    "rerank_scores": [
+      -7.557904243469238,
+      -11.451086044311523,
+      -6.213220596313477,
+      -11.453919410705566,
+      -11.369851112365723,
+      -11.465616226196289,
+      -11.416643142700195,
+      -11.428314208984375,
+      -11.335927963256836,
+      -11.442667007446289
+    ],
+    "vec_top": [
+      "7.3",
+      "5.1",
+      "7.1"
+    ],
+    "rer_top": [
+      "7.1",
+      "7.3",
+      "6.3"
+    ],
+    "top_vec_score": 0.1234994493872158,
+    "top_rer_score": -6.213220596313477,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 32,
+    "category": "out_of_scope",
+    "question": "What is the capital of France?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "titles": [
+      "1.4 Leave Encashment on Resignation",
+      "5.2 Provident Fund",
+      "1.2 Sick Leave",
+      "7.1 Notice Period",
+      "5.1 Health Insurance",
+      "6.2 Resolution Timeline",
+      "1.1 Annual Leave",
+      "2.3 Equipment",
+      "2.4 Core Hours",
+      "5.3 Wellness Allowance"
+    ],
+    "vector_scores": [
+      0.04684221092807195,
+      0.035357483710642734,
+      0.006772285203312078,
+      0.0030055550787184693,
+      0.0010113313931275902,
+      -0.011159840172798585,
+      -0.015192883114941713,
+      -0.023360163651152677,
+      -0.025453566813894213,
+      -0.02824405713273115
+    ],
+    "rerank_scores": [
+      -11.149690628051758,
+      -11.251773834228516,
+      -11.135944366455078,
+      -11.160372734069824,
+      -11.2352294921875,
+      -11.204865455627441,
+      -11.066798210144043,
+      -11.243050575256348,
+      -11.142837524414062,
+      -11.044572830200195
+    ],
+    "vec_top": [
+      "1.4",
+      "5.2",
+      "1.2"
+    ],
+    "rer_top": [
+      "5.3",
+      "1.1",
+      "1.2"
+    ],
+    "top_vec_score": 0.04684221092807195,
+    "top_rer_score": -11.044572830200195,
+    "vec_hit1": null,
+    "rer_hit1": null,
+    "vec_hit3": null,
+    "rer_hit3": null,
+    "in_pool": null
+  },
+  {
+    "id": 33,
+    "category": "paraphrase",
+    "question": "My wife just had a baby. How many days off can I take?",
+    "expected_sections": [
+      "1.3"
+    ],
+    "reference_answer": "Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
+    "titles": [
+      "1.3 Maternity and Paternity Leave",
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "1.5 Unpaid Leave",
+      "7.1 Notice Period",
+      "2.1 Eligibility",
+      "1.4 Leave Encashment on Resignation",
+      "5.3 Wellness Allowance",
+      "7.2 Full and Final Settlement",
+      "5.1 Health Insurance"
+    ],
+    "vector_scores": [
+      0.4745287566815358,
+      0.33689168031961025,
+      0.3196272552013397,
+      0.3041062044780972,
+      0.2706161576142222,
+      0.2309510089100626,
+      0.21807686065253473,
+      0.20162577638779777,
+      0.1916807855177397,
+      0.1547354069509863
+    ],
+    "rerank_scores": [
+      -3.8445701599121094,
+      -8.974631309509277,
+      -8.865446090698242,
+      -8.285916328430176,
+      -9.641151428222656,
+      -9.278364181518555,
+      -11.29906940460205,
+      -11.309301376342773,
+      -9.678422927856445,
+      -10.9974365234375
+    ],
+    "vec_top": [
+      "1.3",
+      "1.1",
+      "1.2"
+    ],
+    "rer_top": [
+      "1.3",
+      "1.5",
+      "1.2"
+    ],
+    "top_vec_score": 0.4745287566815358,
+    "top_rer_score": -3.8445701599121094,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 34,
+    "category": "paraphrase",
+    "question": "Do I still get paid if I am out sick for a whole week?",
+    "expected_sections": [
+      "1.2"
+    ],
+    "reference_answer": "Employees get 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days.",
+    "titles": [
+      "1.2 Sick Leave",
+      "1.4 Leave Encashment on Resignation",
+      "1.5 Unpaid Leave",
+      "5.3 Wellness Allowance",
+      "1.1 Annual Leave",
+      "7.2 Full and Final Settlement",
+      "2.1 Eligibility",
+      "1.3 Maternity and Paternity Leave",
+      "5.1 Health Insurance",
+      "7.1 Notice Period"
+    ],
+    "vector_scores": [
+      0.5898456114806726,
+      0.4418508916434437,
+      0.36818397370149225,
+      0.36353819208882987,
+      0.35649724966385965,
+      0.33025812145971745,
+      0.2546848204919916,
+      0.23803100061232907,
+      0.21580802719401815,
+      0.21380894748951407
+    ],
+    "rerank_scores": [
+      -3.1545419692993164,
+      -8.471260070800781,
+      -9.540566444396973,
+      -10.760848045349121,
+      -10.410075187683105,
+      -10.960405349731445,
+      -9.980887413024902,
+      -9.952234268188477,
+      -11.001239776611328,
+      -11.195307731628418
+    ],
+    "vec_top": [
+      "1.2",
+      "1.4",
+      "1.5"
+    ],
+    "rer_top": [
+      "1.2",
+      "1.4",
+      "1.5"
+    ],
+    "top_vec_score": 0.5898456114806726,
+    "top_rer_score": -3.1545419692993164,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 35,
+    "category": "paraphrase",
+    "question": "Does my medical coverage extend to my partner and kids?",
+    "expected_sections": [
+      "5.1"
+    ],
+    "reference_answer": "Group health insurance of Rs. 5,00,000 per year covers the employee, spouse and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+    "titles": [
+      "5.1 Health Insurance",
+      "5.3 Wellness Allowance",
+      "1.2 Sick Leave",
+      "2.2 Full-Time Remote Arrangements",
+      "1.3 Maternity and Paternity Leave",
+      "3.2 Internet and Phone Reimbursement",
+      "5.4 Learning and Development",
+      "4.3 Conflict of Interest",
+      "5.2 Provident Fund",
+      "4.4 Use of Company Property"
+    ],
+    "vector_scores": [
+      0.4604211449623141,
+      0.21588357876343478,
+      0.17854241600885512,
+      0.169970566633877,
+      0.16865003144443624,
+      0.16769517976555492,
+      0.12684288642917707,
+      0.11988835781812757,
+      0.11924978242810669,
+      0.10596627199348263
+    ],
+    "rerank_scores": [
+      -5.418698310852051,
+      -11.264892578125,
+      -11.244098663330078,
+      -11.43359375,
+      -11.126485824584961,
+      -11.434514045715332,
+      -11.416980743408203,
+      -11.418663024902344,
+      -11.449590682983398,
+      -11.445898056030273
+    ],
+    "vec_top": [
+      "5.1",
+      "5.3",
+      "1.2"
+    ],
+    "rer_top": [
+      "5.1",
+      "1.3",
+      "1.2"
+    ],
+    "top_vec_score": 0.4604211449623141,
+    "top_rer_score": -5.418698310852051,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 36,
+    "category": "paraphrase",
+    "question": "Will the company chip in for my gym membership?",
+    "expected_sections": [
+      "5.3"
+    ],
+    "reference_answer": "An annual wellness allowance of Rs. 8,000 is reimbursable against gym memberships, fitness classes or mental health counseling sessions.",
+    "titles": [
+      "4.4 Use of Company Property",
+      "5.3 Wellness Allowance",
+      "3.1 Travel Expenses",
+      "3.2 Internet and Phone Reimbursement",
+      "4.2 Confidentiality",
+      "2.4 Core Hours",
+      "4.3 Conflict of Interest",
+      "3.4 Non-Reimbursable Expenses",
+      "3.3 Client Entertainment",
+      "2.3 Equipment"
+    ],
+    "vector_scores": [
+      0.30961271484239883,
+      0.29277223133213726,
+      0.19585860620244877,
+      0.18922386380095513,
+      0.1793461785362418,
+      0.17870195000218658,
+      0.1717905858380726,
+      0.1681071671439187,
+      0.16522239589366816,
+      0.1518342040134869
+    ],
+    "rerank_scores": [
+      -10.810903549194336,
+      -6.254682540893555,
+      -11.357973098754883,
+      -11.39872932434082,
+      -11.362448692321777,
+      -11.363327026367188,
+      -11.31379222869873,
+      -11.393794059753418,
+      -11.37716293334961,
+      -11.242743492126465
+    ],
+    "vec_top": [
+      "4.4",
+      "5.3",
+      "3.1"
+    ],
+    "rer_top": [
+      "5.3",
+      "4.4",
+      "2.3"
+    ],
+    "top_vec_score": 0.30961271484239883,
+    "top_rer_score": -6.254682540893555,
+    "vec_hit1": false,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 37,
+    "category": "paraphrase",
+    "question": "Can I stay home most of the week instead of coming to the office?",
+    "expected_sections": [
+      "2.1",
+      "2.2"
+    ],
+    "reference_answer": "After the 3-month probation, employees can work remotely up to 2 days per week with manager approval. Full-time remote arrangements may be granted case by case for roles approved by department heads and are reviewed every 6 months.",
+    "titles": [
+      "2.1 Eligibility",
+      "2.4 Core Hours",
+      "1.1 Annual Leave",
+      "7.3 Exit Interview",
+      "2.3 Equipment",
+      "1.2 Sick Leave",
+      "1.5 Unpaid Leave",
+      "2.2 Full-Time Remote Arrangements",
+      "7.1 Notice Period",
+      "5.3 Wellness Allowance"
+    ],
+    "vector_scores": [
+      0.34315958619118714,
+      0.3159913938055783,
+      0.2862445753083904,
+      0.276977635330667,
+      0.2489827945525377,
+      0.2416786859418545,
+      0.23927176446304999,
+      0.2071971573838126,
+      0.1901507186620146,
+      0.1821865032800165
+    ],
+    "rerank_scores": [
+      -9.139421463012695,
+      -10.89197063446045,
+      -10.922452926635742,
+      -10.801033020019531,
+      -6.112763404846191,
+      -11.210433959960938,
+      -10.794923782348633,
+      -11.248163223266602,
+      -11.20434284210205,
+      -11.33657169342041
+    ],
+    "vec_top": [
+      "2.1",
+      "2.4",
+      "1.1"
+    ],
+    "rer_top": [
+      "2.3",
+      "2.1",
+      "1.5"
+    ],
+    "top_vec_score": 0.34315958619118714,
+    "top_rer_score": -6.112763404846191,
+    "vec_hit1": true,
+    "rer_hit1": false,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 38,
+    "category": "paraphrase",
+    "question": "How long do I have to turn in my bills after a business trip?",
+    "expected_sections": [
+      "3.1"
+    ],
+    "reference_answer": "Claims must be submitted within 15 days of travel completion, with original receipts.",
+    "titles": [
+      "3.1 Travel Expenses",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "7.1 Notice Period",
+      "7.2 Full and Final Settlement",
+      "1.2 Sick Leave",
+      "4.4 Use of Company Property",
+      "2.3 Equipment",
+      "3.4 Non-Reimbursable Expenses",
+      "1.4 Leave Encashment on Resignation"
+    ],
+    "vector_scores": [
+      0.45113968849183417,
+      0.3729123250894518,
+      0.3482823941202955,
+      0.3330841859033271,
+      0.3065649223145709,
+      0.26986572383233787,
+      0.25524316061186303,
+      0.2478199967855208,
+      0.24351054391328153,
+      0.23338107863778446
+    ],
+    "rerank_scores": [
+      -3.514157295227051,
+      -9.762614250183105,
+      -9.101723670959473,
+      -8.77702808380127,
+      -8.377837181091309,
+      -10.461674690246582,
+      -11.367524147033691,
+      -10.702808380126953,
+      -11.058393478393555,
+      -11.336994171142578
+    ],
+    "vec_top": [
+      "3.1",
+      "1.1",
+      "1.5"
+    ],
+    "rer_top": [
+      "3.1",
+      "7.2",
+      "7.1"
+    ],
+    "top_vec_score": 0.45113968849183417,
+    "top_rer_score": -3.514157295227051,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 39,
+    "category": "paraphrase",
+    "question": "A coworker keeps making inappropriate comments about me. What should I do and what happens to them?",
+    "expected_sections": [
+      "4.1",
+      "6.1"
+    ],
+    "reference_answer": "Harassment, discrimination or retaliation is not tolerated and may result in termination. The employee can raise a grievance through their reporting manager, an HR business partner, or the anonymous ethics hotline on the intranet.",
+    "titles": [
+      "4.1 Workplace Behavior",
+      "6.1 Reporting a Grievance",
+      "6.3 Escalation",
+      "6.2 Resolution Timeline",
+      "4.3 Conflict of Interest",
+      "4.2 Confidentiality",
+      "2.4 Core Hours",
+      "2.3 Equipment",
+      "2.2 Full-Time Remote Arrangements",
+      "7.2 Full and Final Settlement"
+    ],
+    "vector_scores": [
+      0.3448269058918778,
+      0.2512447311361402,
+      0.1928973255424895,
+      0.14141560865184155,
+      0.12190186614090648,
+      0.10795099406704267,
+      0.09780701541325498,
+      0.07350043776639237,
+      0.05749112628532682,
+      0.05513398842221395
+    ],
+    "rerank_scores": [
+      -9.014503479003906,
+      -9.412769317626953,
+      -9.533185005187988,
+      -10.796396255493164,
+      -9.68950080871582,
+      -10.911070823669434,
+      -11.322490692138672,
+      -11.267719268798828,
+      -11.299667358398438,
+      -11.136087417602539
+    ],
+    "vec_top": [
+      "4.1",
+      "6.1",
+      "6.3"
+    ],
+    "rer_top": [
+      "4.1",
+      "6.1",
+      "6.3"
+    ],
+    "top_vec_score": 0.3448269058918778,
+    "top_rer_score": -9.014503479003906,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 40,
+    "category": "paraphrase",
+    "question": "Can I tell my friends about the clients I work with?",
+    "expected_sections": [
+      "4.2"
+    ],
+    "reference_answer": "No. Employees must not disclose confidential company information, client data or trade secrets to any external party, during and after employment, as outlined in the signed NDA.",
+    "titles": [
+      "4.2 Confidentiality",
+      "6.1 Reporting a Grievance",
+      "4.3 Conflict of Interest",
+      "4.1 Workplace Behavior",
+      "3.3 Client Entertainment",
+      "2.2 Full-Time Remote Arrangements",
+      "2.4 Core Hours",
+      "4.4 Use of Company Property",
+      "2.3 Equipment",
+      "5.3 Wellness Allowance"
+    ],
+    "vector_scores": [
+      0.35964909195900985,
+      0.3135045019377465,
+      0.2805830334574526,
+      0.26787533929935947,
+      0.1984854846741475,
+      0.15134559531641179,
+      0.14425696203029714,
+      0.14192162675366315,
+      0.11990718900881214,
+      0.0818763326480203
+    ],
+    "rerank_scores": [
+      -7.994826316833496,
+      -10.272157669067383,
+      -10.146251678466797,
+      -8.034786224365234,
+      -10.293407440185547,
+      -11.056638717651367,
+      -11.199124336242676,
+      -11.2783203125,
+      -11.122543334960938,
+      -11.003021240234375
+    ],
+    "vec_top": [
+      "4.2",
+      "6.1",
+      "4.3"
+    ],
+    "rer_top": [
+      "4.2",
+      "4.1",
+      "4.3"
+    ],
+    "top_vec_score": 0.35964909195900985,
+    "top_rer_score": -7.994826316833496,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 41,
+    "category": "paraphrase",
+    "question": "When will I get my last paycheck after I leave?",
+    "expected_sections": [
+      "7.2"
+    ],
+    "reference_answer": "Final settlement, including salary dues, leave encashment and reimbursement claims, is processed within 45 days of the last working day.",
+    "titles": [
+      "7.2 Full and Final Settlement",
+      "1.1 Annual Leave",
+      "1.5 Unpaid Leave",
+      "1.4 Leave Encashment on Resignation",
+      "1.2 Sick Leave",
+      "1.3 Maternity and Paternity Leave",
+      "7.1 Notice Period",
+      "7.3 Exit Interview",
+      "5.3 Wellness Allowance",
+      "2.1 Eligibility"
+    ],
+    "vector_scores": [
+      0.45834634204551783,
+      0.41185960345520845,
+      0.3883610602087715,
+      0.36691452851967976,
+      0.36689492459984563,
+      0.3433007691323451,
+      0.31467695482326863,
+      0.266409450861412,
+      0.23443570918611845,
+      0.2211121188931493
+    ],
+    "rerank_scores": [
+      0.007654570043087006,
+      -6.8842549324035645,
+      -6.313843727111816,
+      -6.506263732910156,
+      -7.585269451141357,
+      -7.7662248611450195,
+      -10.381179809570312,
+      -8.988465309143066,
+      -11.110052108764648,
+      -10.286890983581543
+    ],
+    "vec_top": [
+      "7.2",
+      "1.1",
+      "1.5"
+    ],
+    "rer_top": [
+      "7.2",
+      "1.5",
+      "1.4"
+    ],
+    "top_vec_score": 0.45834634204551783,
+    "top_rer_score": 0.007654570043087006,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 42,
+    "category": "paraphrase",
+    "question": "Do I have to sit down with HR before my last day?",
+    "expected_sections": [
+      "7.3"
+    ],
+    "reference_answer": "Yes. All departing employees are required to complete an exit interview with HR before their last working day.",
+    "titles": [
+      "7.3 Exit Interview",
+      "2.4 Core Hours",
+      "1.1 Annual Leave",
+      "2.1 Eligibility",
+      "1.5 Unpaid Leave",
+      "7.1 Notice Period",
+      "5.3 Wellness Allowance",
+      "1.2 Sick Leave",
+      "6.2 Resolution Timeline",
+      "4.3 Conflict of Interest"
+    ],
+    "vector_scores": [
+      0.38233961077457435,
+      0.33942942854341496,
+      0.2937000043749888,
+      0.2845912190540829,
+      0.2761306104348811,
+      0.24654123187065302,
+      0.245835542182391,
+      0.24510177940736932,
+      0.23838196556353153,
+      0.22680644690990603
+    ],
+    "rerank_scores": [
+      1.2803666591644287,
+      -10.668811798095703,
+      -9.16328239440918,
+      -10.134446144104004,
+      -7.5689496994018555,
+      -10.614233016967773,
+      -11.248973846435547,
+      -10.786035537719727,
+      -6.893593788146973,
+      -6.362885475158691
+    ],
+    "vec_top": [
+      "7.3",
+      "2.4",
+      "1.1"
+    ],
+    "rer_top": [
+      "7.3",
+      "4.3",
+      "6.2"
+    ],
+    "top_vec_score": 0.38233961077457435,
+    "top_rer_score": 1.2803666591644287,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 43,
+    "category": "paraphrase",
+    "question": "Is it possible to leave sooner than the notice period?",
+    "expected_sections": [
+      "7.1"
+    ],
+    "reference_answer": "The standard notice period is 60 days, but the company may at its discretion approve a reduced notice period or a buyout of the remaining notice.",
+    "titles": [
+      "7.1 Notice Period",
+      "1.5 Unpaid Leave",
+      "1.1 Annual Leave",
+      "1.2 Sick Leave",
+      "1.4 Leave Encashment on Resignation",
+      "1.3 Maternity and Paternity Leave",
+      "2.1 Eligibility",
+      "7.3 Exit Interview",
+      "6.2 Resolution Timeline",
+      "7.2 Full and Final Settlement"
+    ],
+    "vector_scores": [
+      0.563829525988219,
+      0.4848892164758638,
+      0.4535753296940339,
+      0.41974984054270936,
+      0.3744155915681393,
+      0.36763642027162635,
+      0.347050258693099,
+      0.34351870053337796,
+      0.2772054639809849,
+      0.26703455841130075
+    ],
+    "rerank_scores": [
+      0.5868930816650391,
+      -8.60098648071289,
+      -8.086989402770996,
+      -9.096909523010254,
+      -8.365578651428223,
+      -7.832416534423828,
+      -8.608779907226562,
+      -9.968400955200195,
+      -9.380804061889648,
+      -7.449262619018555
+    ],
+    "vec_top": [
+      "7.1",
+      "1.5",
+      "1.1"
+    ],
+    "rer_top": [
+      "7.1",
+      "7.2",
+      "1.3"
+    ],
+    "top_vec_score": 0.563829525988219,
+    "top_rer_score": 0.5868930816650391,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  },
+  {
+    "id": 44,
+    "category": "paraphrase",
+    "question": "How quickly will HR get back to me after I file a complaint?",
+    "expected_sections": [
+      "6.2"
+    ],
+    "reference_answer": "HR acknowledges a formal grievance within 2 working days and aims to resolve it within 15 working days, with written communication at each stage.",
+    "titles": [
+      "6.2 Resolution Timeline",
+      "7.2 Full and Final Settlement",
+      "6.3 Escalation",
+      "1.5 Unpaid Leave",
+      "7.1 Notice Period",
+      "2.2 Full-Time Remote Arrangements",
+      "1.1 Annual Leave",
+      "4.1 Workplace Behavior",
+      "2.1 Eligibility",
+      "6.1 Reporting a Grievance"
+    ],
+    "vector_scores": [
+      0.5779895875441536,
+      0.44831576327273415,
+      0.385651909449811,
+      0.38315447970524386,
+      0.37664771080017356,
+      0.32661037723895325,
+      0.30071287742700514,
+      0.2996283591015172,
+      0.2791300021046409,
+      0.2703485625774569
+    ],
+    "rerank_scores": [
+      0.50267094373703,
+      -3.604429244995117,
+      -8.893481254577637,
+      -6.543193817138672,
+      -9.054131507873535,
+      -10.811409950256348,
+      -8.418172836303711,
+      -10.887208938598633,
+      -8.938647270202637,
+      -8.228466033935547
+    ],
+    "vec_top": [
+      "6.2",
+      "7.2",
+      "6.3"
+    ],
+    "rer_top": [
+      "6.2",
+      "7.2",
+      "1.5"
+    ],
+    "top_vec_score": 0.5779895875441536,
+    "top_rer_score": 0.50267094373703,
+    "vec_hit1": true,
+    "rer_hit1": true,
+    "vec_hit3": true,
+    "rer_hit3": true,
+    "in_pool": true
+  }
+]
