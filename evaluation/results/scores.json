@@ -3,10 +3,10 @@
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer provides the exact leave amount and accrual rate as in the reference.",
+    "reason": "All key facts match the reference",
     "faithfulness": 1.0,
     "answer_relevancy": 0.8211,
-    "answer": "Full‑time employees are entitled to **18 days of paid annual leave per calendar year**, accrued at **1.5 days per completed month of service**."
+    "answer": "Full‑time employees are entitled to **18 days of paid annual leave per calendar year**. This leave accrues at a rate of 1.5 days for each completed month of service."
   },
   "2": {
     "declined": false,
@@ -21,10 +21,10 @@
     "declined": false,
     "declined_by": null,
     "matches_reference": "partly",
-    "reason": "Provides correct number but adds extra details not in reference",
+    "reason": "includes correct number but adds extra details",
     "faithfulness": 1.0,
     "answer_relevancy": 0.8641,
-    "answer": "Employees receive **12 days of paid sick leave per year**.  \n- A medical certificate is required for sick leave exceeding 2 consecutive days.  \n- Sick leave does **not** carry forward to the next year and is **not** encashed upon resignation."
+    "answer": "Employees receive **12 days of paid sick leave per year**.  \nA medical certificate is required for sick leave exceeding 2 consecutive days.  \nSick leave does not carry forward to the next year and is not encashed upon resignation."
   },
   "4": {
     "declined": false,
@@ -33,43 +33,43 @@
     "reason": "The answer correctly states the certificate is required only for sick leave exceeding 2 consecutive days.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.8886,
-    "answer": "Yes. According to the handbook, a medical certificate is required for sick leave that exceeds **2 consecutive days**. For sick leave of 2 days or fewer, a certificate is not required."
+    "answer": "Yes. According to the handbook, a medical certificate is required for sick leave that exceeds **2 consecutive days**. For sick leave of 2 days or fewer, a medical certificate is not required."
   },
   "5": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states 26 weeks of paid maternity leave.",
+    "reason": "The answer correctly states 26 weeks of paid maternity leave for female employees.",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.7879,
-    "answer": "Maternity leave for female employees is 26 weeks of paid leave, as required by statute."
+    "answer_relevancy": 0.7969,
+    "answer": "Maternity leave is 26 weeks of paid leave for female employees."
   },
   "6": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key facts match the reference",
+    "reason": "The answer correctly states 10 days of paid leave within 3 months.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.9206,
-    "answer": "Male employees are entitled to **10 days of paid paternity leave**.  \nThey must take this leave **within 3 months of the child’s birth**."
+    "answer": "Male employees are entitled to **10 days of paid paternity leave**.  \nThe leave must be taken **within 3 months of the child’s birth**."
   },
   "7": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states the policy and limits.",
-    "faithfulness": 0.75,
-    "answer_relevancy": 0.6293,
-    "answer": "Yes. According to the handbook, employees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
+    "reason": "The answer includes all key facts from the reference.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6718,
+    "answer": "Yes. According to the handbook, if you have exhausted your paid leave balance you may request unpaid leave. Unpaid leave is subject to manager and HR approval and is limited to a maximum of 15 days per year."
   },
   "8": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly restates the policy details.",
+    "reason": "All key facts match the reference; extra details do not contradict.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.4485,
-    "answer": "Employees who have completed their 3‑month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements."
+    "answer": "Employees who have completed their 3‑month probation period are eligible to work remotely up to 2 days per week, **subject to manager approval based on role requirements**.  \n\nFull‑time remote arrangements may also be granted **on a case‑by‑case basis for roles approved by department heads** and are reviewed every 6 months."
   },
   "9": {
     "declined": false,
@@ -84,19 +84,19 @@
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "Answer correctly states the allowance amount and conditions.",
+    "reason": "The answer correctly states the allowance amount and conditions.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.866,
-    "answer": "The company provides a one‑time home office setup allowance of **₹15,000**. This allowance is available only to employees who are approved for remote work exceeding three days per week."
+    "answer": "The company offers a one‑time home office setup allowance of **₹15,000**. This allowance is available only to employees who have been approved for remote work that exceeds 3 days per week."
   },
   "11": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states the Rs. 6,000 limit.",
+    "reason": "The answer correctly states the Rs. 6,000 per night limit.",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.9944,
-    "answer": "The maximum hotel cost per night you can claim on a business trip is **₹6,000**."
+    "answer_relevancy": 0.9216,
+    "answer": "The maximum hotel cost you can claim on a business trip is **₹6,000 per night** for standard hotel accommodation."
   },
   "12": {
     "declined": false,
@@ -111,71 +111,73 @@
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key facts match the reference",
+    "reason": "Provides the exact coverage amount and eligible members as in the reference",
     "faithfulness": 1.0,
     "answer_relevancy": 0.7424,
-    "answer": "The company’s group health insurance covers ₹5,00,000 per year.  \nIt is available to the employee, the employee’s spouse, and up to two dependent children."
+    "answer": "The company’s group health insurance covers ₹5,00,000 per year.  \nIt is available for the employee, the employee’s spouse, and up to two dependent children."
   },
   "14": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key facts match the reference",
+    "reason": "Provides the same amount and eligible uses as the reference",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.9241,
-    "answer": "The annual wellness allowance is ₹8,000.  \nIt can be reimbursed for gym memberships, fitness classes, or mental‑health counseling sessions."
+    "answer_relevancy": 1.0,
+    "answer": "**Annual wellness allowance:** ₹8,000 per year.  \n**Eligible uses:** Reimbursement for gym memberships, fitness classes, or mental health counseling sessions."
   },
   "15": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "Key facts exactly match the handbook",
+    "reason": "Key facts and conditions match the handbook",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.8452,
-    "answer": "Employees can claim up to **₹20,000 per year** toward professional certifications, courses, or conference attendance. This claim is subject to **manager approval** and must be **relevant to your role**."
+    "answer_relevancy": 0.8436,
+    "answer": "Employees can claim up to **₹20,000 per year** toward professional certifications, courses, or conference attendance. This amount is subject to **manager approval** and must be **relevant to your role**."
   },
   "16": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "Key facts match the reference",
+    "reason": "Key facts match the handbook",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.6375,
-    "answer": "The standard notice period for a full‑time employee is **60 days**.  \nThe company may, at its discretion, approve a reduced notice period or a buyout of the remaining notice period."
+    "answer_relevancy": 0.6406,
+    "answer": "The standard notice period for all full‑time employees is **60 days**.  \nThe company may, at its discretion, approve a reduced notice period or a buyout of the remaining notice period."
   },
   "17": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key policy details match the handbook reference",
-    "faithfulness": 1.0,
-    "answer_relevancy": 0.6269,
-    "answer": "Yes—if you have completed your 3‑month probation period and your manager approves the arrangement, you may work from home up to 2 days per week.  While working remotely, you must still be available during core hours of 11:00 AM to 4:00 PM IST."
+    "reason": "Answer aligns with policy of up to 2 remote days after probation and no specific day restriction",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.9474,
+    "answer": "Yes—if you meet the eligibility criteria and your manager approves.  \nAccording to the handbook:\n\n* Employees who have completed their 3‑month probation period may work remotely **up to 2 days per week** (subject to manager approval based on role requirements).  \n* All employees, whether remote or in‑office, must be available during core hours of **11:00 AM to 4:00 PM IST** for meetings and collaboration.  \n\nSo you can work from home on Friday only if you have passed probation, your manager approves that Friday as one of your remote days, and you remain available during the core hours."
   },
   "18": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "partly",
-    "reason": "Correct on encash up to cap and sick leave, but adds extra conditions not in the handbook",
+    "reason": "adds extra unsupported policy about leave beyond cap",
     "faithfulness": 1.0,
     "answer_relevancy": 0.6252,
-    "answer": "Unused annual leave that you have carried forward (up to the 10‑day cap) will be encashed at the time of your resignation, calculated on your last drawn basic salary. Any unused annual leave beyond that cap is forfeited unless you obtain special approval from HR. Sick leave is not eligible for encashment under any circumstance."
+    "answer": "Unused annual leave that you have accrued up to the carried‑forward cap (10 days) will be encashed at the time of your resignation, calculated on your last drawn basic salary.  \nAny unused annual leave beyond that cap is forfeited unless you obtain special approval from HR.  \nSick leave is not eligible for encashment under any circumstance, and it does not carry forward to the next year."
   },
   "19": {
     "declined": false,
     "declined_by": null,
-    "matches_reference": "partly",
-    "reason": "Provides the hotline but omits the HR business partner option",
-    "faithfulness": 1.0,
+    "matches_reference": "yes",
+    "reason": "Answer correctly repeats the anonymous ethics hotline guidance",
+    "faithfulness": 0.5,
     "answer_relevancy": 0.58,
-    "answer": "You can report the issue anonymously by using the **anonymous ethics hotline** available on the company intranet."
+    "answer": "You can report the issue anonymously by using the **anonymous ethics hotline** available on the company intranet. This is the designated channel for confidential grievances."
   },
   "20": {
-    "declined": true,
-    "declined_by": "model",
-    "matches_reference": "no",
-    "reason": "The assistant claims no information is available, contrary to the handbook policy.",
-    "answer": "I don’t have that information."
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer correctly states the disclosure requirement",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.0358,
+    "answer": "According to the handbook, any outside employment, business ownership, or financial interest—including freelance work—must be disclosed to HR before you accept or continue such engagements. The handbook does not provide additional details or restrictions beyond this disclosure requirement."
   },
   "21": {
     "declined": false,
@@ -189,20 +191,20 @@
   "22": {
     "declined": false,
     "declined_by": null,
-    "matches_reference": "partly",
-    "reason": "The answer correctly states first‑class upgrades are not reimbursable but omits the economy‑class claimable detail.",
+    "matches_reference": "yes",
+    "reason": "The answer correctly states that only economy class is reimbursable and first‑class is not.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.4855,
-    "answer": "No. First‑class travel upgrades are not reimbursable under any circumstance."
+    "answer": "No. First‑class travel upgrades are not reimbursable under any circumstance. Only economy‑class airfare is covered."
   },
   "23": {
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states to escalate to Head of HR and that the decision is final.",
+    "reason": "The answer correctly states to escalate to Head of HR and that their decision is final.",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.5987,
-    "answer": "You may escalated the matter to the Head of HR. The Head of HR’s decision, in consultation with leadership, will be considered final."
+    "answer_relevancy": 0.5399,
+    "answer": "You may file an escalation with the Head of HR. The Head of HR’s decision, made in consultation with leadership, will be considered final."
   },
   "24": {
     "declined": true,

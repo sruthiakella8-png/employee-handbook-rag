@@ -7,7 +7,7 @@
       "1.1"
     ],
     "reference_answer": "Full-time employees get 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service.",
-    "answer": "Full‑time employees are entitled to **18 days of paid annual leave per calendar year**, accrued at **1.5 days per completed month of service**.",
+    "answer": "Full‑time employees are entitled to **18 days of paid annual leave per calendar year**. This leave accrues at a rate of 1.5 days for each completed month of service.",
     "sources": [
       {
         "section_title": "1.1 Annual Leave",
@@ -20,18 +20,28 @@
       {
         "section_title": "1.5 Unpaid Leave",
         "similarity": 0.553
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.45
+      },
+      {
+        "section_title": "1.3 Maternity and Paternity Leave",
+        "similarity": 0.423
       }
     ],
     "contexts": [
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
       "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
-      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer provides the exact leave amount and accrual rate as in the reference.",
+    "reason": "All key facts match the reference",
     "faithfulness": 1.0,
     "answer_relevancy": 0.8211,
     "outcome": "correct"
@@ -57,12 +67,22 @@
       {
         "section_title": "1.2 Sick Leave",
         "similarity": 0.553
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.501
+      },
+      {
+        "section_title": "7.1 Notice Period",
+        "similarity": 0.4
       }
     ],
     "contexts": [
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
       "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
-      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation."
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "7.1 Notice Period\nThe standard notice period is 60 days for all full-time employees. The company may, at its discretion, approve a reduced notice period or buyout of the remaining notice period."
     ],
     "cutoff_refused": false,
     "declined": false,
@@ -81,7 +101,7 @@
       "1.2"
     ],
     "reference_answer": "Employees receive 12 days of paid sick leave per year.",
-    "answer": "Employees receive **12 days of paid sick leave per year**.  \n- A medical certificate is required for sick leave exceeding 2 consecutive days.  \n- Sick leave does **not** carry forward to the next year and is **not** encashed upon resignation.",
+    "answer": "Employees receive **12 days of paid sick leave per year**.  \nA medical certificate is required for sick leave exceeding 2 consecutive days.  \nSick leave does not carry forward to the next year and is not encashed upon resignation.",
     "sources": [
       {
         "section_title": "1.2 Sick Leave",
@@ -94,18 +114,28 @@
       {
         "section_title": "1.5 Unpaid Leave",
         "similarity": 0.533
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.502
+      },
+      {
+        "section_title": "7.1 Notice Period",
+        "similarity": 0.399
       }
     ],
     "contexts": [
       "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
-      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "7.1 Notice Period\nThe standard notice period is 60 days for all full-time employees. The company may, at its discretion, approve a reduced notice period or buyout of the remaining notice period."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "partly",
-    "reason": "Provides correct number but adds extra details not in reference",
+    "reason": "includes correct number but adds extra details",
     "faithfulness": 1.0,
     "answer_relevancy": 0.8641,
     "outcome": "partial"
@@ -118,7 +148,7 @@
       "1.2"
     ],
     "reference_answer": "A medical certificate is required only for sick leave exceeding 2 consecutive days.",
-    "answer": "Yes. According to the handbook, a medical certificate is required for sick leave that exceeds **2 consecutive days**. For sick leave of 2 days or fewer, a certificate is not required.",
+    "answer": "Yes. According to the handbook, a medical certificate is required for sick leave that exceeds **2 consecutive days**. For sick leave of 2 days or fewer, a medical certificate is not required.",
     "sources": [
       {
         "section_title": "1.2 Sick Leave",
@@ -131,12 +161,22 @@
       {
         "section_title": "5.3 Wellness Allowance",
         "similarity": 0.296
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.295
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.277
       }
     ],
     "contexts": [
       "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
       "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
-      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions."
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
     ],
     "cutoff_refused": false,
     "declined": false,
@@ -155,7 +195,7 @@
       "1.3"
     ],
     "reference_answer": "Female employees are entitled to 26 weeks of paid maternity leave.",
-    "answer": "Maternity leave for female employees is 26 weeks of paid leave, as required by statute.",
+    "answer": "Maternity leave is 26 weeks of paid leave for female employees.",
     "sources": [
       {
         "section_title": "1.3 Maternity and Paternity Leave",
@@ -168,20 +208,30 @@
       {
         "section_title": "1.5 Unpaid Leave",
         "similarity": 0.514
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.425
+      },
+      {
+        "section_title": "2.1 Eligibility",
+        "similarity": 0.336
       }
     ],
     "contexts": [
       "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
-      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states 26 weeks of paid maternity leave.",
+    "reason": "The answer correctly states 26 weeks of paid maternity leave for female employees.",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.7879,
+    "answer_relevancy": 0.7969,
     "outcome": "correct"
   },
   {
@@ -192,7 +242,7 @@
       "1.3"
     ],
     "reference_answer": "Male employees get 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
-    "answer": "Male employees are entitled to **10 days of paid paternity leave**.  \nThey must take this leave **within 3 months of the child’s birth**.",
+    "answer": "Male employees are entitled to **10 days of paid paternity leave**.  \nThe leave must be taken **within 3 months of the child’s birth**.",
     "sources": [
       {
         "section_title": "1.3 Maternity and Paternity Leave",
@@ -205,18 +255,28 @@
       {
         "section_title": "1.5 Unpaid Leave",
         "similarity": 0.417
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.385
+      },
+      {
+        "section_title": "7.3 Exit Interview",
+        "similarity": 0.369
       }
     ],
     "contexts": [
       "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
-      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "7.3 Exit Interview\nAll departing employees are required to complete an exit interview with HR prior to their last working day."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key facts match the reference",
+    "reason": "The answer correctly states 10 days of paid leave within 3 months.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.9206,
     "outcome": "correct"
@@ -229,7 +289,7 @@
       "1.5"
     ],
     "reference_answer": "Yes, with manager and HR approval, for a maximum of 15 days per year.",
-    "answer": "Yes. According to the handbook, employees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
+    "answer": "Yes. According to the handbook, if you have exhausted your paid leave balance you may request unpaid leave. Unpaid leave is subject to manager and HR approval and is limited to a maximum of 15 days per year.",
     "sources": [
       {
         "section_title": "1.5 Unpaid Leave",
@@ -242,20 +302,30 @@
       {
         "section_title": "1.4 Leave Encashment on Resignation",
         "similarity": 0.51
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.415
+      },
+      {
+        "section_title": "1.3 Maternity and Paternity Leave",
+        "similarity": 0.345
       }
     ],
     "contexts": [
       "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
-      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance."
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states the policy and limits.",
-    "faithfulness": 0.75,
-    "answer_relevancy": 0.6293,
+    "reason": "The answer includes all key facts from the reference.",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6718,
     "outcome": "correct"
   },
   {
@@ -266,7 +336,7 @@
       "2.1"
     ],
     "reference_answer": "Employees who have completed the 3-month probation period can work remotely up to 2 days per week, subject to manager approval based on role requirements.",
-    "answer": "Employees who have completed their 3‑month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
+    "answer": "Employees who have completed their 3‑month probation period are eligible to work remotely up to 2 days per week, **subject to manager approval based on role requirements**.  \n\nFull‑time remote arrangements may also be granted **on a case‑by‑case basis for roles approved by department heads** and are reviewed every 6 months.",
     "sources": [
       {
         "section_title": "2.1 Eligibility",
@@ -279,18 +349,28 @@
       {
         "section_title": "2.3 Equipment",
         "similarity": 0.464
+      },
+      {
+        "section_title": "2.2 Full-Time Remote Arrangements",
+        "similarity": 0.406
+      },
+      {
+        "section_title": "4.4 Use of Company Property",
+        "similarity": 0.291
       }
     ],
     "contexts": [
       "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
       "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
-      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "2.2 Full-Time Remote Arrangements\nFull-time remote work arrangements may be granted on a case-by-case basis for roles approved by department heads, and are reviewed every 6 months.",
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly restates the policy details.",
+    "reason": "All key facts match the reference; extra details do not contradict.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.4485,
     "outcome": "correct"
@@ -316,12 +396,22 @@
       {
         "section_title": "6.2 Resolution Timeline",
         "similarity": 0.325
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.321
+      },
+      {
+        "section_title": "2.2 Full-Time Remote Arrangements",
+        "similarity": 0.3
       }
     ],
     "contexts": [
       "2.4 Core Hours\nAll employees, whether remote or in-office, must be available during core hours of 11:00 AM to 4:00 PM IST for meetings and collaboration.",
       "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
-      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage."
+      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "2.2 Full-Time Remote Arrangements\nFull-time remote work arrangements may be granted on a case-by-case basis for roles approved by department heads, and are reviewed every 6 months."
     ],
     "cutoff_refused": false,
     "declined": false,
@@ -340,7 +430,7 @@
       "2.3"
     ],
     "reference_answer": "A one-time home office setup allowance of Rs. 15,000 for employees approved for remote work exceeding 3 days per week.",
-    "answer": "The company provides a one‑time home office setup allowance of **₹15,000**. This allowance is available only to employees who are approved for remote work exceeding three days per week.",
+    "answer": "The company offers a one‑time home office setup allowance of **₹15,000**. This allowance is available only to employees who have been approved for remote work that exceeds 3 days per week.",
     "sources": [
       {
         "section_title": "2.3 Equipment",
@@ -353,18 +443,28 @@
       {
         "section_title": "5.4 Learning and Development",
         "similarity": 0.374
+      },
+      {
+        "section_title": "3.1 Travel Expenses",
+        "similarity": 0.359
+      },
+      {
+        "section_title": "5.1 Health Insurance",
+        "similarity": 0.344
       }
     ],
     "contexts": [
       "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
       "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
-      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role."
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.",
+      "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
+      "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "Answer correctly states the allowance amount and conditions.",
+    "reason": "The answer correctly states the allowance amount and conditions.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.866,
     "outcome": "correct"
@@ -377,7 +477,7 @@
       "3.1"
     ],
     "reference_answer": "Standard hotel accommodation up to Rs. 6,000 per night can be claimed.",
-    "answer": "The maximum hotel cost per night you can claim on a business trip is **₹6,000**.",
+    "answer": "The maximum hotel cost you can claim on a business trip is **₹6,000 per night** for standard hotel accommodation.",
     "sources": [
       {
         "section_title": "3.1 Travel Expenses",
@@ -390,20 +490,30 @@
       {
         "section_title": "2.3 Equipment",
         "similarity": 0.396
+      },
+      {
+        "section_title": "5.4 Learning and Development",
+        "similarity": 0.351
+      },
+      {
+        "section_title": "3.4 Non-Reimbursable Expenses",
+        "similarity": 0.32
       }
     ],
     "contexts": [
       "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
       "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts.",
-      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.",
+      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states the Rs. 6,000 limit.",
+    "reason": "The answer correctly states the Rs. 6,000 per night limit.",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.9944,
+    "answer_relevancy": 0.9216,
     "outcome": "correct"
   },
   {
@@ -427,12 +537,22 @@
       {
         "section_title": "3.3 Client Entertainment",
         "similarity": 0.294
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.275
+      },
+      {
+        "section_title": "4.4 Use of Company Property",
+        "similarity": 0.196
       }
     ],
     "contexts": [
       "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance.",
       "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
-      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts."
+      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company."
     ],
     "cutoff_refused": false,
     "declined": false,
@@ -451,7 +571,7 @@
       "5.1"
     ],
     "reference_answer": "Group health insurance of Rs. 5,00,000 per year covering the employee, spouse and up to 2 dependent children, with no waiting period for pre-existing conditions.",
-    "answer": "The company’s group health insurance covers ₹5,00,000 per year.  \nIt is available to the employee, the employee’s spouse, and up to two dependent children.",
+    "answer": "The company’s group health insurance covers ₹5,00,000 per year.  \nIt is available for the employee, the employee’s spouse, and up to two dependent children.",
     "sources": [
       {
         "section_title": "5.1 Health Insurance",
@@ -464,18 +584,28 @@
       {
         "section_title": "5.4 Learning and Development",
         "similarity": 0.235
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.213
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.198
       }
     ],
     "contexts": [
       "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions.",
       "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
-      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role."
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key facts match the reference",
+    "reason": "Provides the exact coverage amount and eligible members as in the reference",
     "faithfulness": 1.0,
     "answer_relevancy": 0.7424,
     "outcome": "correct"
@@ -488,7 +618,7 @@
       "5.3"
     ],
     "reference_answer": "An annual wellness allowance of Rs. 8,000, reimbursable against gym memberships, fitness classes or mental health counseling sessions.",
-    "answer": "The annual wellness allowance is ₹8,000.  \nIt can be reimbursed for gym memberships, fitness classes, or mental‑health counseling sessions.",
+    "answer": "**Annual wellness allowance:** ₹8,000 per year.  \n**Eligible uses:** Reimbursement for gym memberships, fitness classes, or mental health counseling sessions.",
     "sources": [
       {
         "section_title": "5.3 Wellness Allowance",
@@ -501,20 +631,30 @@
       {
         "section_title": "2.3 Equipment",
         "similarity": 0.358
+      },
+      {
+        "section_title": "5.4 Learning and Development",
+        "similarity": 0.316
+      },
+      {
+        "section_title": "5.2 Provident Fund",
+        "similarity": 0.308
       }
     ],
     "contexts": [
       "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
       "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions.",
-      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.",
+      "5.2 Provident Fund\nBoth employee and employer contribute 12% of basic salary to the Provident Fund as per statutory requirements."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key facts match the reference",
+    "reason": "Provides the same amount and eligible uses as the reference",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.9241,
+    "answer_relevancy": 1.0,
     "outcome": "correct"
   },
   {
@@ -525,7 +665,7 @@
       "5.4"
     ],
     "reference_answer": "Up to Rs. 20,000 per year toward professional certifications, courses or conferences, subject to manager approval and relevance to the role.",
-    "answer": "Employees can claim up to **₹20,000 per year** toward professional certifications, courses, or conference attendance. This claim is subject to **manager approval** and must be **relevant to your role**.",
+    "answer": "Employees can claim up to **₹20,000 per year** toward professional certifications, courses, or conference attendance. This amount is subject to **manager approval** and must be **relevant to your role**.",
     "sources": [
       {
         "section_title": "5.4 Learning and Development",
@@ -538,20 +678,30 @@
       {
         "section_title": "3.3 Client Entertainment",
         "similarity": 0.348
+      },
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.339
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.336
       }
     ],
     "contexts": [
       "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.",
       "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
-      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts."
+      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts.",
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "Key facts exactly match the handbook",
+    "reason": "Key facts and conditions match the handbook",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.8452,
+    "answer_relevancy": 0.8436,
     "outcome": "correct"
   },
   {
@@ -562,7 +712,7 @@
       "7.1"
     ],
     "reference_answer": "The standard notice period is 60 days for full-time employees. The company may at its discretion approve a reduced notice period or a buyout of the remaining notice.",
-    "answer": "The standard notice period for a full‑time employee is **60 days**.  \nThe company may, at its discretion, approve a reduced notice period or a buyout of the remaining notice period.",
+    "answer": "The standard notice period for all full‑time employees is **60 days**.  \nThe company may, at its discretion, approve a reduced notice period or a buyout of the remaining notice period.",
     "sources": [
       {
         "section_title": "7.1 Notice Period",
@@ -575,20 +725,30 @@
       {
         "section_title": "1.2 Sick Leave",
         "similarity": 0.451
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.447
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.432
       }
     ],
     "contexts": [
       "7.1 Notice Period\nThe standard notice period is 60 days for all full-time employees. The company may, at its discretion, approve a reduced notice period or buyout of the remaining notice period.",
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
-      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation."
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "Key facts match the reference",
+    "reason": "Key facts match the handbook",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.6375,
+    "answer_relevancy": 0.6406,
     "outcome": "correct"
   },
   {
@@ -599,7 +759,7 @@
       "2.1"
     ],
     "reference_answer": "After completing the 3-month probation, employees can work remotely up to 2 days per week with manager approval. The handbook does not name specific days.",
-    "answer": "Yes—if you have completed your 3‑month probation period and your manager approves the arrangement, you may work from home up to 2 days per week.  While working remotely, you must still be available during core hours of 11:00 AM to 4:00 PM IST.",
+    "answer": "Yes—if you meet the eligibility criteria and your manager approves.  \nAccording to the handbook:\n\n* Employees who have completed their 3‑month probation period may work remotely **up to 2 days per week** (subject to manager approval based on role requirements).  \n* All employees, whether remote or in‑office, must be available during core hours of **11:00 AM to 4:00 PM IST** for meetings and collaboration.  \n\nSo you can work from home on Friday only if you have passed probation, your manager approves that Friday as one of your remote days, and you remain available during the core hours.",
     "sources": [
       {
         "section_title": "2.1 Eligibility",
@@ -612,20 +772,30 @@
       {
         "section_title": "2.3 Equipment",
         "similarity": 0.333
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.295
+      },
+      {
+        "section_title": "1.1 Annual Leave",
+        "similarity": 0.238
       }
     ],
     "contexts": [
       "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
       "2.4 Core Hours\nAll employees, whether remote or in-office, must be available during core hours of 11:00 AM to 4:00 PM IST for meetings and collaboration.",
-      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "All key policy details match the handbook reference",
-    "faithfulness": 1.0,
-    "answer_relevancy": 0.6269,
+    "reason": "Answer aligns with policy of up to 2 remote days after probation and no specific day restriction",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.9474,
     "outcome": "correct"
   },
   {
@@ -636,7 +806,7 @@
       "1.4"
     ],
     "reference_answer": "Unused annual leave (up to the carried-forward cap) is encashed at resignation based on the last drawn basic salary. Sick leave is never encashed.",
-    "answer": "Unused annual leave that you have carried forward (up to the 10‑day cap) will be encashed at the time of your resignation, calculated on your last drawn basic salary. Any unused annual leave beyond that cap is forfeited unless you obtain special approval from HR. Sick leave is not eligible for encashment under any circumstance.",
+    "answer": "Unused annual leave that you have accrued up to the carried‑forward cap (10 days) will be encashed at the time of your resignation, calculated on your last drawn basic salary.  \nAny unused annual leave beyond that cap is forfeited unless you obtain special approval from HR.  \nSick leave is not eligible for encashment under any circumstance, and it does not carry forward to the next year.",
     "sources": [
       {
         "section_title": "1.4 Leave Encashment on Resignation",
@@ -649,18 +819,28 @@
       {
         "section_title": "1.1 Annual Leave",
         "similarity": 0.47
+      },
+      {
+        "section_title": "1.2 Sick Leave",
+        "similarity": 0.433
+      },
+      {
+        "section_title": "7.3 Exit Interview",
+        "similarity": 0.384
       }
     ],
     "contexts": [
       "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
       "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year.",
-      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.2 Sick Leave\nEmployees receive 12 days of paid sick leave per year. A medical certificate is required for sick leave exceeding 2 consecutive days. Sick leave does not carry forward to the next year and is not encashed upon resignation.",
+      "7.3 Exit Interview\nAll departing employees are required to complete an exit interview with HR prior to their last working day."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "partly",
-    "reason": "Correct on encash up to cap and sick leave, but adds extra conditions not in the handbook",
+    "reason": "adds extra unsupported policy about leave beyond cap",
     "faithfulness": 1.0,
     "answer_relevancy": 0.6252,
     "outcome": "partial"
@@ -673,7 +853,7 @@
       "6.1"
     ],
     "reference_answer": "Use the anonymous ethics hotline available on the company intranet. Grievances can also go to the HR business partner.",
-    "answer": "You can report the issue anonymously by using the **anonymous ethics hotline** available on the company intranet.",
+    "answer": "You can report the issue anonymously by using the **anonymous ethics hotline** available on the company intranet. This is the designated channel for confidential grievances.",
     "sources": [
       {
         "section_title": "6.1 Reporting a Grievance",
@@ -686,21 +866,31 @@
       {
         "section_title": "6.2 Resolution Timeline",
         "similarity": 0.165
+      },
+      {
+        "section_title": "4.3 Conflict of Interest",
+        "similarity": 0.156
+      },
+      {
+        "section_title": "4.2 Confidentiality",
+        "similarity": 0.151
       }
     ],
     "contexts": [
       "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet.",
       "6.3 Escalation\nIf an employee is unsatisfied with the resolution, they may escalate the matter to the Head of HR, whose decision in consultation with leadership will be considered final.",
-      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage."
+      "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage.",
+      "4.3 Conflict of Interest\nEmployees must disclose any outside employment, business ownership, or financial interest that may conflict with their role at the company to HR before accepting or continuing such engagements.",
+      "4.2 Confidentiality\nEmployees must not disclose confidential company information, client data, or trade secrets to any external party, both during and after employment, as outlined in the signed NDA."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
-    "matches_reference": "partly",
-    "reason": "Provides the hotline but omits the HR business partner option",
-    "faithfulness": 1.0,
+    "matches_reference": "yes",
+    "reason": "Answer correctly repeats the anonymous ethics hotline guidance",
+    "faithfulness": 0.5,
     "answer_relevancy": 0.58,
-    "outcome": "partial"
+    "outcome": "correct"
   },
   {
     "id": 20,
@@ -710,7 +900,7 @@
       "4.3"
     ],
     "reference_answer": "Outside employment or business interests that may conflict with the role must be disclosed to HR before accepting or continuing them.",
-    "answer": "I don’t have that information.",
+    "answer": "According to the handbook, any outside employment, business ownership, or financial interest—including freelance work—must be disclosed to HR before you accept or continue such engagements. The handbook does not provide additional details or restrictions beyond this disclosure requirement.",
     "sources": [
       {
         "section_title": "2.2 Full-Time Remote Arrangements",
@@ -723,19 +913,31 @@
       {
         "section_title": "2.3 Equipment",
         "similarity": 0.204
+      },
+      {
+        "section_title": "4.3 Conflict of Interest",
+        "similarity": 0.19
+      },
+      {
+        "section_title": "2.1 Eligibility",
+        "similarity": 0.184
       }
     ],
     "contexts": [
       "2.2 Full-Time Remote Arrangements\nFull-time remote work arrangements may be granted on a case-by-case basis for roles approved by department heads, and are reviewed every 6 months.",
       "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
-      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "4.3 Conflict of Interest\nEmployees must disclose any outside employment, business ownership, or financial interest that may conflict with their role at the company to HR before accepting or continuing such engagements.",
+      "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements."
     ],
     "cutoff_refused": false,
-    "declined": true,
-    "declined_by": "model",
-    "matches_reference": "no",
-    "reason": "The assistant claims no information is available, contrary to the handbook policy.",
-    "outcome": "wrongly_refused"
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer correctly states the disclosure requirement",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.0358,
+    "outcome": "correct"
   },
   {
     "id": 21,
@@ -758,12 +960,22 @@
       {
         "section_title": "1.1 Annual Leave",
         "similarity": 0.335
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.33
+      },
+      {
+        "section_title": "3.4 Non-Reimbursable Expenses",
+        "similarity": 0.274
       }
     ],
     "contexts": [
       "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.",
       "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
-      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance."
     ],
     "cutoff_refused": false,
     "declined": false,
@@ -783,7 +995,7 @@
       "3.4"
     ],
     "reference_answer": "No. Only economy-class airfare is claimable, and first-class travel upgrades are not reimbursable under any circumstance.",
-    "answer": "No. First‑class travel upgrades are not reimbursable under any circumstance.",
+    "answer": "No. First‑class travel upgrades are not reimbursable under any circumstance. Only economy‑class airfare is covered.",
     "sources": [
       {
         "section_title": "3.4 Non-Reimbursable Expenses",
@@ -796,21 +1008,31 @@
       {
         "section_title": "3.2 Internet and Phone Reimbursement",
         "similarity": 0.325
+      },
+      {
+        "section_title": "3.3 Client Entertainment",
+        "similarity": 0.238
+      },
+      {
+        "section_title": "5.1 Health Insurance",
+        "similarity": 0.196
       }
     ],
     "contexts": [
       "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance.",
       "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
-      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill."
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "3.3 Client Entertainment\nClient meals and entertainment expenses up to ₹3,000 per event may be claimed with prior manager approval and itemized receipts.",
+      "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
-    "matches_reference": "partly",
-    "reason": "The answer correctly states first‑class upgrades are not reimbursable but omits the economy‑class claimable detail.",
+    "matches_reference": "yes",
+    "reason": "The answer correctly states that only economy class is reimbursable and first‑class is not.",
     "faithfulness": 1.0,
     "answer_relevancy": 0.4855,
-    "outcome": "partial"
+    "outcome": "correct"
   },
   {
     "id": 23,
@@ -820,7 +1042,7 @@
       "6.3"
     ],
     "reference_answer": "Escalate the matter to the Head of HR, whose decision in consultation with leadership is final.",
-    "answer": "You may escalated the matter to the Head of HR. The Head of HR’s decision, in consultation with leadership, will be considered final.",
+    "answer": "You may file an escalation with the Head of HR. The Head of HR’s decision, made in consultation with leadership, will be considered final.",
     "sources": [
       {
         "section_title": "6.2 Resolution Timeline",
@@ -833,20 +1055,30 @@
       {
         "section_title": "6.1 Reporting a Grievance",
         "similarity": 0.334
+      },
+      {
+        "section_title": "4.1 Workplace Behavior",
+        "similarity": 0.316
+      },
+      {
+        "section_title": "7.2 Full and Final Settlement",
+        "similarity": 0.265
       }
     ],
     "contexts": [
       "6.2 Resolution Timeline\nHR will acknowledge a formal grievance within 2 working days and aim to resolve it within 15 working days, with written communication provided to the employee at each stage.",
       "6.3 Escalation\nIf an employee is unsatisfied with the resolution, they may escalate the matter to the Head of HR, whose decision in consultation with leadership will be considered final.",
-      "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet."
+      "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet.",
+      "4.1 Workplace Behavior\nEmployees are expected to treat colleagues, clients, and vendors with respect and professionalism. Harassment, discrimination, or retaliation of any kind will not be tolerated and may result in termination.",
+      "7.2 Full and Final Settlement\nFinal settlement, including salary dues, leave encashment, and reimbursement claims, will be processed within 45 days of the employee's last working day."
     ],
     "cutoff_refused": false,
     "declined": false,
     "declined_by": null,
     "matches_reference": "yes",
-    "reason": "The answer correctly states to escalate to Head of HR and that the decision is final.",
+    "reason": "The answer correctly states to escalate to Head of HR and that their decision is final.",
     "faithfulness": 1.0,
-    "answer_relevancy": 0.5987,
+    "answer_relevancy": 0.5399,
     "outcome": "correct"
   },
   {
@@ -868,12 +1100,22 @@
       {
         "section_title": "4.4 Use of Company Property",
         "similarity": 0.252
+      },
+      {
+        "section_title": "2.2 Full-Time Remote Arrangements",
+        "similarity": 0.246
+      },
+      {
+        "section_title": "3.4 Non-Reimbursable Expenses",
+        "similarity": 0.229
       }
     ],
     "contexts": [
       "4.3 Conflict of Interest\nEmployees must disclose any outside employment, business ownership, or financial interest that may conflict with their role at the company to HR before accepting or continuing such engagements.",
       "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
-      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company."
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.",
+      "2.2 Full-Time Remote Arrangements\nFull-time remote work arrangements may be granted on a case-by-case basis for roles approved by department heads, and are reviewed every 6 months.",
+      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance."
     ],
     "cutoff_refused": false,
     "declined": true,
@@ -901,12 +1143,22 @@
       {
         "section_title": "4.2 Confidentiality",
         "similarity": 0.246
+      },
+      {
+        "section_title": "4.1 Workplace Behavior",
+        "similarity": 0.234
+      },
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.229
       }
     ],
     "contexts": [
       "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
       "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.",
-      "4.2 Confidentiality\nEmployees must not disclose confidential company information, client data, or trade secrets to any external party, both during and after employment, as outlined in the signed NDA."
+      "4.2 Confidentiality\nEmployees must not disclose confidential company information, client data, or trade secrets to any external party, both during and after employment, as outlined in the signed NDA.",
+      "4.1 Workplace Behavior\nEmployees are expected to treat colleagues, clients, and vendors with respect and professionalism. Harassment, discrimination, or retaliation of any kind will not be tolerated and may result in termination.",
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions."
     ],
     "cutoff_refused": false,
     "declined": true,
@@ -934,12 +1186,22 @@
       {
         "section_title": "4.2 Confidentiality",
         "similarity": 0.266
+      },
+      {
+        "section_title": "4.1 Workplace Behavior",
+        "similarity": 0.224
+      },
+      {
+        "section_title": "4.3 Conflict of Interest",
+        "similarity": 0.223
       }
     ],
     "contexts": [
       "6.1 Reporting a Grievance\nEmployees may raise workplace grievances through their reporting manager, HR business partner, or the anonymous ethics hotline available on the company intranet.",
       "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company.",
-      "4.2 Confidentiality\nEmployees must not disclose confidential company information, client data, or trade secrets to any external party, both during and after employment, as outlined in the signed NDA."
+      "4.2 Confidentiality\nEmployees must not disclose confidential company information, client data, or trade secrets to any external party, both during and after employment, as outlined in the signed NDA.",
+      "4.1 Workplace Behavior\nEmployees are expected to treat colleagues, clients, and vendors with respect and professionalism. Harassment, discrimination, or retaliation of any kind will not be tolerated and may result in termination.",
+      "4.3 Conflict of Interest\nEmployees must disclose any outside employment, business ownership, or financial interest that may conflict with their role at the company to HR before accepting or continuing such engagements."
     ],
     "cutoff_refused": false,
     "declined": true,
@@ -967,12 +1229,22 @@
       {
         "section_title": "1.1 Annual Leave",
         "similarity": 0.237
+      },
+      {
+        "section_title": "5.3 Wellness Allowance",
+        "similarity": 0.232
+      },
+      {
+        "section_title": "2.3 Equipment",
+        "similarity": 0.222
       }
     ],
     "contexts": [
       "5.4 Learning and Development\nEmployees can claim up to ₹20,000 per year toward professional certifications, courses, or conference attendance, subject to manager approval and relevance to their role.",
       "5.2 Provident Fund\nBoth employee and employer contribute 12% of basic salary to the Provident Fund as per statutory requirements.",
-      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR."
+      "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
+      "5.3 Wellness Allowance\nEmployees are eligible for an annual wellness allowance of ₹8,000, reimbursable against gym memberships, fitness classes, or mental health counseling sessions.",
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
     ],
     "cutoff_refused": false,
     "declined": true,
@@ -1000,12 +1272,22 @@
       {
         "section_title": "2.3 Equipment",
         "similarity": 0.355
+      },
+      {
+        "section_title": "2.2 Full-Time Remote Arrangements",
+        "similarity": 0.307
+      },
+      {
+        "section_title": "4.4 Use of Company Property",
+        "similarity": 0.263
       }
     ],
     "contexts": [
       "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements.",
       "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
-      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week."
+      "2.3 Equipment\nThe company provides a laptop and a one-time home office setup allowance of ₹15,000 for employees approved for remote work exceeding 3 days per week.",
+      "2.2 Full-Time Remote Arrangements\nFull-time remote work arrangements may be granted on a case-by-case basis for roles approved by department heads, and are reviewed every 6 months.",
+      "4.4 Use of Company Property\nCompany laptops, software licenses, and access credentials are for official use only and must be returned in good condition upon separation from the company."
     ],
     "cutoff_refused": false,
     "declined": true,
@@ -1033,12 +1315,22 @@
       {
         "section_title": "5.1 Health Insurance",
         "similarity": 0.228
+      },
+      {
+        "section_title": "1.4 Leave Encashment on Resignation",
+        "similarity": 0.223
+      },
+      {
+        "section_title": "1.5 Unpaid Leave",
+        "similarity": 0.215
       }
     ],
     "contexts": [
       "1.3 Maternity and Paternity Leave\nFemale employees are entitled to 26 weeks of paid maternity leave as per statutory requirements. Male employees are entitled to 10 days of paid paternity leave, to be availed within 3 months of the child's birth.",
       "1.1 Annual Leave\nFull-time employees are entitled to 18 days of paid annual leave per calendar year, accrued at 1.5 days per completed month of service. Unused annual leave can be carried forward to the next calendar year up to a maximum of 10 days. Any leave beyond this cap is forfeited unless special approval is granted by HR.",
-      "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions."
+      "5.1 Health Insurance\nThe company provides group health insurance coverage of ₹5,00,000 per year for the employee, spouse, and up to 2 dependent children, with no waiting period for pre-existing conditions.",
+      "1.4 Leave Encashment on Resignation\nUnused annual leave (up to the carried-forward cap) is encashed at the time of resignation, calculated based on the employee's last drawn basic salary. Sick leave is not eligible for encashment under any circumstance.",
+      "1.5 Unpaid Leave\nEmployees who have exhausted their paid leave balance may request unpaid leave, subject to manager and HR approval, for a maximum of 15 days per year."
     ],
     "cutoff_refused": false,
     "declined": true,
@@ -1066,12 +1358,22 @@
       {
         "section_title": "3.4 Non-Reimbursable Expenses",
         "similarity": 0.212
+      },
+      {
+        "section_title": "3.2 Internet and Phone Reimbursement",
+        "similarity": 0.21
+      },
+      {
+        "section_title": "2.1 Eligibility",
+        "similarity": 0.194
       }
     ],
     "contexts": [
       "3.1 Travel Expenses\nEmployees traveling for official company business may claim economy-class airfare, standard hotel accommodation (up to ₹6,000/night), and local transportation. Claims must be submitted within 15 days of travel completion with original receipts.",
       "2.2 Full-Time Remote Arrangements\nFull-time remote work arrangements may be granted on a case-by-case basis for roles approved by department heads, and are reviewed every 6 months.",
-      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance."
+      "3.4 Non-Reimbursable Expenses\nPersonal entertainment, traffic fines, alcohol (unless part of approved client entertainment), and first-class travel upgrades are not reimbursable under any circumstance.",
+      "3.2 Internet and Phone Reimbursement\nEmployees working remotely are eligible for a monthly internet reimbursement of up to ₹1,000, submitted via the expense portal with a copy of the bill.",
+      "2.1 Eligibility\nEmployees who have completed their 3-month probation period are eligible to work remotely up to 2 days per week, subject to manager approval based on role requirements."
     ],
     "cutoff_refused": false,
     "declined": true,
