@@ -60,3 +60,35 @@ export async function authFetch(path: string, init: RequestInit = {}): Promise<R
   if (res.status === 401 && (await refreshAccess())) res = await send();
   return res;
 }
+export async function requestPasswordReset(email: string): Promise<void> {
+  const res = await fetch(`${DJANGO_URL}/api/auth/forgot-password/`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email }),
+  });
+  if (res.status === 429) throw new Error("Too many requests. Please try again in an hour.");
+  if (!res.ok) throw new Error("Something went wrong. Please try again.");
+}
+
+export async function resetPassword(uid: string, token: string, password: string): Promise<string> {
+  const res = await fetch(`${DJANGO_URL}/api/auth/reset-password/`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ uid, token, password }),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(data.detail ?? "Couldn't reset the password. Please try again.");
+  return data.detail;
+}
+export async function loginWithGoogle(credential: string): Promise<Session> {
+     const res = await fetch(`${DJANGO_URL}/api/auth/google/`, {
+       method: "POST",
+       headers: { "Content-Type": "application/json" },
+       body: JSON.stringify({ credential }),
+     });
+     const data = await res.json().catch(() => ({}));
+     if (!res.ok) throw new Error(data.detail ?? "Google sign-in failed. Please try again.");
+     const session = { access: data.access, refresh: data.refresh, email: data.email, is_admin: data.is_admin };
+     saveSession(session);
+     return session;
+  }

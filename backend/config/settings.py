@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/6.0/ref/settings/
 
 from pathlib import Path
 from datetime import timedelta
-
+import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -145,3 +145,10 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
 }
+
+# Password reset emails
+EMAIL_BACKEND = os.getenv("EMAIL_BACKEND", "django.core.mail.backends.console.EmailBackend")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "Nimbus HR Assistant <no-reply@nimbus.local>")
+FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
+PASSWORD_RESET_TIMEOUT = 3600  # reset links expire after 1 hour
+GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "1013219132393-pn4vdhtj2bpaug61evtgluf6a62sf83p.apps.googleusercontent.com")

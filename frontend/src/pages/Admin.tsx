@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
 import { authFetch } from "@/lib/auth";
+import UsersPanel from "@/components/UsersPanel";
 import {
   Table,
   TableBody,
@@ -202,6 +203,7 @@ export default function Admin() {
             </p>
           )}
         </div>
+        <UsersPanel />
       </main>
     </div>
   );
