@@ -2,21 +2,27 @@
 
 A Retrieval-Augmented Generation (RAG) web app that answers employee questions from a company handbook, cites the handbook sections it used, and declines when the handbook doesn't cover the question.
 
-Built end to end: document ingestion, vector search, grounded answer generation, JWT authentication, saved chat history, an admin screen for uploading new handbook versions, and a measured evaluation of answer quality.
+Built end to end: document ingestion, vector search, grounded answer generation, JWT authentication with admin-managed accounts, saved chat history, an admin screen for handbook versions and employee accounts, and a measured evaluation of answer quality.
 
-> Status: running locally. Deployment is planned. Evaluation numbers below are from a 32-question set (see [Evaluation](#evaluation)).
+> Status: running locally. Deployment to AWS is next. Evaluation numbers below are from a 32-question set (see [Evaluation](#evaluation)), run on one handbook.
 
-![Login Page](<docs/login page.png>)
-![chat screen](<docs/chat screen.png>)
-![Admin Page for uploading updated handbooks](<docs/admin page.png>)
+| | |
+|---|---|
+| ![Sign in](docs/login.png) | ![Chat with sources](docs/chat.png) |
+| Sign in, with Google or email | An answer with the handbook sections it came from |
+| ![Source panel](docs/source-panel.png) | ![Not in the handbook](docs/not-in-handbook.png) |
+| Click a section to read the handbook text behind the answer | When the handbook is silent, it says so instead of guessing |
+| ![Admin: handbook](docs/admin-handbook.png) | ![Admin: people](docs/admin-people.png) |
+| Admin: the active handbook and its versions | Admin: employee accounts, password resets, CSV import |
 
 ## What it does
 
 - **Ask in plain language.** "Can I claim a gym membership?" is answered from the wellness-allowance section, with source chips showing which sections were used.
-- **Says "I don't have that information"** instead of guessing when the handbook is silent (for example, pet-friendly benefits).
-- **Accounts and roles.** Employees can chat; admins can also upload and manage handbook documents.
-- **Saved conversations.** Each user has their own history, and one user cannot open another's conversations.
-- **Admin upload.** Uploading a new handbook version re-chunks, re-embeds and re-indexes it; answers reflect the change straight away.
+- **Check the source.** Clicking a chip opens the exact handbook text the answer was drawn from.
+- **Says "I don't have that information"** instead of guessing when the handbook is silent (for example, pet-friendly benefits), and shows the closest sections it did find.
+- **Accounts and roles.** Employees can chat; admins can also manage handbook documents and employee accounts.
+- **Saved conversations.** Each user has their own history, grouped by date, and can rename or delete chats. One user cannot open another's conversations.
+- **Admin tools.** Upload a new handbook version (it is re-chunked, re-embedded and re-indexed, and answers reflect the change straight away); create employees one at a time or from a CSV; deactivate and reactivate accounts; send an employee a password reset link.
 
 ## Architecture
 
@@ -32,17 +38,17 @@ Django + DRF  ------------------------>  FastAPI RAG service
               PostgreSQL + pgvector (HNSW, cosine)
 ```
 
-- **Django** owns the schema, users, JWT login (SimpleJWT), conversations and messages. It proxies questions to the RAG service and stores the replies.
+- **Django** owns the schema, users, JWT login (SimpleJWT), conversations and messages. It proxies questions to the RAG service, stores the replies, and serves the section text behind each source chip from the same chunk table.
 - **FastAPI** owns the RAG pipeline. It verifies the same JWT independently, so the RAG service is protected even if it is called directly.
-- **Retrieval:** the handbook is split into one chunk per `###` section, embedded with `all-MiniLM-L6-v2` (384 dimensions) and stored in Postgres with a pgvector HNSW index. A question retrieves the most similar sections by cosine similarity, and a similarity cutoff rejects questions unrelated to the handbook before the LLM is called.
-- **Generation:** the retrieved sections go into a grounded prompt to `openai/gpt-oss-20b` on Groq, which is told to answer only from them and to say so when the answer isn't there.
+- **Retrieval:** the handbook is split into one chunk per `###` section, embedded with `all-MiniLM-L6-v2` (384 dimensions) and stored in Postgres with a pgvector HNSW index. A question retrieves the top 5 most similar sections by cosine similarity, and a similarity cutoff rejects questions unrelated to the handbook before the LLM is called.
+- **Generation:** the retrieved sections go into a grounded prompt to `openai/gpt-oss-20b` on Groq (temperature 0), which is told to answer only from them and to say so when the answer isn't there.
 
 ## Tech stack
 
 | Layer | Tools |
 |---|---|
 | Frontend | React, Vite, TypeScript, Tailwind CSS v4, shadcn/ui |
-| Backend | Django, Django REST Framework, SimpleJWT, django-cors-headers |
+| Backend | Django, Django REST Framework, SimpleJWT, django-cors-headers, google-auth |
 | RAG service | FastAPI, sentence-transformers, PyJWT |
 | Database | PostgreSQL with pgvector |
 | LLM | Groq (`openai/gpt-oss-20b`), free tier |
@@ -50,17 +56,23 @@ Django + DRF  ------------------------>  FastAPI RAG service
 
 Everything runs on free tiers.
 
-## Security
+## Authentication and security
 
-- Short-lived access tokens (15 min) with refresh tokens (7 days); the client refreshes on 401.
-- Admin-only endpoints are enforced on the server (Django returns 403, the RAG service returns 401/403). Hiding the admin button in the UI is only a convenience.
-- Conversations are scoped to their owner; other users get a 404.
+Accounts are created by admins, not by public sign-up, because this is an internal tool.
+
+- **Sign-in:** email and password, or Google. Google sign-in works only for accounts an admin has already created: the Google ID token is verified on the server and matched by verified email, and unknown emails are rejected.
+- **New accounts:** an admin creates an employee (one at a time or from a CSV) and gets a random temporary password, shown once.
+- **Password reset:** a one-time link emailed to the user. The token is tied to the user's current password and last login, so it stops working once used, and it expires after 1 hour. The "forgot password" endpoint replies the same way whether or not the email exists, so it can't be used to find out who has an account, and it is rate limited to 5 requests per hour per IP. New passwords are checked against Django's password rules.
+- **Admins** can send an employee a reset link, but admin accounts are never created or changed through the API (use `manage.py createsuperuser`), so a compromised admin session can't create more admins.
+- **Tokens:** short-lived access tokens (15 min) with refresh tokens (7 days); the client refreshes on 401.
+- **Server-side checks:** admin-only endpoints are enforced on the server (Django returns 403, the RAG service returns 401/403). Hiding the admin button in the UI is only a convenience.
+- **Data scoping:** conversations belong to their owner; other users get a 404.
 
 ## Evaluation
 
 I built a small evaluation harness and used it to change the system, not just to report on it.
 
-**Test set:** 32 questions written against the handbook: 16 direct, 7 paraphrased (different wording from the handbook), and 9 out-of-scope (the handbook doesn't cover them), each with expected sections and a reference answer.
+**Test set:** 32 questions written against the handbook: 16 direct, 7 paraphrased (different wording from the handbook), and 9 out-of-scope (the handbook doesn't cover them), each with expected sections and a reference answer. 23 of the 32 are answerable.
 
 **Retrieval (is the right section found?)**
 
@@ -94,6 +106,7 @@ The two remaining "partly correct" answers are correct but add extra detail beyo
 
 **Caveats, stated plainly**
 - The set is small (32 questions), so differences of one question are not significant.
+- It covers one handbook that is clean, short and written in the `###` section format the chunker expects. These numbers say how this system did on this document; they are not a promise for other handbooks (see [Limitations](#limitations)).
 - The judge is an LLM, and so is RAGAS; both have blind spots. I reviewed every answer flagged for low faithfulness by hand. In the final run, the paraphrased faithfulness of 0.79 comes from three answers scored 0.50: one was a genuine minor overstatement by the model (it called the anonymous hotline "the designated channel" when the handbook lists it as one of three options), one was the judge being too literal (it rejected a correct answer because the handbook doesn't name the weekday the user asked about), and one scored 1.0 when I re-checked the same answer, so the metric is unstable. The paraphrased faithfulness drop from run 2 is within that noise on 7 questions.
 - Three changes (chunking, cutoff, prompt) were made together in run 2, so their individual effects are not separated.
 - Answer relevancy is the least informative metric here: it drifted slightly down on paraphrased questions, and I did not tune for it.
@@ -118,7 +131,7 @@ cd rag-service
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 # create .env with:  GROQ_API_KEY=...   DJANGO_SECRET_KEY=<same as backend/config/settings.py>
-uvicorn main:app --port 8001            # use the port Django's RAG_SERVICE_URL points to
+uvicorn main:app --port 8001            # must match Django's RAG_SERVICE_URL
 
 # 3. Frontend
 cd frontend
@@ -128,23 +141,36 @@ npm run dev                             # http://localhost:5173
 
 `DJANGO_SECRET_KEY` in the RAG service must match Django's `SECRET_KEY`, because the RAG service verifies the tokens Django signs.
 
-Sign in as the admin, open **Manage documents**, and upload the handbook (a sample is included) to build the index.
+Sign in as the admin, open **Manage documents and users**, upload the handbook (a Markdown or text file; a sample is included) to build the index, then create employee accounts from the **People** tab.
+
+**Optional settings**
+- **Google sign-in:** create an OAuth client in Google Cloud Console, set `GOOGLE_CLIENT_ID` for Django and `VITE_GOOGLE_CLIENT_ID` in `frontend/.env`. The button only appears when the frontend variable is set.
+- **Password reset emails:** in development, Django prints emails (and the reset link) to its terminal. For real delivery, set the `EMAIL_BACKEND` and SMTP settings and `FRONTEND_URL`.
 
 ## Project layout
 
 ```
-backend/        Django project: auth, documents, conversations
+backend/        Django project: auth, documents, conversations, admin APIs
 rag-service/    FastAPI: chunking, embeddings, retrieval, generation
 frontend/       React app
 evaluation/     eval set, scripts, results
+docs/           screenshots and evaluation charts used in this README
 poc/            the original single-file proof of concept
 ```
 
+## Limitations
+
+- **Handbook format.** Upload accepts Markdown or plain text, and the chunker splits on `###` section headings. Real handbooks are usually PDFs or Word files with inconsistent headings, which this version does not read.
+- **One handbook evaluated.** Quality on other documents is untested.
+- **Free-tier limits.** Groq's free allowance caps how many questions can be answered per day, so a public demo needs a lower per-user rate limit.
+- **Small evaluation set.** 32 questions, with an LLM as judge.
+
 ## Roadmap
 
-- UI polish and mobile layout
-- Google sign-in
 - Deployment to AWS
+- PDF and Word ingestion, with a size-based chunker for files that have no clear headings
+- Re-run the evaluation on a second, real company handbook (about 15 new questions) to measure how well the system generalizes
+- Streaming answers
 - More paraphrased test questions, and a stronger embedding-model comparison
 
 ## About
