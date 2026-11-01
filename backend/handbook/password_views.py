@@ -15,6 +15,8 @@ How it works:
 
 The forgot-password endpoint gives the same answer whether or not the email exists, so it
 cannot be used to find out who has an account. It is also rate limited per IP.
+
+send_reset_email() is shared with the admin "Send reset link" button (user_views.send_reset).
 """
 
 import logging
@@ -50,6 +52,22 @@ def _reset_link(user) -> str:
     return f"{settings.FRONTEND_URL.rstrip('/')}/reset-password?uid={uid}&token={token}"
 
 
+def send_reset_email(user) -> None:
+    """Email `user` a one-time reset link. Raises if the email can't be sent."""
+    link = _reset_link(user)
+    if settings.DEBUG:
+        print(f"\n[dev] Password reset link for {user.email}:\n{link}\n", flush=True)
+    minutes = settings.PASSWORD_RESET_TIMEOUT // 60
+    body = (
+        "Hello,\n\n"
+        "Someone asked to reset the password for your Nimbus HR Assistant account.\n"
+        f"Use this link within {minutes} minutes to choose a new password:\n\n"
+        f"{link}\n\n"
+        "If you didn't ask for this, you can ignore this email; your password has not changed.\n"
+    )
+    send_mail("Reset your Nimbus HR Assistant password", body, settings.DEFAULT_FROM_EMAIL, [user.email])
+
+
 @api_view(["POST"])
 @authentication_classes([])
 @permission_classes([AllowAny])
@@ -58,19 +76,8 @@ def forgot_password(request):
     email = str(request.data.get("email", "")).strip().lower()
     user = User.objects.filter(email__iexact=email, is_active=True).first() if email else None
     if user:
-        link = _reset_link(user)
-        if settings.DEBUG:
-            print(f"\n[dev] Password reset link for {user.email}:\n{link}\n", flush=True)
-        minutes = settings.PASSWORD_RESET_TIMEOUT // 60
-        body = (
-            "Hello,\n\n"
-            "Someone asked to reset the password for your Nimbus HR Assistant account.\n"
-            f"Use this link within {minutes} minutes to choose a new password:\n\n"
-            f"{link}\n\n"
-            "If you didn't ask for this, you can ignore this email; your password has not changed.\n"
-        )
         try:
-            send_mail("Reset your Nimbus HR Assistant password", body, settings.DEFAULT_FROM_EMAIL, [user.email])
+            send_reset_email(user)
         except Exception:
             # Never tell the caller: a different reply would reveal that the account exists.
             log.exception("Could not send password reset email")

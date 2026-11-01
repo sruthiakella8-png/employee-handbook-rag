@@ -1,25 +1,48 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import AuthShell from "@/components/AuthShell";
+import { EmailInput } from "@/components/AuthFields";
+import { ArrowLeftIcon, MailIcon } from "@/components/AuthIcons";
 import { requestPasswordReset } from "@/lib/auth";
+
+const RESEND_SECONDS = 30;
+
+function BackToSignIn() {
+  return (
+    <Link
+      to="/"
+      className="inline-flex items-center justify-center gap-1.5 text-sm text-primary hover:underline"
+    >
+      <ArrowLeftIcon size={14} />
+      Back to sign in
+    </Link>
+  );
+}
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
+  const [cooldown, setCooldown] = useState(0);
 
-  async function handleSubmit(e: FormEvent) {
-    e.preventDefault();
+  // Tick the resend countdown once a second while it is running.
+  useEffect(() => {
+    if (cooldown <= 0) return;
+    const id = window.setTimeout(() => setCooldown((s) => s - 1), 1000);
+    return () => window.clearTimeout(id);
+  }, [cooldown]);
+
+  async function send() {
     setError("");
     setLoading(true);
     try {
       await requestPasswordReset(email);
       setSent(true);
+      setCooldown(RESEND_SECONDS);
     } catch (err) {
       setError(
         err instanceof TypeError
@@ -33,54 +56,68 @@ export default function ForgotPassword() {
     }
   }
 
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-muted/40 p-6">
-      <Card className="w-full max-w-sm">
-        <CardContent className="flex flex-col gap-6">
-          <div className="flex flex-col items-center gap-2 text-center">
-            <div className="flex size-10 items-center justify-center rounded-lg bg-primary text-lg font-bold text-primary-foreground">
-              N
-            </div>
-            <h1 className="text-lg font-semibold">Reset your password</h1>
-            <p className="text-sm text-muted-foreground">
-              Enter your work email and we'll send you a link to choose a new password.
-            </p>
-          </div>
+  function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+    void send();
+  }
 
-          {sent ? (
-            <div className="flex flex-col gap-4 text-center">
-              <p className="rounded-lg border bg-muted/40 p-4 text-sm">
-                If an account with <strong>{email}</strong> exists, we've sent a reset link. It works once and expires
-                in 1 hour.
-              </p>
-              <Link to="/" className="text-sm text-primary hover:underline">
-                Back to sign in
-              </Link>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2">
-                <Label htmlFor="email">Work email</Label>
-                <Input
-                  id="email"
-                  type="email"
-                  placeholder="you@nimbustech.com"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                />
-              </div>
-              {error && <p className="text-sm text-destructive">{error}</p>}
-              <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Sending…" : "Send reset link"}
-              </Button>
-              <Link to="/" className="text-center text-sm text-primary hover:underline">
-                Back to sign in
-              </Link>
-            </form>
+  if (sent) {
+    return (
+      <AuthShell
+        icon={<MailIcon size={26} />}
+        title="Check your inbox"
+        subtitle={
+          <>
+            If an account exists for <strong className="font-semibold text-foreground">{email}</strong>, a
+            reset link is on its way. It works once and expires in 1 hour.
+          </>
+        }
+      >
+        <div className="flex flex-col gap-4">
+          {error && (
+            <p role="alert" className="text-center text-sm text-destructive">
+              {error}
+            </p>
           )}
-        </CardContent>
-      </Card>
-    </div>
+          <Button
+            type="button"
+            variant="outline"
+            className="w-full"
+            onClick={() => void send()}
+            disabled={loading || cooldown > 0}
+          >
+            {loading ? "Sending…" : cooldown > 0 ? `Resend in ${cooldown}s` : "Resend the link"}
+          </Button>
+          <p className="text-center text-xs text-muted-foreground">
+            Nothing yet? Check your spam folder, or make sure you used your work email.
+          </p>
+          <BackToSignIn />
+        </div>
+      </AuthShell>
+    );
+  }
+
+  return (
+    <AuthShell
+      icon={<MailIcon size={26} />}
+      title="Reset your password"
+      subtitle="Enter your work email and we'll send you a link to choose a new one."
+    >
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="email">Work email</Label>
+          <EmailInput id="email" value={email} onChange={setEmail} placeholder="you@nimbustech.com" required />
+        </div>
+        {error && (
+          <p role="alert" className="text-sm text-destructive">
+            {error}
+          </p>
+        )}
+        <Button type="submit" className="w-full" disabled={loading}>
+          {loading ? "Sending…" : "Send reset link"}
+        </Button>
+        <BackToSignIn />
+      </form>
+    </AuthShell>
   );
 }

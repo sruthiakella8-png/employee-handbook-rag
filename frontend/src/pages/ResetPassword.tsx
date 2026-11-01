@@ -1,11 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import AuthShell from "@/components/AuthShell";
+import { PasswordInput } from "@/components/AuthFields";
+import { CheckIcon, ClockIcon, KeyIcon, RuleDot } from "@/components/AuthIcons";
 import { resetPassword } from "@/lib/auth";
+
+const REDIRECT_SECONDS = 5;
+
+function Rule({ ok, children }: { ok: boolean; children: string }) {
+  return (
+    <li className={`flex items-center gap-2 ${ok ? "text-emerald-700 dark:text-emerald-400" : "text-muted-foreground"}`}>
+      <RuleDot ok={ok} />
+      <span>
+        {children}
+        <span className="sr-only">{ok ? " (met)" : " (not met yet)"}</span>
+      </span>
+    </li>
+  );
+}
 
 export default function ResetPassword() {
   const [params] = useSearchParams();
@@ -18,107 +33,116 @@ export default function ResetPassword() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
+  const [expired, setExpired] = useState(false);
+  const [redirectIn, setRedirectIn] = useState(REDIRECT_SECONDS);
+
+  const longEnough = password.length >= 8;
+  const notAllDigits = password.length > 0 && !/^\d+$/.test(password);
+  const matches = password.length > 0 && password === confirm;
+  const allMet = longEnough && notAllDigits && matches;
+
+  // After success, count down and send the person to sign in.
+  useEffect(() => {
+    if (!done) return;
+    if (redirectIn <= 0) {
+      navigate("/");
+      return;
+    }
+    const id = window.setTimeout(() => setRedirectIn((s) => s - 1), 1000);
+    return () => window.clearTimeout(id);
+  }, [done, redirectIn, navigate]);
 
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     setError("");
-    if (password.length < 8) {
-      setError("Use at least 8 characters.");
-      return;
-    }
-    if (password !== confirm) {
-      setError("The two passwords don't match.");
-      return;
-    }
+    if (!allMet) return;
     setLoading(true);
     try {
       await resetPassword(uid, token, password);
       setDone(true);
     } catch (err) {
-      setError(
+      const message =
         err instanceof TypeError
           ? "Couldn't reach the server. Is Django running?"
           : err instanceof Error
             ? err.message
-            : "Couldn't reset the password. Please try again.",
-      );
+            : "Couldn't reset the password. Please try again.";
+      if (/expired|invalid/i.test(message)) setExpired(true);
+      else setError(message);
     } finally {
       setLoading(false);
     }
   }
 
-  const linkMissing = !uid || !token;
+  if (!uid || !token || expired) {
+    return (
+      <AuthShell
+        icon={<ClockIcon size={26} />}
+        title={expired ? "This link has expired" : "This link is incomplete"}
+        subtitle="Reset links work once and last for an hour. Request a fresh one and we'll email it right away."
+      >
+        <Button className="w-full" onClick={() => navigate("/forgot-password")}>
+          Request a new link
+        </Button>
+      </AuthShell>
+    );
+  }
+
+  if (done) {
+    return (
+      <AuthShell
+        icon={<CheckIcon size={28} className="animate-pop" />}
+        title="Password changed"
+        subtitle="You can sign in with your new password now."
+      >
+        <div className="flex flex-col gap-3">
+          <Button className="w-full" onClick={() => navigate("/")}>
+            Go to sign in
+          </Button>
+          <p role="status" className="text-center text-xs text-muted-foreground">
+            Taking you there in {redirectIn}s
+          </p>
+        </div>
+      </AuthShell>
+    );
+  }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted/40 p-6">
-      <Card className="w-full max-w-sm">
-        <CardContent className="flex flex-col gap-6">
-          <div className="flex flex-col items-center gap-2 text-center">
-            <div className="flex size-10 items-center justify-center rounded-lg bg-primary text-lg font-bold text-primary-foreground">
-              N
-            </div>
-            <h1 className="text-lg font-semibold">Choose a new password</h1>
-          </div>
+    <AuthShell
+      icon={<KeyIcon size={26} />}
+      title="Choose a new password"
+      subtitle="Pick something you don't use anywhere else."
+    >
+      <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="password">New password</Label>
+          <PasswordInput id="password" value={password} onChange={setPassword} autoComplete="new-password" required />
+        </div>
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="confirm">Confirm new password</Label>
+          <PasswordInput id="confirm" value={confirm} onChange={setConfirm} autoComplete="new-password" required />
+        </div>
 
-          {linkMissing ? (
-            <div className="flex flex-col gap-4 text-center">
-              <p className="text-sm text-muted-foreground">
-                This reset link is incomplete. Please request a new one.
-              </p>
-              <Link to="/forgot-password" className="text-sm text-primary hover:underline">
-                Request a new link
-              </Link>
-            </div>
-          ) : done ? (
-            <div className="flex flex-col gap-4 text-center">
-              <p className="rounded-lg border bg-muted/40 p-4 text-sm">
-                Your password has been changed. You can sign in with it now.
-              </p>
-              <Button className="w-full" onClick={() => navigate("/")}>
-                Go to sign in
-              </Button>
-            </div>
-          ) : (
-            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-              <div className="flex flex-col gap-2">
-                <Label htmlFor="password">New password</Label>
-                <Input
-                  id="password"
-                  type="password"
-                  autoComplete="new-password"
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
-                  required
-                />
-              </div>
-              <div className="flex flex-col gap-2">
-                <Label htmlFor="confirm">Confirm new password</Label>
-                <Input
-                  id="confirm"
-                  type="password"
-                  autoComplete="new-password"
-                  value={confirm}
-                  onChange={(e) => setConfirm(e.target.value)}
-                  required
-                />
-              </div>
-              {error && (
-                <p className="text-sm text-destructive">
-                  {error}{" "}
-                  {error.includes("expired") && (
-                    <Link to="/forgot-password" className="underline">
-                      Request a new link
-                    </Link>
-                  )}
-                </p>
-              )}
-              <Button type="submit" className="w-full" disabled={loading}>
-                {loading ? "Saving…" : "Change password"}
-              </Button>
-            </form>
-          )}
-        </CardContent>
-      </Card>
-    </div>
+        <div className="rounded-lg bg-muted/60 p-3">
+          <ul className="flex flex-col gap-1.5 text-xs" aria-label="Password requirements">
+            <Rule ok={longEnough}>At least 8 characters</Rule>
+            <Rule ok={notAllDigits}>Not just numbers</Rule>
+            <Rule ok={matches}>Matches the confirmation</Rule>
+          </ul>
+          <p className="mt-2 text-xs text-muted-foreground">
+            Very common passwords, and ones too similar to your email, are also turned down when you save.
+          </p>
+        </div>
+
+        {error && (
+          <p role="alert" className="text-sm text-destructive">
+            {error}
+          </p>
+        )}
+        <Button type="submit" className="w-full" disabled={loading || !allMet}>
+          {loading ? "Saving…" : "Change password"}
+        </Button>
+      </form>
+    </AuthShell>
   );
 }
