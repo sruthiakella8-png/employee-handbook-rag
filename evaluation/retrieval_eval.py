@@ -19,6 +19,8 @@ Output: results/retrieval_report.png and results/retrieval_results.json
 """
 
 import json
+import os
+import re
 import sys
 from pathlib import Path
 
@@ -29,10 +31,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
-RESULTS = HERE / "results"
+RESULTS = HERE / os.getenv("RESULTS_DIR", "results")   # set RESULTS_DIR to keep another handbook's results separate
+EVAL_SET = os.getenv("EVAL_SET", "eval_set.json")
 
 # Always judge the top 3, whatever TOP_K the app uses, so results stay comparable over time.
-EVAL_K = 3
+EVAL_K = 5   # we fetch 5 and report hit@1, hit@3 and hit@5 (hit@3 stays comparable with older runs)
 
 CATEGORIES = ["direct", "paraphrase", "out_of_scope"]
 LABELS = {"direct": "Direct", "paraphrase": "Paraphrased", "out_of_scope": "Out of scope"}
@@ -88,16 +91,25 @@ def section_no(title: str) -> str:
     return title.split()[0]
 
 
+def keys(title: str) -> set:
+    """Ways a retrieved chunk can match an expected section: its number ('1.2') or its full
+    section title without any ' (part N)' suffix (long sections are stored as several parts)."""
+    base = re.sub(r" \(part \d+\)$", "", title)
+    return {section_no(base), base}
+
+
 def add_scores(records: list[dict]) -> None:
     for r in records:
-        expected = set(r["expected_sections"])
-        got = [section_no(t) for t in r["top_titles"]]
+        expected = set(r["expected_sections"] or [])
+        got = [expected & keys(t) for t in r["top_titles"]]   # which expected sections each chunk matches
         if expected:
-            r["hit1"] = got[0] in expected
-            r["hit3"] = bool(expected & set(got))
-            r["recall3"] = len(expected & set(got)) / len(expected)
+            top3 = set().union(*got[:3])
+            r["hit1"] = bool(got[0])
+            r["hit3"] = bool(top3)
+            r["hit5"] = bool(set().union(*got[:5]))
+            r["recall3"] = len(top3) / len(expected)
         else:
-            r["hit1"] = r["hit3"] = r["recall3"] = None
+            r["hit1"] = r["hit3"] = r["hit5"] = r["recall3"] = None
 
 
 def mean(values):
@@ -106,17 +118,18 @@ def mean(values):
 
 
 def print_summary(records: list[dict], cutoff: float) -> None:
-    print(f"\n{'Category':<14}{'n':>4}{'hit@1':>9}{'hit@3':>9}{'recall@3':>11}{'median top-1 sim':>19}")
+    print(f"\n{'Category':<14}{'n':>4}{'hit@1':>9}{'hit@3':>9}{'hit@5':>9}{'recall@3':>11}{'median top-1 sim':>19}")
     for cat in CATEGORIES:
         rs = [r for r in records if r["category"] == cat]
         med = float(np.median([r["top_sims"][0] for r in rs]))
         if cat == "out_of_scope":
-            print(f"{LABELS[cat]:<14}{len(rs):>4}{'-':>9}{'-':>9}{'-':>11}{med:>19.3f}")
+            print(f"{LABELS[cat]:<14}{len(rs):>4}{'-':>9}{'-':>9}{'-':>9}{'-':>11}{med:>19.3f}")
         else:
             print(
                 f"{LABELS[cat]:<14}{len(rs):>4}"
                 f"{mean(r['hit1'] for r in rs):>9.0%}"
                 f"{mean(r['hit3'] for r in rs):>9.0%}"
+                f"{mean(r['hit5'] for r in rs):>9.0%}"
                 f"{mean(r['recall3'] for r in rs):>11.0%}"
                 f"{med:>19.3f}"
             )
@@ -136,9 +149,9 @@ def print_summary(records: list[dict], cutoff: float) -> None:
 
     misses = [r for r in answerable if not r["hit3"]]
     if misses:
-        print("\nRetrieval misses (right section not in the top 3):")
+        print("\nRetrieval misses (right section not in the top 3; the top 5 are listed):")
         for r in misses:
-            print(f"  {r['question']}  expected {r['expected_sections']}  got {[section_no(t) for t in r['top_titles']]}")
+            print(f"  {r['question']}  expected {r['expected_sections']}  got {r['top_titles']}")
     if false_answers:
         print(
             "\nNote: out-of-scope questions above the cutoff still reach the model. "
@@ -222,7 +235,7 @@ def analyze(records: list[dict], cutoff: float) -> None:
 
 
 def main() -> None:
-    questions = json.loads((HERE / "eval_set.json").read_text())
+    questions = json.loads((HERE / EVAL_SET).read_text())
     records, cutoff = run_retrieval(questions)
     analyze(records, cutoff)
 

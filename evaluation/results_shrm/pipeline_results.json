@@ -1,0 +1,781 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "How long is the unpaid meal break, and how many rest breaks do I get?",
+    "expected_sections": [
+      "Employment Relationship > Meal and Rest Breaks"
+    ],
+    "reference_answer": "A 30-minute unpaid meal break each day, plus two 15-minute rest periods each day.",
+    "answer": "**Meal break:** 30‑minute unpaid break each day.  \n**Rest breaks:** Two 15‑minute paid rest periods each day.  \n\nMeal and rest breaks are scheduled by your department supervisor or manager.  \n(Note: state or local laws may have different requirements that must be considered.)",
+    "sources": [
+      {
+        "section_title": "Employment Relationship > Meal and Rest Breaks",
+        "similarity": 0.81
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 3)",
+        "similarity": 0.499
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 2)",
+        "similarity": 0.485
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+        "similarity": 0.479
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation",
+        "similarity": 0.458
+      }
+    ],
+    "contexts": [
+      "Employment Relationship > Meal and Rest Breaks\n\nEmployees are entitled to a 30-minute unpaid meal break each day. Any nonexempt employee who is required to work through a meal break will be paid for the 30-minute period. Employees are also entitled to two 15-minute rest periods each day. Meal and rest breaks will be scheduled by the department supervisor or manager. [NOTE: THERE MAY BE STATE OR LOCAL LAWS WITH DIFFERENT REQUIREMENTS THAT MUST BE CONSIDERED.]",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nis 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave.\n\nBasic leave entitlement. The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for the following reasons: (1) for incapacity due to pregnancy, prenatal medical care, or childbirth; (2) to care for the employee’s child after birth or placement for adoption or foster care; (3) to care for the employee’s spouse, child, or parent who has a serious health condition; or (4) for a serious health condition that makes the employee unable to work.",
+      "Time Off and Leaves of Absence > Vacation\n\nshould be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days\n\nCalendar Years 2–4 5/6 (.83) Days (up to a maximum of 10 days) Calendar Years 5–14 1 and ¼ (1.25) Days (up to a maximum of 15 days) Calendar Years 15 and over 1 and 2/3 (1.67) Days (up to a maximum of 20 days) Employees may not take paid vacation until they actually have earned or accrued the vacation time. New employees accrue paid vacation at the start of employment but may not take any vacation until they have completed at least six months of employment.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nand each employee’s situation is different. Employees should contact the HR department to discuss options for leave.\n\nThe FMLA requires private employers with 50 or more employees and all public agencies, including state, local, and federal employers, and local education agencies (schools) to provide eligible employees up to 12 weeks of unpaid, job-protected leave in any 12-month period for certain family and medical reasons. The 12-month period is a rolling period measured backward from the date an employee uses any FMLA leave, except for leaves to care for a covered servicemember with a serious illness or injury. For those leaves, the leave entitlement is 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave.",
+      "Time Off and Leaves of Absence > Vacation\n\n[COMPANY NAME] recognizes the importance of time off from work to relax, spend time with family, and enjoy leisure activities. The company provides paid vacation time to full-time employees for this purpose, and employees are encouraged to take vacation during the year. Part-time employees who are regularly scheduled to work 20 or more hours per week will be eligible for paid vacation on a pro rata schedule.\n\nFull-time employees will accrue paid vacation according to the following schedule (annual totals should be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "All key facts match the reference.",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6822,
+    "outcome": "correct"
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "How is overtime paid, and does it need approval?",
+    "expected_sections": [
+      "Employment Relationship > Overtime"
+    ],
+    "reference_answer": "Nonexempt employees get one and one-half times their regular rate for hours worked over 40 in a workweek. All overtime must be approved in advance by a supervisor or manager.",
+    "answer": "**Overtime payment and approval**\n\n- Non‑exempt employees are paid overtime at **one and one‑half (1.5×) their regular rate of pay** for all hours worked **in excess of 40 hours in a single workweek**.  \n- Paid leave (holiday, PTO, bereavement, jury duty, etc.) **does not count toward the 40‑hour workweek**.  \n- **All overtime must be approved in advance by a supervisor or manager**.  \n\n*(Note: State or local laws may have different requirements that must also be considered.)*",
+    "sources": [
+      {
+        "section_title": "Employment Relationship > Overtime",
+        "similarity": 0.729
+      },
+      {
+        "section_title": "Employment Relationship > Employment Classification (part 2)",
+        "similarity": 0.578
+      },
+      {
+        "section_title": "Employment Relationship > Deductions from Pay/Safe Harbor Exempt Employees",
+        "similarity": 0.518
+      },
+      {
+        "section_title": "Workplace Safety > Emergency Closings",
+        "similarity": 0.458
+      },
+      {
+        "section_title": "Employment Relationship > Deductions from Pay/Safe Harbor Exempt Employees (part 3)",
+        "similarity": 0.452
+      }
+    ],
+    "contexts": [
+      "Employment Relationship > Overtime\n\nWhen required due to the needs of the business, employees may be asked to work overtime. Overtime is actual hours worked in excess of 40 in a single workweek. Nonexempt employees will be paid overtime compensation at the rate of one and one-half their regular rate of pay for all hours over 40 actually worked in a single workweek. Paid leave, such as holiday, paid time off (PTO), bereavement time, and jury duty, does not apply toward work time. All overtime work must be approved in advance by a supervisor or manager. [NOTE: THERE MAY BE STATE OR LOCAL LAWS WITH DIFFERENT REQUIREMENTS THAT MUST BE CONSIDERED.]",
+      "Employment Relationship > Employment Classification\n\nclassifies its employees as shown below. [COMPANY NAME] may review or change employee classifications at any time.\n\nExempt. Exempt employees are typically paid on a salary basis and are not eligible to receive overtime pay. Nonexempt. Nonexempt employees are paid on an hourly basis and are eligible to receive overtime pay for overtime hours worked. Regular, full-time. Employees who are not in a temporary status and work a minimum of 30 hours weekly and maintain continuous employment status. Generally, these employees are eligible for the full-time benefits package and are subject to the terms, conditions, and limitations of each benefits program.",
+      "Employment Relationship > Deductions from Pay/Safe Harbor Exempt Employees\n\n[COMPANY NAME] does not make improper deductions from the salaries of exempt employees and complies with the salary basis requirements of the Fair Labor Standards Act (FLSA). Employees classified as exempt from the overtime pay requirements of the FLSA will be notified of this classification at the time of hire or change in position.\n\nPermitted deductions. The FLSA limits the types of deductions that may be made from the pay of an exempt employee. Deductions that are permitted include:\n\n• Deductions that are required by law, e.g., income taxes;\n\n• Deductions for employee benefits when authorized by the employee;\n\n• Absence from work for one or more full days for personal reasons other than sickness or disability;",
+      "Workplace Safety > Emergency Closings\n\n[COMPANY NAME] will always make every attempt to be open for business. In situations in which some employees are concerned about their safety, management may advise supervisors to notify their departments that the office is not officially closed, but employees may choose to leave the office if they feel uncomfortable. If the office is officially closed during the course of the day to permit employees to leave early, nonexempt employees who are working on-site as of the time of the closing will be paid for a full day. If employees leave earlier than the official closing time, they will be paid only for actual hours worked, or they can take PTO time. Exempt employees will be paid for a normal full day but are expected to complete their work at another time.",
+      "Employment Relationship > Deductions from Pay/Safe Harbor Exempt Employees\n\nfaith for workplace conduct rule infractions; and\n\n• Any full workweek in which the employee does not perform any work.\n\nDuring the week an exempt employee begins work for the company or during the last week of employment, the employee will only be paid for actual hours worked. In addition, an employee may be paid only for hours worked during a period when the employee is using unpaid leave under the Family and Medical Leave Act (FMLA). Improper deductions. If an employee classified as exempt believes that an improper deduction has been taken from the employee’s pay, the employee should immediately report the deduction to the HR department. The report will be promptly investigated, and if it is found that an improper deduction has been made, the company will reimburse the employee for the improper deduction."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts on rate and approval match the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6899,
+    "outcome": "correct"
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "How much notice do I need to give if I resign?",
+    "expected_sections": [
+      "Employment Relationship > Separation from Employment"
+    ],
+    "reference_answer": "At least 10 working days of written notice. Holidays and PTO do not count toward the 10 days.",
+    "answer": "You must give a written notice to your supervisor at least **10 working days** in advance of your last day of work.  \n- The 10 days must be actual working days; holidays and PTO do not count toward the notice period.  \n- Providing the required notice will be considered a resignation in good standing and generally makes you eligible for rehire.",
+    "sources": [
+      {
+        "section_title": "Employment Relationship > Separation from Employment",
+        "similarity": 0.473
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 14)",
+        "similarity": 0.429
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 3)",
+        "similarity": 0.412
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+        "similarity": 0.402
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Sick Leave (part 4)",
+        "similarity": 0.378
+      }
+    ],
+    "contexts": [
+      "Employment Relationship > Separation from Employment\n\nIn all cases of voluntary resignation (one initiated by the employee), employees are asked to provide a written notice to their supervisors at least 10 working days in advance of the last day of work. The 10 days must be actual working days. Holidays and PTO will not be counted toward the 10-day notice. Employees who provide the requested amount of notice will be considered to have resigned in good standing and generally will be eligible for rehire.\n\nIn most cases, HR will conduct an exit meeting on or before the last day of employment to collect all company property and to discuss final pay. If applicable, information regarding benefits continuation through the Consolidated Omnibus Budget Reconciliation Act (COBRA) will be sent to the employee’s home address. [NOTE: CHECK STATE LAW FOR ANY ADDITIONAL REQUIREMENTS REGARDING FINAL PAY, TERMINATION NOTICES, AND BENEFITS CONTINUATION.]\n\nShould it become necessary because of business conditions to reduce the number of employees or work hours, this will be done at the discretion of the company.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nemployees must comply with the company’s normal paid leave procedures found in its Vacation and Sick Leave policies.\n\nEmployee responsibilities. Employees must provide 30 days’ advance notice of the need to take FMLA leave when the need is foreseeable. When 30 days’ notice is not possible, employees must provide notice as soon as practicable and generally must comply with the company’s normal call- in procedures. The company may delay leave to employees who do not provide proper advance notice of the foreseeable need for leave, absent unusual circumstances preventing the notice.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nis 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave.\n\nBasic leave entitlement. The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for the following reasons: (1) for incapacity due to pregnancy, prenatal medical care, or childbirth; (2) to care for the employee’s child after birth or placement for adoption or foster care; (3) to care for the employee’s spouse, child, or parent who has a serious health condition; or (4) for a serious health condition that makes the employee unable to work.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nand each employee’s situation is different. Employees should contact the HR department to discuss options for leave.\n\nThe FMLA requires private employers with 50 or more employees and all public agencies, including state, local, and federal employers, and local education agencies (schools) to provide eligible employees up to 12 weeks of unpaid, job-protected leave in any 12-month period for certain family and medical reasons. The 12-month period is a rolling period measured backward from the date an employee uses any FMLA leave, except for leaves to care for a covered servicemember with a serious illness or injury. For those leaves, the leave entitlement is 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave.",
+      "Time Off and Leaves of Absence > Sick Leave\n\nThe maximum accrual allowed for full-time employees is [Number of days] and for part-time employees [Number of days].\n\nIf the need for sick leave is foreseeable, employees are required to give at least 30 days’ advance notice (e.g., a planned medical treatment) whenever possible. If the need for sick leave is not foreseeable, employees are asked to notify their supervisor as soon as is practical. If an employee misses three or more consecutive days because of illness, [COMPANY NAME] may require the employee to provide a physician’s written permission to return to work.\n\nExcept as required by state law, unused sick days are forfeited when an employee’s employment ends for any reason."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the reference answer",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7788,
+    "outcome": "correct"
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "How often am I paid?",
+    "expected_sections": [
+      "Employment Relationship > Paychecks"
+    ],
+    "reference_answer": "Biweekly, on Friday. If payday falls on a federal holiday, the paycheck comes on the preceding workday. Pay is by direct deposit.",
+    "answer": "You are paid **biweekly on Friday**.  \nIf a payday falls on a federal holiday, you will receive your paycheck on the preceding workday.  \nPaychecks are directly deposited into your checking and/or savings accounts.  \n\n*(Note: check state law for any additional requirements regarding pay frequency or direct‑deposit mandates.)*",
+    "sources": [
+      {
+        "section_title": "Employment Relationship > Paychecks",
+        "similarity": 0.407
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 2)",
+        "similarity": 0.336
+      },
+      {
+        "section_title": "Employee Benefits > Medical, Dental, and Vision Insurance",
+        "similarity": 0.324
+      },
+      {
+        "section_title": "Employment Relationship > Meal and Rest Breaks",
+        "similarity": 0.315
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation",
+        "similarity": 0.305
+      }
+    ],
+    "contexts": [
+      "Employment Relationship > Paychecks\n\n[NOTE: CHECK STATE LAW FOR ANY REQUIREMENTS RELATED TO FREQUENCY OF PAY AND WHETHER EMPLOYERS MAY REQUIRE EMPLOYEES TO BE PAID BY DIRECT DEPOSIT.] [COMPANY NAME] ’s pay period for all employees is biweekly on Friday. If payday falls on a federal holiday, employees will receive their paycheck on the preceding workday. Paychecks are directly deposited into employees’ checking and/or savings accounts.",
+      "Time Off and Leaves of Absence > Vacation\n\nshould be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days\n\nCalendar Years 2–4 5/6 (.83) Days (up to a maximum of 10 days) Calendar Years 5–14 1 and ¼ (1.25) Days (up to a maximum of 15 days) Calendar Years 15 and over 1 and 2/3 (1.67) Days (up to a maximum of 20 days) Employees may not take paid vacation until they actually have earned or accrued the vacation time. New employees accrue paid vacation at the start of employment but may not take any vacation until they have completed at least six months of employment.",
+      "Employee Benefits > Medical, Dental, and Vision Insurance\n\nFull-time employees working 30 hours or more per week are eligible for insurance on the first of the month following 30 days of service. To keep coverage in force, every insured employee must work a minimum of 30 hours per week.",
+      "Employment Relationship > Meal and Rest Breaks\n\nEmployees are entitled to a 30-minute unpaid meal break each day. Any nonexempt employee who is required to work through a meal break will be paid for the 30-minute period. Employees are also entitled to two 15-minute rest periods each day. Meal and rest breaks will be scheduled by the department supervisor or manager. [NOTE: THERE MAY BE STATE OR LOCAL LAWS WITH DIFFERENT REQUIREMENTS THAT MUST BE CONSIDERED.]",
+      "Time Off and Leaves of Absence > Vacation\n\n[COMPANY NAME] recognizes the importance of time off from work to relax, spend time with family, and enjoy leisure activities. The company provides paid vacation time to full-time employees for this purpose, and employees are encouraged to take vacation during the year. Part-time employees who are regularly scheduled to work 20 or more hours per week will be eligible for paid vacation on a pro rata schedule.\n\nFull-time employees will accrue paid vacation according to the following schedule (annual totals should be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "All key facts match the reference",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5693,
+    "outcome": "correct"
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "How many days of paid bereavement leave can I take?",
+    "expected_sections": [
+      "Time Off and Leaves of Absence > Bereavement Leave"
+    ],
+    "reference_answer": "Employees with more than three months of service may take up to three days of paid bereavement leave for the death of an immediate family member.",
+    "answer": "**Paid bereavement leave**\n\n- **Immediate family** (spouse, domestic partner, parents, stepparents, siblings, children, stepchildren, grandparent, parent‑in‑law, brother‑in‑law, sister‑in‑law, son‑in‑law, daughter‑in‑law, or grandchild): up to **three days** of paid leave.  \n- **Extended family** (aunts, uncles, cousins) for funeral attendance: up to **one day** of paid leave.\n\nThe company may require verification of the need for the leave, and the supervisor and HR will consider the request on a case‑by‑case basis. Payment is at the employee’s regular hourly rate, capped at eight hours for the one‑day funeral leave. Bereavement leave is not counted as time worked for overtime purposes.  \n\n[NOTE: Check state and local laws for any additional requirements.]",
+    "sources": [
+      {
+        "section_title": "Time Off and Leaves of Absence > Bereavement Leave",
+        "similarity": 0.711
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+        "similarity": 0.54
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Sick Leave (part 4)",
+        "similarity": 0.532
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 3)",
+        "similarity": 0.528
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 3)",
+        "similarity": 0.511
+      }
+    ],
+    "contexts": [
+      "Time Off and Leaves of Absence > Bereavement Leave\n\nEmployees with more than three months’ service may take up to three days of paid bereavement leave upon the death of a member of their immediate family. “Immediate family members” are defined as an employee’s spouse, domestic partner, parents, stepparents, siblings, children, stepchildren, grandparent, parent-in-law, brother-in-law, sister-in-law, son-in-law, daughter-in- law, or grandchild. All regular, full-time employees may take up to one day off with pay to attend the funeral of an extended family member (aunts, uncles, and cousins). The company may require verification of the need for the leave. The employee’s supervisor and HR will consider this time off on a case-by-case basis. Payment for bereavement leave is computed at the regular hourly rate to a maximum of eight hours for one day. Time off granted in accordance with this policy shall not be credited as time worked for the purpose of computing overtime. [NOTE: CHECK STATE AND LOCAL LAWS FOR ANY ADDITIONAL REQUIREMENTS.]",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nand each employee’s situation is different. Employees should contact the HR department to discuss options for leave.\n\nThe FMLA requires private employers with 50 or more employees and all public agencies, including state, local, and federal employers, and local education agencies (schools) to provide eligible employees up to 12 weeks of unpaid, job-protected leave in any 12-month period for certain family and medical reasons. The 12-month period is a rolling period measured backward from the date an employee uses any FMLA leave, except for leaves to care for a covered servicemember with a serious illness or injury. For those leaves, the leave entitlement is 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave.",
+      "Time Off and Leaves of Absence > Sick Leave\n\nThe maximum accrual allowed for full-time employees is [Number of days] and for part-time employees [Number of days].\n\nIf the need for sick leave is foreseeable, employees are required to give at least 30 days’ advance notice (e.g., a planned medical treatment) whenever possible. If the need for sick leave is not foreseeable, employees are asked to notify their supervisor as soon as is practical. If an employee misses three or more consecutive days because of illness, [COMPANY NAME] may require the employee to provide a physician’s written permission to return to work.\n\nExcept as required by state law, unused sick days are forfeited when an employee’s employment ends for any reason.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nis 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave.\n\nBasic leave entitlement. The FMLA requires covered employers to provide up to 12 weeks of unpaid, job-protected leave to eligible employees for the following reasons: (1) for incapacity due to pregnancy, prenatal medical care, or childbirth; (2) to care for the employee’s child after birth or placement for adoption or foster care; (3) to care for the employee’s spouse, child, or parent who has a serious health condition; or (4) for a serious health condition that makes the employee unable to work.",
+      "Time Off and Leaves of Absence > Vacation\n\nat the start of employment but may not take any vacation until they have completed at least six months of employment.\n\nGenerally, employees should submit vacation plans to their supervisor at least four weeks in advance of the requested vacation date. Vacation may be scheduled in increments of 1 full workday up to a maximum of two weeks in a row. Managers have the right to designate when some or all of vacations must be taken. Vacation should be used in the year it is earned. Employees will be permitted to carry over up to five days of accrued vacation to the following calendar year, but the carryover vacation must be used by March 31 of the following year. Unused vacation will be forfeited. Employees whose employment terminates will be paid for unused vacation time that has accrued during the calendar year of the termination. [NOTE: Some states and municipalities have laws or rules that prohibit “use-it-or-lose-it” vacation policies, and some have special rules about payment for accrued vacation upon termination of employment. Please review state and local laws when adopting a vacation policy.]"
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Adds extra details and omits the service‑time condition, so only partially matches",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8926,
+    "outcome": "partial"
+  },
+  {
+    "id": 6,
+    "category": "direct",
+    "question": "How many counselling visits does the employee assistance program cover?",
+    "expected_sections": [
+      "Employee Benefits > Employee Assistance Program"
+    ],
+    "reference_answer": "Three visits per issue each year, plus a 24-hour hotline. There is a 25 percent discount on legal or financial services.",
+    "answer": "The Employee Assistance Program (EAP) covers **three counseling visits per issue each year**.",
+    "sources": [
+      {
+        "section_title": "Employee Benefits > Employee Assistance Program",
+        "similarity": 0.639
+      },
+      {
+        "section_title": "Equal Opportunity and Commitment to Diversity > Americans with Disabilities Act (ADA) and Reasonable Accommodation (part 2)",
+        "similarity": 0.379
+      },
+      {
+        "section_title": "Employee Benefits",
+        "similarity": 0.364
+      },
+      {
+        "section_title": "Employment Relationship > Separation from Employment",
+        "similarity": 0.362
+      },
+      {
+        "section_title": "Employee Benefits > Group Life Insurance",
+        "similarity": 0.35
+      }
+    ],
+    "contexts": [
+      "Employee Benefits > Employee Assistance Program\n\nThe employee assistance program (EAP) is a resource designed to provide highly confidential and experienced help for employees in dealing with issues that affect their lives and the quality of their job performance. [COMPANY NAME] wants employees to be able to maintain a healthy balance of work and family that allows them to enjoy life. The EAP is a confidential counseling and referral service that can help employees successfully deal with life’s challenges.\n\nThis free, comprehensive counseling service offers employees three visits per issue each year and a 24-hour hotline answered by professional, degreed counselors. For legal or financial issues, employees receive a 25 percent discount on any services that might be needed.\n\nThe company encourages employees to use this valuable service whenever they have such a need. Employees who choose to use these counseling services are assured the information disclosed in their sessions is confidential and not available to the company, and the company is not given any information on who chooses to use the services. For questions or additional information about this program, employees may contact the HR department.",
+      "Equal Opportunity and Commitment to Diversity > Americans with Disabilities Act (ADA) and Reasonable Accommodation\n\nof, employees or applicants based on a disability or because an employee has requested a reasonable accommodation.\n\nIn accordance with the ADA, reasonable accommodations will be provided to qualified individuals with disabilities to enable them to perform the essential functions of their jobs or to enjoy the equal benefits and privileges of employment. An employee or applicant with a disability may request an accommodation from the HR department and should specify what accommodation is needed to perform the job and submit supporting documentation explaining the basis for the requested accommodation, to the extent permitted and in accordance with applicable law. The company then will review and analyze the request, including engaging in an interactive process with the employee or applicant, to identify if such an accommodation can be made, or if any other possible accommodations are appropriate. If requested, the employee is responsible for providing medical documentation regarding the disability and possible accommodations. All information obtained concerning the medical condition or history of an applicant or employee will be treated as confidential information, maintained in separate medical files, and disclosed only as permitted by law.",
+      "Employee Benefits\n\n[COMPANY NAME] recognizes the value of benefits to employees and their families. The company supports employees by offering a comprehensive and competitive benefits program. For more information regarding benefit programs, please refer to the company Summary Plan Descriptions (SPDs), which are found on the company intranet, or contact the HR department. To the extent the information provided here conflicts with the SPD or full plan document, the full plan document will control.",
+      "Employment Relationship > Separation from Employment\n\nIn all cases of voluntary resignation (one initiated by the employee), employees are asked to provide a written notice to their supervisors at least 10 working days in advance of the last day of work. The 10 days must be actual working days. Holidays and PTO will not be counted toward the 10-day notice. Employees who provide the requested amount of notice will be considered to have resigned in good standing and generally will be eligible for rehire.\n\nIn most cases, HR will conduct an exit meeting on or before the last day of employment to collect all company property and to discuss final pay. If applicable, information regarding benefits continuation through the Consolidated Omnibus Budget Reconciliation Act (COBRA) will be sent to the employee’s home address. [NOTE: CHECK STATE LAW FOR ANY ADDITIONAL REQUIREMENTS REGARDING FINAL PAY, TERMINATION NOTICES, AND BENEFITS CONTINUATION.]\n\nShould it become necessary because of business conditions to reduce the number of employees or work hours, this will be done at the discretion of the company.",
+      "Employee Benefits > Group Life Insurance\n\n[COMPANY NAME] provides life insurance for full-time employees who work a minimum of 30 hours per week. Employees are eligible for this benefit on the first of the month following 30 days of service. The life benefit is equal to an employee’s annualized base rate. The cost of this coverage is paid for in full by the company."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Correct visit count given but omits hotline and discount details",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9129,
+    "outcome": "partial"
+  },
+  {
+    "id": 7,
+    "category": "direct",
+    "question": "What percentage of my salary does short-term disability pay?",
+    "expected_sections": [
+      "Employee Benefits > Short-Term Disability"
+    ],
+    "reference_answer": "60 percent of the employee's salary, up to the policy limits.",
+    "answer": "Short‑term disability pays **60 % of your salary**, up to the policy limits.  \n\nThis benefit is available only to full‑time employees who work at least 30 hours per week, who have completed 30 days of service, and who elect the voluntary, employee‑funded plan.  The coverage may run concurrently with FMLA leave and/or any other leave permitted by state and federal law.",
+    "sources": [
+      {
+        "section_title": "Employee Benefits > Long-Term Disability",
+        "similarity": 0.599
+      },
+      {
+        "section_title": "Employee Benefits > Short-Term Disability",
+        "similarity": 0.551
+      },
+      {
+        "section_title": "Employee Benefits > Workers’ Compensation",
+        "similarity": 0.378
+      },
+      {
+        "section_title": "Employee Benefits > Medical, Dental, and Vision Insurance",
+        "similarity": 0.328
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 17)",
+        "similarity": 0.32
+      }
+    ],
+    "contexts": [
+      "Employee Benefits > Long-Term Disability\n\nLong-term disability benefits are offered to full-time employees working a minimum of 30 hours per week. If an employee becomes totally disabled and cannot work for an extended period of time, this coverage pays 60 percent of the employee’s salary, up to the policy limits. This is a voluntary benefit and is funded solely by the employee.\n\nLong-term disability benefits will run concurrently with FMLA leave and/or any other leave where permitted by state and federal law.",
+      "Employee Benefits > Short-Term Disability\n\nShort-term disability is offered to full-time employees working a minimum of 30 hours per week. Employees are eligible for this benefit on the first of the month following 30 days of service. Short-term disability is meant to bridge the 90-day period until long-term disability can cover an employee. If an employee becomes disabled and cannot work for a short period of time, this coverage pays 60 percent of the employee’s salary, up to the policy limits. This is a voluntary benefit and is funded solely by the employee. In addition, employees will not be paid vacation or sick leave for approved absences covered by the company’s program, except to supplement the short-term disability benefits.\n\nShort-term disability benefits may run concurrently with FMLA leave and/or any other leave where permitted by state and federal law.\n\nSome states have a mandatory disability program whereby you may be charged a premium in the form of a payroll tax. You may elect to purchase the company disability benefits as a supplement to the state program.",
+      "Employee Benefits > Workers’ Compensation\n\nWorkers’ compensation is a “no-fault” system that provides compensation for medical expenses and wage losses to employees who are injured or who become ill because of employment.\n\n[COMPANY NAME] pays the entire cost of workers’ compensation insurance. The insurance provides coverage for related medical and rehabilitation expenses and a portion of lost wages to employees who sustain an injury on the job.\n\nThe company abides by all applicable state workers’ compensation laws and regulations. If an employee sustains a job-related injury or illness, it is important to notify the supervisor and HR immediately. The supervisor will complete an injury report with input from the employee and return the form to the HR department. HR will file the claim with the insurance company. In cases of true medical emergencies, report to the nearest emergency room.\n\nWorkers’ compensation benefits (paid or unpaid) will run concurrently with FMLA leave, if applicable, where permitted by state and federal law. In addition, employees will not be paid vacation or sick leave for approved absences covered by the company’s workers’ compensation program, except to supplement the workers’ compensation benefits such as when the plan only covers a portion of the employees’ salary as allowed by state law.",
+      "Employee Benefits > Medical, Dental, and Vision Insurance\n\nFull-time employees working 30 hours or more per week are eligible for insurance on the first of the month following 30 days of service. To keep coverage in force, every insured employee must work a minimum of 30 hours per week.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nentitlement. If the company determines that the leave is not FMLA-protected, the company will notify the employees.\n\nOther provisions. Under an exception to the FLSA in the FMLA regulations, hourly amounts may be deducted for unpaid leave from the salary of executive, administrative, and professional employees; outside sales representatives; certain highly skilled computer professionals; and certain highly compensated employees who are exempt from the minimum wage and overtime requirements of the FLSA, without affecting the employees’ exempt status. This special exception to the “salary basis” requirements for the FLSA’s exemptions extends only to eligible employees’ use of FMLA leave."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Provides the correct 60% figure and limit, matching the handbook",
+    "faithfulness": 0.8333,
+    "answer_relevancy": 0.9768,
+    "outcome": "correct"
+  },
+  {
+    "id": 8,
+    "category": "direct",
+    "question": "How many vacation days do I accrue each month in calendar years 5 to 14 of service?",
+    "expected_sections": [
+      "Time Off and Leaves of Absence > Vacation"
+    ],
+    "reference_answer": "In calendar years 5 to 14 the accrual is 1.25 days per month, up to a maximum of 15 days.",
+    "answer": "You accrue **1 ¼ days (1.25 days) of paid vacation per month** during calendar years 5 through 14 of service, up to a maximum of **15 days**.",
+    "sources": [
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 2)",
+        "similarity": 0.655
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Sick Leave (part 3)",
+        "similarity": 0.549
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation",
+        "similarity": 0.539
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 3)",
+        "similarity": 0.511
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+        "similarity": 0.433
+      }
+    ],
+    "contexts": [
+      "Time Off and Leaves of Absence > Vacation\n\nshould be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days\n\nCalendar Years 2–4 5/6 (.83) Days (up to a maximum of 10 days) Calendar Years 5–14 1 and ¼ (1.25) Days (up to a maximum of 15 days) Calendar Years 15 and over 1 and 2/3 (1.67) Days (up to a maximum of 20 days) Employees may not take paid vacation until they actually have earned or accrued the vacation time. New employees accrue paid vacation at the start of employment but may not take any vacation until they have completed at least six months of employment.",
+      "Time Off and Leaves of Absence > Sick Leave\n\n[Number of days earned] every [Time Period] [Length of time employed] [Number of days earned] every [Time Period]\n\n[Length of time employed] [Number of days earned] every [Time Period] Sick days are not intended to be used as a substitute for vacation days, but sick days may be used if an employee needs to provide care for a family member who is ill. Sick days may also be used if an employee needs time off for scheduled medical procedures. Employees may carry accrued sick days over from one year to the next. The maximum accrual allowed for full-time employees is [Number of days] and for part-time employees [Number of days].",
+      "Time Off and Leaves of Absence > Vacation\n\n[COMPANY NAME] recognizes the importance of time off from work to relax, spend time with family, and enjoy leisure activities. The company provides paid vacation time to full-time employees for this purpose, and employees are encouraged to take vacation during the year. Part-time employees who are regularly scheduled to work 20 or more hours per week will be eligible for paid vacation on a pro rata schedule.\n\nFull-time employees will accrue paid vacation according to the following schedule (annual totals should be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days",
+      "Time Off and Leaves of Absence > Vacation\n\nat the start of employment but may not take any vacation until they have completed at least six months of employment.\n\nGenerally, employees should submit vacation plans to their supervisor at least four weeks in advance of the requested vacation date. Vacation may be scheduled in increments of 1 full workday up to a maximum of two weeks in a row. Managers have the right to designate when some or all of vacations must be taken. Vacation should be used in the year it is earned. Employees will be permitted to carry over up to five days of accrued vacation to the following calendar year, but the carryover vacation must be used by March 31 of the following year. Unused vacation will be forfeited. Employees whose employment terminates will be paid for unused vacation time that has accrued during the calendar year of the termination. [NOTE: Some states and municipalities have laws or rules that prohibit “use-it-or-lose-it” vacation policies, and some have special rules about payment for accrued vacation upon termination of employment. Please review state and local laws when adopting a vacation policy.]",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nand each employee’s situation is different. Employees should contact the HR department to discuss options for leave.\n\nThe FMLA requires private employers with 50 or more employees and all public agencies, including state, local, and federal employers, and local education agencies (schools) to provide eligible employees up to 12 weeks of unpaid, job-protected leave in any 12-month period for certain family and medical reasons. The 12-month period is a rolling period measured backward from the date an employee uses any FMLA leave, except for leaves to care for a covered servicemember with a serious illness or injury. For those leaves, the leave entitlement is 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.9538,
+    "outcome": "correct"
+  },
+  {
+    "id": 9,
+    "category": "paraphrase",
+    "question": "My partner and I live together and both work here. Is that allowed?",
+    "expected_sections": [
+      "Employment Relationship > Employment of Relatives and Domestic Partners"
+    ],
+    "reference_answer": "Yes, as long as they do not work in a direct supervisory relationship and it does not cause difficulties for supervision, security, safety or morale.",
+    "answer": "Yes.  According to the handbook, a domestic partnership is permitted as long as the two employees do **not** work in a direct supervisory relationship with each other and the arrangement does not create difficulties for supervision, security, safety, or morale.  \n\nIf you do work in a direct supervisory relationship, the company will try to reassign one of you to another qualified position if one is available.  If no such position exists, you may decide which of you will resign.",
+    "sources": [
+      {
+        "section_title": "Employment Relationship > Employment of Relatives and Domestic Partners",
+        "similarity": 0.546
+      },
+      {
+        "section_title": "Workplace Safety > Smoke-Free Workplace",
+        "similarity": 0.399
+      },
+      {
+        "section_title": "Workplace Guidelines > Outside Employment",
+        "similarity": 0.398
+      },
+      {
+        "section_title": "Employment Relationship > Employment Classification (part 2)",
+        "similarity": 0.374
+      },
+      {
+        "section_title": "Workplace Guidelines > Solicitation",
+        "similarity": 0.365
+      }
+    ],
+    "contexts": [
+      "Employment Relationship > Employment of Relatives and Domestic Partners\n\nRelatives and domestic partners may be hired by the company if (1) the persons concerned will not work in a direct supervisory relationship, and (2) the employment will not pose difficulties\n\nfor supervision, security, safety, or morale. For the purposes of this policy, “relatives” are defined as spouses, children, siblings, parents, or grandparents. A “domestic partnership” is generally defined as a committed relationship between two individuals who are sharing a home or living arrangements. Current employees who marry each other or become involved in a domestic partnership will be permitted to continue employment with the company provided they don’t work in a direct supervisory relationship with each other or otherwise pose difficulties as mentioned above. If employees who marry or live together do work in a direct supervisory relationship with each other, the company will attempt to reassign one of the employees to another position for which the employee is qualified if such a position is available. If no such position is available, the employees will be permitted to determine which one of them will resign from the company.",
+      "Workplace Safety > Smoke-Free Workplace\n\nSmoking is not allowed in company buildings or work areas at any time. “Smoking” includes the use of any tobacco products (including chewing tobacco), electronic smoking devices, and e- cigarettes.\n\nSmoking is only permitted during break times in designated outdoor areas. Employees using these areas are expected to dispose of any smoking debris safely and properly.",
+      "Workplace Guidelines > Outside Employment\n\nEmployees generally are permitted to work a second job as long as it does not interfere with their job performance or create a conflict of interest with [COMPANY NAME] . All employees, including part-time employees, must obtain prior approval from the HR department before undertaking any outside employment or other work activity.\n\nEmployees with a second job are expected to work their assigned schedules. A second job will not be considered an excuse for poor job performance, absenteeism, tardiness, leaving early, refusal to travel, or refusal to work overtime or different hours. In addition, employees who have accepted outside employment may not use paid sick time to work on the outside job. However, an employee on a leave of absence may continue to work in the outside job if this employment has been approved by the company under this policy and the employee’s reason for leave does not preclude the outside employment. If outside work activity causes or contributes to job-related problems, it must be discontinued, or the employee may be subject to disciplinary action up to and including termination.",
+      "Employment Relationship > Employment Classification\n\nclassifies its employees as shown below. [COMPANY NAME] may review or change employee classifications at any time.\n\nExempt. Exempt employees are typically paid on a salary basis and are not eligible to receive overtime pay. Nonexempt. Nonexempt employees are paid on an hourly basis and are eligible to receive overtime pay for overtime hours worked. Regular, full-time. Employees who are not in a temporary status and work a minimum of 30 hours weekly and maintain continuous employment status. Generally, these employees are eligible for the full-time benefits package and are subject to the terms, conditions, and limitations of each benefits program.",
+      "Workplace Guidelines > Solicitation\n\nEmployees should be able to work in an environment that is free from unnecessary annoyances and interference with their work. In order to protect our employees and visitors, solicitation by employees is strictly prohibited while either the employee being solicited or the employee doing the soliciting is on “working time.” “Working time” is defined as time during which an employee is not at a meal, on break, or on the premises immediately before or after a shift.\n\nEmployees are also prohibited from distributing written materials, handbills, or any other type of literature on working time and, at all times, in “working areas,” which include all office areas. “Working areas” do not include break rooms, parking lots, or common areas shared by employees during nonworking time. Nonemployees may not trespass or solicit or distribute materials anywhere on company property at any time.\n\nNothing in this policy is meant to, nor should it be interpreted to, in any way limit employees’ rights under any applicable federal, state, or local laws, including rights under the NLRA to engage in protected concerted activities with other employees to improve or discuss terms and conditions of employment, such as wages, working conditions, and benefits. Employees have the right to engage in or refrain from such activities."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Provides the same conditions as the reference and adds non‑contradictory details",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.5273,
+    "outcome": "correct"
+  },
+  {
+    "id": 10,
+    "category": "paraphrase",
+    "question": "What happens if I just stop turning up for work for a few days without telling anyone?",
+    "expected_sections": [
+      "Workplace Guidelines > Attendance"
+    ],
+    "reference_answer": "If an employee fails to report to work or call in for three consecutive days or more, they are considered to have voluntarily resigned.",
+    "answer": "If you stop turning up for work for a few days without notifying your supervisor, the handbook states that:\n\n* **Failure to show up or call in for a scheduled shift without prior approval may result in discipline up to and including termination.**  \n* **If you fail to report to work or call in to inform the supervisor of the absence for three consecutive days or more, you will be considered to have voluntarily resigned employment.**  \n\nThese are the conditions and limits specified in the handbook.",
+    "sources": [
+      {
+        "section_title": "Workplace Guidelines > Attendance",
+        "similarity": 0.512
+      },
+      {
+        "section_title": "Employment Relationship > Employee Privacy (part 2)",
+        "similarity": 0.389
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Sick Leave (part 4)",
+        "similarity": 0.373
+      },
+      {
+        "section_title": "Workplace Safety > Emergency Closings",
+        "similarity": 0.372
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Military Leave",
+        "similarity": 0.366
+      }
+    ],
+    "contexts": [
+      "Workplace Guidelines > Attendance\n\nAll employees are expected to arrive on time, ready to work, every day they are scheduled to work. If unable to arrive at work on time, or if an employee will be absent for an entire day, the employee must contact the supervisor as soon as possible. Voicemail, text, and e-mail messages are not acceptable except in certain emergency circumstances. Excessive absenteeism or tardiness will result in discipline up to and including termination. Failure to show up or call in for a scheduled shift without prior approval also may result in discipline up to and including termination. If an employee fails to report to work or call in to inform the supervisor of the absence for three consecutive days or more, the employee will be considered to have voluntarily resigned employment.",
+      "Employment Relationship > Employee Privacy\n\nfor termination. Providing false information during any investigation may lead to discipline, including termination.\n\nEmployees are expected to make use of company facilities only for the business purposes of the company. Accordingly, materials that appear on company hardware or networks are presumed to be for business purposes, and all such materials are subject to review by the company at any time without notice to the employees. Employees do not have to have any expectation of privacy with respect to any material on company property. [COMPANY NAME] regularly monitors its communications systems and networks as allowed by law. Monitored activity may include voice, e-mail, and text communications, as well as Internet search and browsing history. Employees who make excessive use of the communications system for personal matters are subject to discipline. Employees are expected to keep personal communication to a minimum and to emergency situations.",
+      "Time Off and Leaves of Absence > Sick Leave\n\nThe maximum accrual allowed for full-time employees is [Number of days] and for part-time employees [Number of days].\n\nIf the need for sick leave is foreseeable, employees are required to give at least 30 days’ advance notice (e.g., a planned medical treatment) whenever possible. If the need for sick leave is not foreseeable, employees are asked to notify their supervisor as soon as is practical. If an employee misses three or more consecutive days because of illness, [COMPANY NAME] may require the employee to provide a physician’s written permission to return to work.\n\nExcept as required by state law, unused sick days are forfeited when an employee’s employment ends for any reason.",
+      "Workplace Safety > Emergency Closings\n\n[COMPANY NAME] will always make every attempt to be open for business. In situations in which some employees are concerned about their safety, management may advise supervisors to notify their departments that the office is not officially closed, but employees may choose to leave the office if they feel uncomfortable. If the office is officially closed during the course of the day to permit employees to leave early, nonexempt employees who are working on-site as of the time of the closing will be paid for a full day. If employees leave earlier than the official closing time, they will be paid only for actual hours worked, or they can take PTO time. Exempt employees will be paid for a normal full day but are expected to complete their work at another time.",
+      "Time Off and Leaves of Absence > Military Leave\n\n[COMPANY NAME] supports the military obligations of all employees and grants leaves for uniformed service in accordance with applicable federal and state laws. Any employee who needs time off for uniformed service should immediately notify the HR department and the employee’s supervisor, who will provide details regarding the leave. If an employee is unable to provide\n\nnotice before leaving for uniformed service, a family member should notify the supervisor as soon as possible. Upon return from military leave, employees will retain certain rights with respect to reinstatement, seniority, layoffs, compensation, length of service promotions, and length of service pay increases, as required by applicable federal or state law. Failure to report for work within the prescribed time after completion of military service will be considered a voluntary termination. All employees who enter military service may accumulate a total absence of five years and still retain employment rights."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key fact about three days leading to voluntary resignation matches the reference",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5176,
+    "outcome": "correct"
+  },
+  {
+    "id": 11,
+    "category": "paraphrase",
+    "question": "Can I pick up a second job on the side?",
+    "expected_sections": [
+      "Workplace Guidelines > Outside Employment"
+    ],
+    "reference_answer": "Generally yes, if it does not interfere with job performance or create a conflict of interest, and the employee gets prior approval from HR first.",
+    "answer": "**Answer**\n\nYes, you may take on a second job, but only under the conditions set out in the handbook:\n\n* **Approval required** – All employees, including part‑time employees, must obtain prior approval from the HR department before undertaking any outside employment or other work activity.  \n* **No interference** – The second job must not interfere with your job performance or create a conflict of interest with [COMPANY NAME].  \n* **Work schedule** – You are still expected to work your assigned schedule for [COMPANY NAME]. A second job will not be considered an excuse for poor performance, absenteeism, tardiness, leaving early, refusal to travel, or refusal to work overtime or different hours.  \n* **Paid sick time** – Employees who have accepted outside employment may not use paid sick time to work on the outside job.  \n* **Leave of absence** – If you are on a leave of absence, you may continue to work the outside job only if it has been approved by the company under this policy and the reason for your leave does not preclude the outside employment.  \n* **Disciplinary action** – If outside work activity causes or contributes to job‑related problems, it must be discontinued, or you may be subject to disciplinary action up to and including termination.",
+    "sources": [
+      {
+        "section_title": "Workplace Guidelines > Outside Employment",
+        "similarity": 0.501
+      },
+      {
+        "section_title": "Employment Relationship > Employment Classification (part 4)",
+        "similarity": 0.301
+      },
+      {
+        "section_title": "Employment Relationship > Employment Classification (part 3)",
+        "similarity": 0.278
+      },
+      {
+        "section_title": "Equal Opportunity and Commitment to Diversity > Equal Opportunity (part 3)",
+        "similarity": 0.258
+      },
+      {
+        "section_title": "Employment Relationship > Separation from Employment",
+        "similarity": 0.256
+      }
+    ],
+    "contexts": [
+      "Workplace Guidelines > Outside Employment\n\nEmployees generally are permitted to work a second job as long as it does not interfere with their job performance or create a conflict of interest with [COMPANY NAME] . All employees, including part-time employees, must obtain prior approval from the HR department before undertaking any outside employment or other work activity.\n\nEmployees with a second job are expected to work their assigned schedules. A second job will not be considered an excuse for poor job performance, absenteeism, tardiness, leaving early, refusal to travel, or refusal to work overtime or different hours. In addition, employees who have accepted outside employment may not use paid sick time to work on the outside job. However, an employee on a leave of absence may continue to work in the outside job if this employment has been approved by the company under this policy and the employee’s reason for leave does not preclude the outside employment. If outside work activity causes or contributes to job-related problems, it must be discontinued, or the employee may be subject to disciplinary action up to and including termination.",
+      "Employment Relationship > Employment Classification\n\nreplacements to temporarily supplement the workforce or to assist in the completion of a specific project and who are\n\ntemporarily scheduled to work less than 30 hours weekly for a limited duration. Employment beyond any initially stated period does not in any way imply a change in employment status.",
+      "Employment Relationship > Employment Classification\n\nfor the full-time benefits package and are subject to the terms, conditions, and limitations of each benefits program.\n\nRegular, part-time. Employees who are not in a temporary status and who are regularly scheduled to work less than 30 hours weekly but at least 20 hours weekly and who maintain continuous employment status. Part-time employees are eligible for some of the benefits offered by the company and are subject to the terms, conditions, and limitations of each benefits program. Temporary, full-time. Employees who are hired as interim replacements to temporarily supplement the workforce or to assist in the completion of a specific project and who are temporarily scheduled to work the company’s full-time schedule for a limited duration. Employment beyond any initially stated period does not in any way imply a change in employment status. Temporary, part-time. Employees who are hired as interim replacements to temporarily supplement the workforce or to assist in the completion of a specific project and who are",
+      "Equal Opportunity and Commitment to Diversity > Equal Opportunity\n\nhiring, placement, promotion, termination, layoff, recall, transfer, leave of absence, compensation, and training.\n\n[COMPANY NAME] expressly prohibits any form of unlawful employee harassment or discrimination based on any of the characteristics mentioned above. Improper interference with the ability of other employees to perform their expected job duties is absolutely not tolerated.\n\n[COMPANY NAME] will endeavor to make a reasonable accommodation of an otherwise qualified applicant or employee related to an individual’s physical or mental disability, sincerely held religious beliefs and practices, and/or any other reason required by applicable law, unless doing so would impose an undue hardship upon [COMPANY NAME] ’s business operations.",
+      "Employment Relationship > Separation from Employment\n\nIn all cases of voluntary resignation (one initiated by the employee), employees are asked to provide a written notice to their supervisors at least 10 working days in advance of the last day of work. The 10 days must be actual working days. Holidays and PTO will not be counted toward the 10-day notice. Employees who provide the requested amount of notice will be considered to have resigned in good standing and generally will be eligible for rehire.\n\nIn most cases, HR will conduct an exit meeting on or before the last day of employment to collect all company property and to discuss final pay. If applicable, information regarding benefits continuation through the Consolidated Omnibus Budget Reconciliation Act (COBRA) will be sent to the employee’s home address. [NOTE: CHECK STATE LAW FOR ANY ADDITIONAL REQUIREMENTS REGARDING FINAL PAY, TERMINATION NOTICES, AND BENEFITS CONTINUATION.]\n\nShould it become necessary because of business conditions to reduce the number of employees or work hours, this will be done at the discretion of the company."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer correctly states approval and no interference, matching the reference",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.55,
+    "outcome": "correct"
+  },
+  {
+    "id": 12,
+    "category": "paraphrase",
+    "question": "How long can I leave a flyer on the staff notice board?",
+    "expected_sections": [
+      "Workplace Guidelines > Bulletin Boards"
+    ],
+    "reference_answer": "Notices posted by employees are removed after two weeks unless otherwise stipulated. HR approves, posts and takes down all notices.",
+    "answer": "All notices posted by employees will be removed after **two weeks** unless otherwise stipulated. HR must approve the flyer, post it, and is responsible for taking it down.",
+    "sources": [
+      {
+        "section_title": "Workplace Guidelines > Bulletin Boards",
+        "similarity": 0.491
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 3)",
+        "similarity": 0.482
+      },
+      {
+        "section_title": "Employment Relationship > Separation from Employment",
+        "similarity": 0.473
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 14)",
+        "similarity": 0.469
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Sick Leave (part 4)",
+        "similarity": 0.463
+      }
+    ],
+    "contexts": [
+      "Workplace Guidelines > Bulletin Boards\n\nAll required governmental postings are posted on the boards located in the break room. These boards may also contain general announcements. Employees may submit to HR notices of general interest, such as for-sale notices; recreational- type announcements and/or club functions (e-mail should not be used for the aforementioned); postcards; expressions of gratitude or sympathy; and notices looking for/offering carpools, tickets, roommates, or pets. HR approves, posts, and takes down all notices. All notices posted by employees will be removed after two weeks unless otherwise stipulated. The company reserves the right to refuse permission to post or to take down any announcement.\n\nNothing in this policy is meant to, nor should it be interpreted to, in any way limit your rights under any applicable federal, state, or local laws, including your rights under the NLRA to engage in protected concerted activities with other employees to improve or discuss terms and conditions of employment, such as wages, working conditions, and benefits. Employees have the right to engage in or refrain from such activities.",
+      "Time Off and Leaves of Absence > Vacation\n\nat the start of employment but may not take any vacation until they have completed at least six months of employment.\n\nGenerally, employees should submit vacation plans to their supervisor at least four weeks in advance of the requested vacation date. Vacation may be scheduled in increments of 1 full workday up to a maximum of two weeks in a row. Managers have the right to designate when some or all of vacations must be taken. Vacation should be used in the year it is earned. Employees will be permitted to carry over up to five days of accrued vacation to the following calendar year, but the carryover vacation must be used by March 31 of the following year. Unused vacation will be forfeited. Employees whose employment terminates will be paid for unused vacation time that has accrued during the calendar year of the termination. [NOTE: Some states and municipalities have laws or rules that prohibit “use-it-or-lose-it” vacation policies, and some have special rules about payment for accrued vacation upon termination of employment. Please review state and local laws when adopting a vacation policy.]",
+      "Employment Relationship > Separation from Employment\n\nIn all cases of voluntary resignation (one initiated by the employee), employees are asked to provide a written notice to their supervisors at least 10 working days in advance of the last day of work. The 10 days must be actual working days. Holidays and PTO will not be counted toward the 10-day notice. Employees who provide the requested amount of notice will be considered to have resigned in good standing and generally will be eligible for rehire.\n\nIn most cases, HR will conduct an exit meeting on or before the last day of employment to collect all company property and to discuss final pay. If applicable, information regarding benefits continuation through the Consolidated Omnibus Budget Reconciliation Act (COBRA) will be sent to the employee’s home address. [NOTE: CHECK STATE LAW FOR ANY ADDITIONAL REQUIREMENTS REGARDING FINAL PAY, TERMINATION NOTICES, AND BENEFITS CONTINUATION.]\n\nShould it become necessary because of business conditions to reduce the number of employees or work hours, this will be done at the discretion of the company.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nemployees must comply with the company’s normal paid leave procedures found in its Vacation and Sick Leave policies.\n\nEmployee responsibilities. Employees must provide 30 days’ advance notice of the need to take FMLA leave when the need is foreseeable. When 30 days’ notice is not possible, employees must provide notice as soon as practicable and generally must comply with the company’s normal call- in procedures. The company may delay leave to employees who do not provide proper advance notice of the foreseeable need for leave, absent unusual circumstances preventing the notice.",
+      "Time Off and Leaves of Absence > Sick Leave\n\nThe maximum accrual allowed for full-time employees is [Number of days] and for part-time employees [Number of days].\n\nIf the need for sick leave is foreseeable, employees are required to give at least 30 days’ advance notice (e.g., a planned medical treatment) whenever possible. If the need for sick leave is not foreseeable, employees are asked to notify their supervisor as soon as is practical. If an employee misses three or more consecutive days because of illness, [COMPANY NAME] may require the employee to provide a physician’s written permission to return to work.\n\nExcept as required by state law, unused sick days are forfeited when an employee’s employment ends for any reason."
+    ],
+    "cutoff_refused": false,
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6294,
+    "outcome": "correct"
+  },
+  {
+    "id": 13,
+    "category": "out_of_scope",
+    "question": "Can I work from home?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "Workplace Safety > Smoke-Free Workplace",
+        "similarity": 0.358
+      },
+      {
+        "section_title": "Workplace Guidelines > Outside Employment",
+        "similarity": 0.334
+      },
+      {
+        "section_title": "Workplace Guidelines > Computers, Internet, E-Mail, and Other Resources (part 7)",
+        "similarity": 0.309
+      },
+      {
+        "section_title": "Workplace Guidelines > Computers, Internet, E-Mail, and Other Resources (part 4)",
+        "similarity": 0.298
+      },
+      {
+        "section_title": "Workplace Guidelines > Solicitation",
+        "similarity": 0.293
+      }
+    ],
+    "contexts": [
+      "Workplace Safety > Smoke-Free Workplace\n\nSmoking is not allowed in company buildings or work areas at any time. “Smoking” includes the use of any tobacco products (including chewing tobacco), electronic smoking devices, and e- cigarettes.\n\nSmoking is only permitted during break times in designated outdoor areas. Employees using these areas are expected to dispose of any smoking debris safely and properly.",
+      "Workplace Guidelines > Outside Employment\n\nEmployees generally are permitted to work a second job as long as it does not interfere with their job performance or create a conflict of interest with [COMPANY NAME] . All employees, including part-time employees, must obtain prior approval from the HR department before undertaking any outside employment or other work activity.\n\nEmployees with a second job are expected to work their assigned schedules. A second job will not be considered an excuse for poor job performance, absenteeism, tardiness, leaving early, refusal to travel, or refusal to work overtime or different hours. In addition, employees who have accepted outside employment may not use paid sick time to work on the outside job. However, an employee on a leave of absence may continue to work in the outside job if this employment has been approved by the company under this policy and the employee’s reason for leave does not preclude the outside employment. If outside work activity causes or contributes to job-related problems, it must be discontinued, or the employee may be subject to disciplinary action up to and including termination.",
+      "Workplace Guidelines > Computers, Internet, E-Mail, and Other Resources\n\nconversation become personal while monitoring is taking place, monitoring of the call will immediately be discontinued.\n\nNothing in this policy is meant to, nor should it be interpreted to, in any way limit employees’ rights under any applicable federal, state, or local laws, including rights under the NLRA to engage in protected concerted activities with other employees to improve or discuss terms and conditions of employment, such as wages, working conditions, and benefits. Employees have the right to engage in or refrain from such activities.",
+      "Workplace Guidelines > Computers, Internet, E-Mail, and Other Resources\n\nsuch as trade secrets, client lists, or information restricted from disclosure by law on social media sites.\n\nBecause e-mail, telephone and voicemail, and Internet communication equipment are provided for company business purposes and are critical to the company’s success, your communications may be accessed without further notice by IT department administrators and company management to ensure compliance with this guideline.",
+      "Workplace Guidelines > Solicitation\n\nEmployees should be able to work in an environment that is free from unnecessary annoyances and interference with their work. In order to protect our employees and visitors, solicitation by employees is strictly prohibited while either the employee being solicited or the employee doing the soliciting is on “working time.” “Working time” is defined as time during which an employee is not at a meal, on break, or on the premises immediately before or after a shift.\n\nEmployees are also prohibited from distributing written materials, handbills, or any other type of literature on working time and, at all times, in “working areas,” which include all office areas. “Working areas” do not include break rooms, parking lots, or common areas shared by employees during nonworking time. Nonemployees may not trespass or solicit or distribute materials anywhere on company property at any time.\n\nNothing in this policy is meant to, nor should it be interpreted to, in any way limit employees’ rights under any applicable federal, state, or local laws, including rights under the NLRA to engage in protected concerted activities with other employees to improve or discuss terms and conditions of employment, such as wages, working conditions, and benefits. Employees have the right to engage in or refrain from such activities."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks information, matching the reference's not covered status",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 14,
+    "category": "out_of_scope",
+    "question": "Does the company reimburse tuition for further study?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "Employee Benefits > Employee Assistance Program",
+        "similarity": 0.278
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 17)",
+        "similarity": 0.219
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Holidays (part 3)",
+        "similarity": 0.212
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 16)",
+        "similarity": 0.203
+      },
+      {
+        "section_title": "Employee Benefits > Group Life Insurance",
+        "similarity": 0.189
+      }
+    ],
+    "contexts": [
+      "Employee Benefits > Employee Assistance Program\n\nThe employee assistance program (EAP) is a resource designed to provide highly confidential and experienced help for employees in dealing with issues that affect their lives and the quality of their job performance. [COMPANY NAME] wants employees to be able to maintain a healthy balance of work and family that allows them to enjoy life. The EAP is a confidential counseling and referral service that can help employees successfully deal with life’s challenges.\n\nThis free, comprehensive counseling service offers employees three visits per issue each year and a 24-hour hotline answered by professional, degreed counselors. For legal or financial issues, employees receive a 25 percent discount on any services that might be needed.\n\nThe company encourages employees to use this valuable service whenever they have such a need. Employees who choose to use these counseling services are assured the information disclosed in their sessions is confidential and not available to the company, and the company is not given any information on who chooses to use the services. For questions or additional information about this program, employees may contact the HR department.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nentitlement. If the company determines that the leave is not FMLA-protected, the company will notify the employees.\n\nOther provisions. Under an exception to the FLSA in the FMLA regulations, hourly amounts may be deducted for unpaid leave from the salary of executive, administrative, and professional employees; outside sales representatives; certain highly skilled computer professionals; and certain highly compensated employees who are exempt from the minimum wage and overtime requirements of the FLSA, without affecting the employees’ exempt status. This special exception to the “salary basis” requirements for the FLSA’s exemptions extends only to eligible employees’ use of FMLA leave.",
+      "Time Off and Leaves of Absence > Holidays\n\nholiday. The company reserves the right to pay eligible employees in lieu of time off if the holiday falls on Saturday.\n\nHoliday pay. Full-time regular employees are eligible for holiday pay. Hourly nonexempt employees become eligible after they have been actively with the company for three months. Exempt salaried employees may receive holiday pay immediately upon joining the company. Part-time and temporary employees, including summer employees, are not eligible for holiday pay. Holiday pay shall be at the employee’s regular straight-time rate, inclusive of shift premiums, times the employee’s regularly scheduled hours (not to exceed eight hours). To receive holiday pay, an eligible nonexempt employee must be at work or taking an approved absence on the workdays immediately preceding and immediately following the day on which the holiday is observed.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nto return to work. The company also may delay or deny approval of leave for lack of proper medical certification.\n\nCompany responsibilities. The company will inform employees requesting leave whether they are eligible under the FMLA. If they are, the notice will specify any additional information required, as well as the employees’ rights and responsibilities. If employees are not eligible, the company will provide a reason for the ineligibility.\n\nThe company will inform employees if leave will be designated as FMLA-protected and the amount of leave counted against the employees’ FMLA leave entitlement. If the company determines that the leave is not FMLA-protected, the company will notify the employees.",
+      "Employee Benefits > Group Life Insurance\n\n[COMPANY NAME] provides life insurance for full-time employees who work a minimum of 30 hours per week. Employees are eligible for this benefit on the first of the month following 30 days of service. The life benefit is equal to an employee’s annualized base rate. The cost of this coverage is paid for in full by the company."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant lacks information, matching the handbook's omission.",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 15,
+    "category": "out_of_scope",
+    "question": "How is the annual performance bonus calculated?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "Employee Benefits",
+        "similarity": 0.271
+      },
+      {
+        "section_title": "Employee Benefits > 401(k) Plan",
+        "similarity": 0.244
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation",
+        "similarity": 0.23
+      },
+      {
+        "section_title": "Employee Benefits > Group Life Insurance",
+        "similarity": 0.218
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Sick Leave (part 3)",
+        "similarity": 0.218
+      }
+    ],
+    "contexts": [
+      "Employee Benefits\n\n[COMPANY NAME] recognizes the value of benefits to employees and their families. The company supports employees by offering a comprehensive and competitive benefits program. For more information regarding benefit programs, please refer to the company Summary Plan Descriptions (SPDs), which are found on the company intranet, or contact the HR department. To the extent the information provided here conflicts with the SPD or full plan document, the full plan document will control.",
+      "Employee Benefits > 401(k) Plan\n\n[COMPANY NAME] recognizes the importance of saving for retirement and offers eligible employees a 401(k) plan.\n\nEligibility, vesting, and all other matters relating to these plans are explained in the SPD that can be obtained from HR.",
+      "Time Off and Leaves of Absence > Vacation\n\n[COMPANY NAME] recognizes the importance of time off from work to relax, spend time with family, and enjoy leisure activities. The company provides paid vacation time to full-time employees for this purpose, and employees are encouraged to take vacation during the year. Part-time employees who are regularly scheduled to work 20 or more hours per week will be eligible for paid vacation on a pro rata schedule.\n\nFull-time employees will accrue paid vacation according to the following schedule (annual totals should be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days",
+      "Employee Benefits > Group Life Insurance\n\n[COMPANY NAME] provides life insurance for full-time employees who work a minimum of 30 hours per week. Employees are eligible for this benefit on the first of the month following 30 days of service. The life benefit is equal to an employee’s annualized base rate. The cost of this coverage is paid for in full by the company.",
+      "Time Off and Leaves of Absence > Sick Leave\n\n[Number of days earned] every [Time Period] [Length of time employed] [Number of days earned] every [Time Period]\n\n[Length of time employed] [Number of days earned] every [Time Period] Sick days are not intended to be used as a substitute for vacation days, but sick days may be used if an employee needs to provide care for a family member who is ill. Sick days may also be used if an employee needs time off for scheduled medical procedures. Employees may carry accrued sick days over from one year to the next. The maximum accrual allowed for full-time employees is [Number of days] and for part-time employees [Number of days]."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant correctly says it lacks the information.",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 16,
+    "category": "out_of_scope",
+    "question": "Is relocation assistance available if I move to another city?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "Time Off and Leaves of Absence",
+        "similarity": 0.294
+      },
+      {
+        "section_title": "Equal Opportunity and Commitment to Diversity > Americans with Disabilities Act (ADA) and Reasonable Accommodation",
+        "similarity": 0.242
+      },
+      {
+        "section_title": "Employee Benefits > Workers’ Compensation",
+        "similarity": 0.23
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave",
+        "similarity": 0.226
+      },
+      {
+        "section_title": "Equal Opportunity and Commitment to Diversity > Equal Opportunity",
+        "similarity": 0.214
+      }
+    ],
+    "contexts": [
+      "Time Off and Leaves of Absence\n\n[*IMPORTANT NOTE: MANY STATES AND MUNICIPALITIES HAVE LAWS RELATED TO LEAVES OF ABSENCE AND PTO THAT INCLUDE FAMILY AND MEDICAL LEAVE, PAID SICK LEAVE, SMALL NECESSITIES LEAVE, LEAVE FOR VICTIMS OF DOMESTIC VIOLENCE, ETC. IN ADDITION, MANY",
+      "Equal Opportunity and Commitment to Diversity > Americans with Disabilities Act (ADA) and Reasonable Accommodation\n\n[COMPANY NAME] is committed to the fair and equal employment of individuals with disabilities under the ADA. It is [COMPANY NAME] ’s policy to provide reasonable accommodation to qualified individuals with disabilities unless the accommodation would impose an undue hardship on the company. [COMPANY NAME] prohibits any harassment of, or discriminatory treatment of, employees or applicants based on a disability or because an employee has requested a reasonable accommodation.",
+      "Employee Benefits > Workers’ Compensation\n\nWorkers’ compensation is a “no-fault” system that provides compensation for medical expenses and wage losses to employees who are injured or who become ill because of employment.\n\n[COMPANY NAME] pays the entire cost of workers’ compensation insurance. The insurance provides coverage for related medical and rehabilitation expenses and a portion of lost wages to employees who sustain an injury on the job.\n\nThe company abides by all applicable state workers’ compensation laws and regulations. If an employee sustains a job-related injury or illness, it is important to notify the supervisor and HR immediately. The supervisor will complete an injury report with input from the employee and return the form to the HR department. HR will file the claim with the insurance company. In cases of true medical emergencies, report to the nearest emergency room.\n\nWorkers’ compensation benefits (paid or unpaid) will run concurrently with FMLA leave, if applicable, where permitted by state and federal law. In addition, employees will not be paid vacation or sick leave for approved absences covered by the company’s workers’ compensation program, except to supplement the workers’ compensation benefits such as when the plan only covers a portion of the employees’ salary as allowed by state law.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\n[NOTE: CHECK STATE AND LOCAL LAWS FOR ANY ADDITIONAL REQUIREMENTS, AS SOME STATES HAVE FAMILY AND MEDICAL LEAVE LAWS AND PAID SICK LEAVE LAWS THAT MAY BE MORE GENEROUS FOR THE EMPLOYEES IN THAT STATE OR CITY.]\n\n[COMPANY NAME] complies with the federal FMLA, which requires employers to grant unpaid leaves of absence to qualified workers for certain medical and family-related reasons. The company also abides by any state and local leave laws. The more generous of the laws will apply to the employee if the employee is eligible under both federal and state laws. Employees should note there are many requirements, qualifications, and exceptions under these laws, and each employee’s situation is different. Employees should contact the HR department to discuss options for leave.",
+      "Equal Opportunity and Commitment to Diversity > Equal Opportunity\n\n[NOTE: THERE MAY BE STATE OR LOCAL LAWS WITH DIFFERENT REQUIREMENTS THAT MUST BE CONSIDERED.]"
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's lack of coverage.",
+    "outcome": "declined_model"
+  },
+  {
+    "id": 17,
+    "category": "out_of_scope",
+    "question": "How long is the probation period for new hires?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "answer": "I don’t have that information.",
+    "sources": [
+      {
+        "section_title": "Workplace Safety > Drug-Free and Alcohol-Free Workplace (part 3)",
+        "similarity": 0.432
+      },
+      {
+        "section_title": "Employment Relationship > Employment Classification (part 4)",
+        "similarity": 0.425
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 3)",
+        "similarity": 0.421
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Vacation (part 2)",
+        "similarity": 0.419
+      },
+      {
+        "section_title": "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+        "similarity": 0.4
+      }
+    ],
+    "contexts": [
+      "Workplace Safety > Drug-Free and Alcohol-Free Workplace\n\nTo ensure compliance with this policy, substance abuse screening may be conducted in the following situations:\n\nPreemployment: as required by the company for all prospective employees who receive a conditional offer of employment; For cause: upon reasonable suspicion that the employee is under the influence of alcohol or drugs that could affect or have adversely affected the employee’s job performance; and Random: as authorized or required by federal or state law. Compliance with this policy is a condition of employment. Employees who test positive or who refuse to submit to substance abuse screening will be subject to termination. Notwithstanding any provision herein, this policy will be enforced at all times in accordance with applicable state and local law. Any employee violating this policy is subject to discipline, up to and including termination, for the first offense.",
+      "Employment Relationship > Employment Classification\n\nreplacements to temporarily supplement the workforce or to assist in the completion of a specific project and who are\n\ntemporarily scheduled to work less than 30 hours weekly for a limited duration. Employment beyond any initially stated period does not in any way imply a change in employment status.",
+      "Time Off and Leaves of Absence > Vacation\n\nat the start of employment but may not take any vacation until they have completed at least six months of employment.\n\nGenerally, employees should submit vacation plans to their supervisor at least four weeks in advance of the requested vacation date. Vacation may be scheduled in increments of 1 full workday up to a maximum of two weeks in a row. Managers have the right to designate when some or all of vacations must be taken. Vacation should be used in the year it is earned. Employees will be permitted to carry over up to five days of accrued vacation to the following calendar year, but the carryover vacation must be used by March 31 of the following year. Unused vacation will be forfeited. Employees whose employment terminates will be paid for unused vacation time that has accrued during the calendar year of the termination. [NOTE: Some states and municipalities have laws or rules that prohibit “use-it-or-lose-it” vacation policies, and some have special rules about payment for accrued vacation upon termination of employment. Please review state and local laws when adopting a vacation policy.]",
+      "Time Off and Leaves of Absence > Vacation\n\nshould be rounded to the nearest whole day): Service Period Monthly Vacation Accrual First Calendar Year 5/6 (.83) Days\n\nCalendar Years 2–4 5/6 (.83) Days (up to a maximum of 10 days) Calendar Years 5–14 1 and ¼ (1.25) Days (up to a maximum of 15 days) Calendar Years 15 and over 1 and 2/3 (1.67) Days (up to a maximum of 20 days) Employees may not take paid vacation until they actually have earned or accrued the vacation time. New employees accrue paid vacation at the start of employment but may not take any vacation until they have completed at least six months of employment.",
+      "Time Off and Leaves of Absence > Family and Medical Leave\n\nand each employee’s situation is different. Employees should contact the HR department to discuss options for leave.\n\nThe FMLA requires private employers with 50 or more employees and all public agencies, including state, local, and federal employers, and local education agencies (schools) to provide eligible employees up to 12 weeks of unpaid, job-protected leave in any 12-month period for certain family and medical reasons. The 12-month period is a rolling period measured backward from the date an employee uses any FMLA leave, except for leaves to care for a covered servicemember with a serious illness or injury. For those leaves, the leave entitlement is 26 weeks in a single 12-month period measured forward from the date an employee first takes that type of leave."
+    ],
+    "cutoff_refused": false,
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the reference that the topic is not covered.",
+    "outcome": "declined_model"
+  }
+]

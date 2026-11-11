@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# more secrets and build output
+.env.*
+!.env.example
+venv/
+dist/
+
+# evaluation results on the SHRM handbook (they contain excerpts of its text)
+evaluation/results_shrm/

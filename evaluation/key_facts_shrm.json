@@ -1,0 +1,50 @@
+{
+ "_note": "Written BEFORE running the evaluation. Each id lists facts that must all appear in the answer (case-insensitive regex, | for alternatives).",
+ "1": [
+  "30|thirty",
+  "two|2",
+  "15|fifteen"
+ ],
+ "2": [
+  "one and one-half|1\\.5|1½|time and a half|one-and-a-half",
+  "\\b40\\b",
+  "approv"
+ ],
+ "3": [
+  "\\b(10|ten)\\b",
+  "working"
+ ],
+ "4": [
+  "biweekly|every two weeks|every other",
+  "friday"
+ ],
+ "5": [
+  "\\b(3|three)\\b",
+  "immediate"
+ ],
+ "6": [
+  "\\b(3|three)\\b",
+  "per issue|each issue|per problem|year"
+ ],
+ "7": [
+  "\\b60\\b"
+ ],
+ "8": [
+  "1\\.25|1 and ¼|1 and 1/4|one and a quarter",
+  "\\b15\\b"
+ ],
+ "9": [
+  "supervis"
+ ],
+ "10": [
+  "\\b(3|three)\\b",
+  "resign"
+ ],
+ "11": [
+  "approv",
+  "\\bhr\\b|human resources"
+ ],
+ "12": [
+  "two weeks|2 weeks"
+ ]
+}

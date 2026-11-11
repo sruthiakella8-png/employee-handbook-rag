@@ -26,7 +26,8 @@ import psycopg
 import requests
 
 HERE = Path(__file__).resolve().parent
-RESULTS = HERE / "results"
+RESULTS = HERE / os.getenv("RESULTS_DIR", "results")   # set RESULTS_DIR to keep another handbook's results separate
+EVAL_SET = os.getenv("EVAL_SET", "eval_set.json")
 ANSWERS = RESULTS / "answers.json"
 
 sys.path.insert(0, str(HERE.parent / "rag-service"))
@@ -91,7 +92,7 @@ def main() -> None:
     parser.add_argument("--fresh", action="store_true", help="ignore saved answers and start over")
     args = parser.parse_args()
 
-    questions = json.loads((HERE / "eval_set.json").read_text())
+    questions = json.loads((HERE / EVAL_SET).read_text())
     RESULTS.mkdir(exist_ok=True)
 
     done: dict[int, dict] = {}

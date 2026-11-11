@@ -147,8 +147,13 @@ SIMPLE_JWT = {
 }
 
 # Password reset emails
-EMAIL_BACKEND = os.getenv("EMAIL_BACKEND", "django.core.mail.backends.console.EmailBackend")
-DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "Nimbus HR Assistant <no-reply@nimbus.local>")
+EMAIL_BACKEND = os.getenv("EMAIL_BACKEND", "django.core.mail.backends.smtp.EmailBackend")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL", "Nimbus HR Assistant <sruthiakella8@gmail.com>")
+EMAIL_HOST = os.getenv("EMAIL_HOST", "smtp.gmail.com")
+EMAIL_PORT = int(os.getenv("EMAIL_PORT", "587"))
+EMAIL_USE_TLS = os.getenv("EMAIL_USE_TLS", "true").lower() == "true"
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER", "sruthiakella8@gmail.com")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD", "ljalnumsuxhtdyab")
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:5173")
 PASSWORD_RESET_TIMEOUT = 3600  # reset links expire after 1 hour
 GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "1013219132393-pn4vdhtj2bpaug61evtgluf6a62sf83p.apps.googleusercontent.com")

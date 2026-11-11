@@ -7,3 +7,5 @@ sentence-transformers
 groq
 python-dotenv
 pyjwt
+pdfplumber
+python-docx

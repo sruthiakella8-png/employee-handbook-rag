@@ -1,4 +1,4 @@
-const DJANGO_URL = "http://127.0.0.1:8000";
+const DJANGO_URL = import.meta.env.VITE_API_URL ?? "http://127.0.0.1:8000";
 const KEY = "nimbus_auth";
 
 type Session = { access: string; refresh: string; email: string; is_admin: boolean };

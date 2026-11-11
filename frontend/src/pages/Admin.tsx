@@ -31,7 +31,7 @@ type Doc = {
 type Notice = { kind: "success" | "error" | "info"; text: string } | null;
 type Tab = "handbook" | "people";
 
-const ALLOWED_EXTENSIONS = [".md", ".txt"];
+const ALLOWED_EXTENSIONS = [".pdf",".docx",".md", ".txt"];
 
 function SummaryCard({
   icon,
@@ -135,8 +135,9 @@ export default function Admin() {
       const body = new FormData();
       body.append("file", file);
       const res = await authFetch("/api/documents/upload/", { method: "POST", body });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.detail ?? data.error ?? "Upload failed.");
+      const data = await res.json().catch(() => ({}));
+if (res.status === 413) throw new Error("That file is too large (limit 10 MB).");
+if (!res.ok) throw new Error(data.detail ?? data.error ?? "Upload failed.");
       setNotice({
         kind: "success",
         text: `Processed ${data.chunks} chunks from ${data.file_name}. It is now the active handbook.`,
@@ -159,7 +160,7 @@ export default function Admin() {
   function chooseFile(file: File) {
     const lower = file.name.toLowerCase();
     if (!ALLOWED_EXTENSIONS.some((ext) => lower.endsWith(ext))) {
-      setNotice({ kind: "error", text: "Please choose a Markdown (.md) or plain text (.txt) file." });
+      setNotice({ kind: "error", text: "Please choose a PDF, Word, Markdown (.md) or plain text (.txt) file." });
       return;
     }
     if (activeDoc) setPendingFile(file);
@@ -350,7 +351,7 @@ export default function Admin() {
           >
             <input
               type="file"
-              accept=".md,.txt,text/markdown,text/plain"
+              accept=".pdf,.docx,.md,.txt,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/markdown,text/plain"
               className="sr-only"
               onChange={handleFileChange}
               disabled={uploading}
@@ -367,7 +368,7 @@ export default function Admin() {
                   ? "Replace the handbook: drag a file here, or click to browse"
                   : "Drag and drop a handbook file here, or click to browse"}
             </span>
-            <span className="text-xs text-muted-foreground">Markdown (.md) or plain text (.txt)</span>
+            <span className="text-xs text-muted-foreground">PDF, Word (.docx), Markdown or text · up to 10 MB</span>
           </label>
 
           {notice && <NoticeCard notice={notice} />}

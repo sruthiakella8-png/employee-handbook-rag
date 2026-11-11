@@ -43,7 +43,7 @@ import numpy as np
 from dotenv import load_dotenv
 
 HERE = Path(__file__).resolve().parent
-RESULTS = HERE / "results"
+RESULTS = HERE / os.getenv("RESULTS_DIR", "results")   # set RESULTS_DIR to keep another handbook's results separate
 ANSWERS = RESULTS / "answers.json"
 SCORES = RESULTS / "scores.json"
 

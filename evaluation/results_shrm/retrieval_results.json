@@ -1,0 +1,451 @@
+[
+  {
+    "id": 1,
+    "category": "direct",
+    "question": "How long is the unpaid meal break, and how many rest breaks do I get?",
+    "expected_sections": [
+      "Employment Relationship > Meal and Rest Breaks"
+    ],
+    "reference_answer": "A 30-minute unpaid meal break each day, plus two 15-minute rest periods each day.",
+    "top_titles": [
+      "Employment Relationship > Meal and Rest Breaks",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 3)",
+      "Time Off and Leaves of Absence > Vacation (part 2)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+      "Time Off and Leaves of Absence > Vacation"
+    ],
+    "top_sims": [
+      0.81,
+      0.4994,
+      0.4847,
+      0.4791,
+      0.4583
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 2,
+    "category": "direct",
+    "question": "How is overtime paid, and does it need approval?",
+    "expected_sections": [
+      "Employment Relationship > Overtime"
+    ],
+    "reference_answer": "Nonexempt employees get one and one-half times their regular rate for hours worked over 40 in a workweek. All overtime must be approved in advance by a supervisor or manager.",
+    "top_titles": [
+      "Employment Relationship > Overtime",
+      "Employment Relationship > Employment Classification (part 2)",
+      "Employment Relationship > Deductions from Pay/Safe Harbor Exempt Employees",
+      "Workplace Safety > Emergency Closings",
+      "Employment Relationship > Deductions from Pay/Safe Harbor Exempt Employees (part 3)"
+    ],
+    "top_sims": [
+      0.7294,
+      0.5779,
+      0.5175,
+      0.4581,
+      0.452
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 3,
+    "category": "direct",
+    "question": "How much notice do I need to give if I resign?",
+    "expected_sections": [
+      "Employment Relationship > Separation from Employment"
+    ],
+    "reference_answer": "At least 10 working days of written notice. Holidays and PTO do not count toward the 10 days.",
+    "top_titles": [
+      "Employment Relationship > Separation from Employment",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 14)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 3)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+      "Time Off and Leaves of Absence > Sick Leave (part 4)"
+    ],
+    "top_sims": [
+      0.4731,
+      0.429,
+      0.4119,
+      0.4022,
+      0.3776
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 4,
+    "category": "direct",
+    "question": "How often am I paid?",
+    "expected_sections": [
+      "Employment Relationship > Paychecks"
+    ],
+    "reference_answer": "Biweekly, on Friday. If payday falls on a federal holiday, the paycheck comes on the preceding workday. Pay is by direct deposit.",
+    "top_titles": [
+      "Employment Relationship > Paychecks",
+      "Time Off and Leaves of Absence > Vacation (part 2)",
+      "Employee Benefits > Medical, Dental, and Vision Insurance",
+      "Employment Relationship > Meal and Rest Breaks",
+      "Time Off and Leaves of Absence > Vacation"
+    ],
+    "top_sims": [
+      0.4065,
+      0.3362,
+      0.3236,
+      0.3147,
+      0.3051
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 5,
+    "category": "direct",
+    "question": "How many days of paid bereavement leave can I take?",
+    "expected_sections": [
+      "Time Off and Leaves of Absence > Bereavement Leave"
+    ],
+    "reference_answer": "Employees with more than three months of service may take up to three days of paid bereavement leave for the death of an immediate family member.",
+    "top_titles": [
+      "Time Off and Leaves of Absence > Bereavement Leave",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 2)",
+      "Time Off and Leaves of Absence > Sick Leave (part 4)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 3)",
+      "Time Off and Leaves of Absence > Vacation (part 3)"
+    ],
+    "top_sims": [
+      0.7107,
+      0.5398,
+      0.5323,
+      0.5283,
+      0.5108
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 6,
+    "category": "direct",
+    "question": "How many counselling visits does the employee assistance program cover?",
+    "expected_sections": [
+      "Employee Benefits > Employee Assistance Program"
+    ],
+    "reference_answer": "Three visits per issue each year, plus a 24-hour hotline. There is a 25 percent discount on legal or financial services.",
+    "top_titles": [
+      "Employee Benefits > Employee Assistance Program",
+      "Equal Opportunity and Commitment to Diversity > Americans with Disabilities Act (ADA) and Reasonable Accommodation (part 2)",
+      "Employee Benefits",
+      "Employment Relationship > Separation from Employment",
+      "Employee Benefits > Group Life Insurance"
+    ],
+    "top_sims": [
+      0.6386,
+      0.3786,
+      0.3637,
+      0.3623,
+      0.3502
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 7,
+    "category": "direct",
+    "question": "What percentage of my salary does short-term disability pay?",
+    "expected_sections": [
+      "Employee Benefits > Short-Term Disability"
+    ],
+    "reference_answer": "60 percent of the employee's salary, up to the policy limits.",
+    "top_titles": [
+      "Employee Benefits > Long-Term Disability",
+      "Employee Benefits > Short-Term Disability",
+      "Employee Benefits > Workers’ Compensation",
+      "Employee Benefits > Medical, Dental, and Vision Insurance",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 17)"
+    ],
+    "top_sims": [
+      0.5988,
+      0.5514,
+      0.3782,
+      0.3282,
+      0.3201
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 8,
+    "category": "direct",
+    "question": "How many vacation days do I accrue each month in calendar years 5 to 14 of service?",
+    "expected_sections": [
+      "Time Off and Leaves of Absence > Vacation"
+    ],
+    "reference_answer": "In calendar years 5 to 14 the accrual is 1.25 days per month, up to a maximum of 15 days.",
+    "top_titles": [
+      "Time Off and Leaves of Absence > Vacation (part 2)",
+      "Time Off and Leaves of Absence > Sick Leave (part 3)",
+      "Time Off and Leaves of Absence > Vacation",
+      "Time Off and Leaves of Absence > Vacation (part 3)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 2)"
+    ],
+    "top_sims": [
+      0.6554,
+      0.549,
+      0.5394,
+      0.5111,
+      0.4327
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 9,
+    "category": "paraphrase",
+    "question": "My partner and I live together and both work here. Is that allowed?",
+    "expected_sections": [
+      "Employment Relationship > Employment of Relatives and Domestic Partners"
+    ],
+    "reference_answer": "Yes, as long as they do not work in a direct supervisory relationship and it does not cause difficulties for supervision, security, safety or morale.",
+    "top_titles": [
+      "Employment Relationship > Employment of Relatives and Domestic Partners",
+      "Workplace Safety > Smoke-Free Workplace",
+      "Workplace Guidelines > Outside Employment",
+      "Employment Relationship > Employment Classification (part 2)",
+      "Workplace Guidelines > Solicitation"
+    ],
+    "top_sims": [
+      0.5455,
+      0.3992,
+      0.3985,
+      0.374,
+      0.3652
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 10,
+    "category": "paraphrase",
+    "question": "What happens if I just stop turning up for work for a few days without telling anyone?",
+    "expected_sections": [
+      "Workplace Guidelines > Attendance"
+    ],
+    "reference_answer": "If an employee fails to report to work or call in for three consecutive days or more, they are considered to have voluntarily resigned.",
+    "top_titles": [
+      "Workplace Guidelines > Attendance",
+      "Employment Relationship > Employee Privacy (part 2)",
+      "Time Off and Leaves of Absence > Sick Leave (part 4)",
+      "Workplace Safety > Emergency Closings",
+      "Time Off and Leaves of Absence > Military Leave"
+    ],
+    "top_sims": [
+      0.5121,
+      0.3886,
+      0.3728,
+      0.3724,
+      0.3664
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 11,
+    "category": "paraphrase",
+    "question": "Can I pick up a second job on the side?",
+    "expected_sections": [
+      "Workplace Guidelines > Outside Employment"
+    ],
+    "reference_answer": "Generally yes, if it does not interfere with job performance or create a conflict of interest, and the employee gets prior approval from HR first.",
+    "top_titles": [
+      "Workplace Guidelines > Outside Employment",
+      "Employment Relationship > Employment Classification (part 4)",
+      "Employment Relationship > Employment Classification (part 3)",
+      "Equal Opportunity and Commitment to Diversity > Equal Opportunity (part 3)",
+      "Employment Relationship > Separation from Employment"
+    ],
+    "top_sims": [
+      0.5009,
+      0.3014,
+      0.2784,
+      0.2577,
+      0.2563
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 12,
+    "category": "paraphrase",
+    "question": "How long can I leave a flyer on the staff notice board?",
+    "expected_sections": [
+      "Workplace Guidelines > Bulletin Boards"
+    ],
+    "reference_answer": "Notices posted by employees are removed after two weeks unless otherwise stipulated. HR approves, posts and takes down all notices.",
+    "top_titles": [
+      "Workplace Guidelines > Bulletin Boards",
+      "Time Off and Leaves of Absence > Vacation (part 3)",
+      "Employment Relationship > Separation from Employment",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 14)",
+      "Time Off and Leaves of Absence > Sick Leave (part 4)"
+    ],
+    "top_sims": [
+      0.4914,
+      0.4815,
+      0.4726,
+      0.4692,
+      0.4633
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hit5": true,
+    "recall3": 1.0
+  },
+  {
+    "id": 13,
+    "category": "out_of_scope",
+    "question": "Can I work from home?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "Workplace Safety > Smoke-Free Workplace",
+      "Workplace Guidelines > Outside Employment",
+      "Workplace Guidelines > Computers, Internet, E-Mail, and Other Resources (part 7)",
+      "Workplace Guidelines > Computers, Internet, E-Mail, and Other Resources (part 4)",
+      "Workplace Guidelines > Solicitation"
+    ],
+    "top_sims": [
+      0.3582,
+      0.3344,
+      0.3095,
+      0.2983,
+      0.2925
+    ],
+    "hit1": null,
+    "hit3": null,
+    "hit5": null,
+    "recall3": null
+  },
+  {
+    "id": 14,
+    "category": "out_of_scope",
+    "question": "Does the company reimburse tuition for further study?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "Employee Benefits > Employee Assistance Program",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 17)",
+      "Time Off and Leaves of Absence > Holidays (part 3)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 16)",
+      "Employee Benefits > Group Life Insurance"
+    ],
+    "top_sims": [
+      0.2776,
+      0.2186,
+      0.2115,
+      0.2025,
+      0.1888
+    ],
+    "hit1": null,
+    "hit3": null,
+    "hit5": null,
+    "recall3": null
+  },
+  {
+    "id": 15,
+    "category": "out_of_scope",
+    "question": "How is the annual performance bonus calculated?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "Employee Benefits",
+      "Employee Benefits > 401(k) Plan",
+      "Time Off and Leaves of Absence > Vacation",
+      "Employee Benefits > Group Life Insurance",
+      "Time Off and Leaves of Absence > Sick Leave (part 3)"
+    ],
+    "top_sims": [
+      0.2714,
+      0.2437,
+      0.2297,
+      0.2183,
+      0.2178
+    ],
+    "hit1": null,
+    "hit3": null,
+    "hit5": null,
+    "recall3": null
+  },
+  {
+    "id": 16,
+    "category": "out_of_scope",
+    "question": "Is relocation assistance available if I move to another city?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "Time Off and Leaves of Absence",
+      "Equal Opportunity and Commitment to Diversity > Americans with Disabilities Act (ADA) and Reasonable Accommodation",
+      "Employee Benefits > Workers’ Compensation",
+      "Time Off and Leaves of Absence > Family and Medical Leave",
+      "Equal Opportunity and Commitment to Diversity > Equal Opportunity"
+    ],
+    "top_sims": [
+      0.2943,
+      0.2419,
+      0.23,
+      0.226,
+      0.214
+    ],
+    "hit1": null,
+    "hit3": null,
+    "hit5": null,
+    "recall3": null
+  },
+  {
+    "id": 17,
+    "category": "out_of_scope",
+    "question": "How long is the probation period for new hires?",
+    "expected_sections": [],
+    "reference_answer": "Not covered in the handbook.",
+    "top_titles": [
+      "Workplace Safety > Drug-Free and Alcohol-Free Workplace (part 3)",
+      "Employment Relationship > Employment Classification (part 4)",
+      "Time Off and Leaves of Absence > Vacation (part 3)",
+      "Time Off and Leaves of Absence > Vacation (part 2)",
+      "Time Off and Leaves of Absence > Family and Medical Leave (part 2)"
+    ],
+    "top_sims": [
+      0.4323,
+      0.4252,
+      0.4208,
+      0.4188,
+      0.4002
+    ],
+    "hit1": null,
+    "hit3": null,
+    "hit5": null,
+    "recall3": null
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "1": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "All key facts match the reference.",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6822,
+    "answer": "**Meal break:** 30‑minute unpaid break each day.  \n**Rest breaks:** Two 15‑minute paid rest periods each day.  \n\nMeal and rest breaks are scheduled by your department supervisor or manager.  \n(Note: state or local laws may have different requirements that must be considered.)"
+  },
+  "2": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts on rate and approval match the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6899,
+    "answer": "**Overtime payment and approval**\n\n- Non‑exempt employees are paid overtime at **one and one‑half (1.5×) their regular rate of pay** for all hours worked **in excess of 40 hours in a single workweek**.  \n- Paid leave (holiday, PTO, bereavement, jury duty, etc.) **does not count toward the 40‑hour workweek**.  \n- **All overtime must be approved in advance by a supervisor or manager**.  \n\n*(Note: State or local laws may have different requirements that must also be considered.)*"
+  },
+  "3": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the reference answer",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.7788,
+    "answer": "You must give a written notice to your supervisor at least **10 working days** in advance of your last day of work.  \n- The 10 days must be actual working days; holidays and PTO do not count toward the notice period.  \n- Providing the required notice will be considered a resignation in good standing and generally makes you eligible for rehire."
+  },
+  "4": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "All key facts match the reference",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5693,
+    "answer": "You are paid **biweekly on Friday**.  \nIf a payday falls on a federal holiday, you will receive your paycheck on the preceding workday.  \nPaychecks are directly deposited into your checking and/or savings accounts.  \n\n*(Note: check state law for any additional requirements regarding pay frequency or direct‑deposit mandates.)*"
+  },
+  "5": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Adds extra details and omits the service‑time condition, so only partially matches",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.8926,
+    "answer": "**Paid bereavement leave**\n\n- **Immediate family** (spouse, domestic partner, parents, stepparents, siblings, children, stepchildren, grandparent, parent‑in‑law, brother‑in‑law, sister‑in‑law, son‑in‑law, daughter‑in‑law, or grandchild): up to **three days** of paid leave.  \n- **Extended family** (aunts, uncles, cousins) for funeral attendance: up to **one day** of paid leave.\n\nThe company may require verification of the need for the leave, and the supervisor and HR will consider the request on a case‑by‑case basis. Payment is at the employee’s regular hourly rate, capped at eight hours for the one‑day funeral leave. Bereavement leave is not counted as time worked for overtime purposes.  \n\n[NOTE: Check state and local laws for any additional requirements.]"
+  },
+  "6": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "partly",
+    "reason": "Correct visit count given but omits hotline and discount details",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.9129,
+    "answer": "The Employee Assistance Program (EAP) covers **three counseling visits per issue each year**."
+  },
+  "7": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Provides the correct 60% figure and limit, matching the handbook",
+    "faithfulness": 0.8333,
+    "answer_relevancy": 0.9768,
+    "answer": "Short‑term disability pays **60 % of your salary**, up to the policy limits.  \n\nThis benefit is available only to full‑time employees who work at least 30 hours per week, who have completed 30 days of service, and who elect the voluntary, employee‑funded plan.  The coverage may run concurrently with FMLA leave and/or any other leave permitted by state and federal law."
+  },
+  "8": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer matches the reference exactly",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.9538,
+    "answer": "You accrue **1 ¼ days (1.25 days) of paid vacation per month** during calendar years 5 through 14 of service, up to a maximum of **15 days**."
+  },
+  "9": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Provides the same conditions as the reference and adds non‑contradictory details",
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.5273,
+    "answer": "Yes.  According to the handbook, a domestic partnership is permitted as long as the two employees do **not** work in a direct supervisory relationship with each other and the arrangement does not create difficulties for supervision, security, safety, or morale.  \n\nIf you do work in a direct supervisory relationship, the company will try to reassign one of you to another qualified position if one is available.  If no such position exists, you may decide which of you will resign."
+  },
+  "10": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key fact about three days leading to voluntary resignation matches the reference",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5176,
+    "answer": "If you stop turning up for work for a few days without notifying your supervisor, the handbook states that:\n\n* **Failure to show up or call in for a scheduled shift without prior approval may result in discipline up to and including termination.**  \n* **If you fail to report to work or call in to inform the supervisor of the absence for three consecutive days or more, you will be considered to have voluntarily resigned employment.**  \n\nThese are the conditions and limits specified in the handbook."
+  },
+  "11": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Answer correctly states approval and no interference, matching the reference",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.55,
+    "answer": "**Answer**\n\nYes, you may take on a second job, but only under the conditions set out in the handbook:\n\n* **Approval required** – All employees, including part‑time employees, must obtain prior approval from the HR department before undertaking any outside employment or other work activity.  \n* **No interference** – The second job must not interfere with your job performance or create a conflict of interest with [COMPANY NAME].  \n* **Work schedule** – You are still expected to work your assigned schedule for [COMPANY NAME]. A second job will not be considered an excuse for poor performance, absenteeism, tardiness, leaving early, refusal to travel, or refusal to work overtime or different hours.  \n* **Paid sick time** – Employees who have accepted outside employment may not use paid sick time to work on the outside job.  \n* **Leave of absence** – If you are on a leave of absence, you may continue to work the outside job only if it has been approved by the company under this policy and the reason for your leave does not preclude the outside employment.  \n* **Disciplinary action** – If outside work activity causes or contributes to job‑related problems, it must be discontinued, or you may be subject to disciplinary action up to and including termination."
+  },
+  "12": {
+    "declined": false,
+    "declined_by": null,
+    "matches_reference": "yes",
+    "reason": "Key facts match the handbook",
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6294,
+    "answer": "All notices posted by employees will be removed after **two weeks** unless otherwise stipulated. HR must approve the flyer, post it, and is responsible for taking it down."
+  },
+  "13": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks information, matching the reference's not covered status",
+    "answer": "I don’t have that information."
+  },
+  "14": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant lacks information, matching the handbook's omission.",
+    "answer": "I don’t have that information."
+  },
+  "15": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant correctly says it lacks the information.",
+    "answer": "I don’t have that information."
+  },
+  "16": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the handbook's lack of coverage.",
+    "answer": "I don’t have that information."
+  },
+  "17": {
+    "declined": true,
+    "declined_by": "model",
+    "matches_reference": "no",
+    "reason": "Assistant says it lacks the information, matching the reference that the topic is not covered.",
+    "answer": "I don’t have that information."
+  }
+}

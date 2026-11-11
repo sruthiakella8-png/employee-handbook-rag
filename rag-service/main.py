@@ -15,7 +15,7 @@ Docs: http://127.0.0.1:8001/docs
 
 from contextlib import asynccontextmanager
 from fastapi.middleware.cors import CORSMiddleware
-
+from extract import IngestError, extract_chunks
 from fastapi import FastAPI, File, HTTPException, UploadFile, Depends
 from groq import Groq
 from pydantic import BaseModel
@@ -62,13 +62,9 @@ def health():
 def ingest(file: UploadFile = File(...), user: dict = Depends(admin_only)):
     raw = file.file.read()
     try:
-        text = raw.decode("utf-8")
-    except UnicodeDecodeError:
-        raise HTTPException(400, "Only UTF-8 text/markdown files are supported for now.")
-
-    chunks = chunk_markdown(text)
-    if not chunks:
-        raise HTTPException(400, "No content found in the uploaded file.")
+        chunks, method = extract_chunks(file.filename, raw, chunk_markdown)
+    except IngestError as e:
+        raise HTTPException(e.status, e.message)
 
     embeddings = state["embedder"].encode([c["text"] for c in chunks])
 
@@ -105,7 +101,7 @@ def ingest(file: UploadFile = File(...), user: dict = Depends(admin_only)):
             (len(chunks), doc_id),
         )
 
-    return {"document_id": doc_id, "file_name": file.filename, "chunks": len(chunks)}
+    return {"document_id": doc_id, "file_name": file.filename, "chunks": len(chunks), "method": method}
 
 
 # ---------------------------------------------------------------------------

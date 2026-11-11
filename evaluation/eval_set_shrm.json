@@ -1,0 +1,145 @@
+[
+ {
+  "id": 1,
+  "category": "direct",
+  "question": "How long is the unpaid meal break, and how many rest breaks do I get?",
+  "expected_sections": [
+   "Employment Relationship > Meal and Rest Breaks"
+  ],
+  "reference_answer": "A 30-minute unpaid meal break each day, plus two 15-minute rest periods each day."
+ },
+ {
+  "id": 2,
+  "category": "direct",
+  "question": "How is overtime paid, and does it need approval?",
+  "expected_sections": [
+   "Employment Relationship > Overtime"
+  ],
+  "reference_answer": "Nonexempt employees get one and one-half times their regular rate for hours worked over 40 in a workweek. All overtime must be approved in advance by a supervisor or manager."
+ },
+ {
+  "id": 3,
+  "category": "direct",
+  "question": "How much notice do I need to give if I resign?",
+  "expected_sections": [
+   "Employment Relationship > Separation from Employment"
+  ],
+  "reference_answer": "At least 10 working days of written notice. Holidays and PTO do not count toward the 10 days."
+ },
+ {
+  "id": 4,
+  "category": "direct",
+  "question": "How often am I paid?",
+  "expected_sections": [
+   "Employment Relationship > Paychecks"
+  ],
+  "reference_answer": "Biweekly, on Friday. If payday falls on a federal holiday, the paycheck comes on the preceding workday. Pay is by direct deposit."
+ },
+ {
+  "id": 5,
+  "category": "direct",
+  "question": "How many days of paid bereavement leave can I take?",
+  "expected_sections": [
+   "Time Off and Leaves of Absence > Bereavement Leave"
+  ],
+  "reference_answer": "Employees with more than three months of service may take up to three days of paid bereavement leave for the death of an immediate family member."
+ },
+ {
+  "id": 6,
+  "category": "direct",
+  "question": "How many counselling visits does the employee assistance program cover?",
+  "expected_sections": [
+   "Employee Benefits > Employee Assistance Program"
+  ],
+  "reference_answer": "Three visits per issue each year, plus a 24-hour hotline. There is a 25 percent discount on legal or financial services."
+ },
+ {
+  "id": 7,
+  "category": "direct",
+  "question": "What percentage of my salary does short-term disability pay?",
+  "expected_sections": [
+   "Employee Benefits > Short-Term Disability"
+  ],
+  "reference_answer": "60 percent of the employee's salary, up to the policy limits."
+ },
+ {
+  "id": 8,
+  "category": "direct",
+  "question": "How many vacation days do I accrue each month in calendar years 5 to 14 of service?",
+  "expected_sections": [
+   "Time Off and Leaves of Absence > Vacation"
+  ],
+  "reference_answer": "In calendar years 5 to 14 the accrual is 1.25 days per month, up to a maximum of 15 days."
+ },
+ {
+  "id": 9,
+  "category": "paraphrase",
+  "question": "My partner and I live together and both work here. Is that allowed?",
+  "expected_sections": [
+   "Employment Relationship > Employment of Relatives and Domestic Partners"
+  ],
+  "reference_answer": "Yes, as long as they do not work in a direct supervisory relationship and it does not cause difficulties for supervision, security, safety or morale."
+ },
+ {
+  "id": 10,
+  "category": "paraphrase",
+  "question": "What happens if I just stop turning up for work for a few days without telling anyone?",
+  "expected_sections": [
+   "Workplace Guidelines > Attendance"
+  ],
+  "reference_answer": "If an employee fails to report to work or call in for three consecutive days or more, they are considered to have voluntarily resigned."
+ },
+ {
+  "id": 11,
+  "category": "paraphrase",
+  "question": "Can I pick up a second job on the side?",
+  "expected_sections": [
+   "Workplace Guidelines > Outside Employment"
+  ],
+  "reference_answer": "Generally yes, if it does not interfere with job performance or create a conflict of interest, and the employee gets prior approval from HR first."
+ },
+ {
+  "id": 12,
+  "category": "paraphrase",
+  "question": "How long can I leave a flyer on the staff notice board?",
+  "expected_sections": [
+   "Workplace Guidelines > Bulletin Boards"
+  ],
+  "reference_answer": "Notices posted by employees are removed after two weeks unless otherwise stipulated. HR approves, posts and takes down all notices."
+ },
+ {
+  "id": 13,
+  "category": "out_of_scope",
+  "question": "Can I work from home?",
+  "expected_sections": [],
+  "reference_answer": "Not covered in the handbook."
+ },
+ {
+  "id": 14,
+  "category": "out_of_scope",
+  "question": "Does the company reimburse tuition for further study?",
+  "expected_sections": [],
+  "reference_answer": "Not covered in the handbook."
+ },
+ {
+  "id": 15,
+  "category": "out_of_scope",
+  "question": "How is the annual performance bonus calculated?",
+  "expected_sections": [],
+  "reference_answer": "Not covered in the handbook."
+ },
+ {
+  "id": 16,
+  "category": "out_of_scope",
+  "question": "Is relocation assistance available if I move to another city?",
+  "expected_sections": [],
+  "reference_answer": "Not covered in the handbook."
+ },
+ {
+  "id": 17,
+  "category": "out_of_scope",
+  "question": "How long is the probation period for new hires?",
+  "expected_sections": [],
+  "reference_answer": "Not covered in the handbook."
+ }
+]

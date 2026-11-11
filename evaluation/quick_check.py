@@ -21,6 +21,7 @@ Output: a printed report and results/quick_check.png
 """
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -31,8 +32,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = Path(__file__).resolve().parent
-RESULTS = HERE / "results"
-KEY_FACTS = HERE / "key_facts.json"
+RESULTS = HERE / os.getenv("RESULTS_DIR", "results")   # set RESULTS_DIR to keep another handbook's results separate
+KEY_FACTS = HERE / os.getenv("KEY_FACTS_FILE", "key_facts.json")
 
 CATEGORIES = ["direct", "paraphrase", "out_of_scope"]
 LABELS = {"direct": "Direct", "paraphrase": "Paraphrased", "out_of_scope": "Out of scope"}
